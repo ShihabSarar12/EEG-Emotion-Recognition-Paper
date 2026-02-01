@@ -1,0 +1,615 @@
+\begin{thebibliography}{100}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem{zheng2015eeg}
+W.-L. Zheng, B.-L. Lu,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2015}.
+
+\bibitem{koelstra2012deap}
+S.~e.~a. Koelstra,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2012}.
+
+\bibitem{lin2010eegemotion}
+Y.-P. e.~a. Lin,
+\newblock \emph{IEEE Transactions on Biomedical Engineering} \textbf{2010}.
+
+\bibitem{craik2019deep}
+A.~e.~a. Craik,
+\newblock \emph{Journal of Neural Engineering} \textbf{2019}.
+
+\bibitem{alotaiby2017review}
+T.~e.~a. Alotaiby,
+\newblock \emph{Biomedical Signal Processing and Control} \textbf{2017}.
+
+\bibitem{katsigiannis2017dreamer}
+S.~Katsigiannis, N.~Ramzan,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2017}.
+
+\bibitem{li2018cnn}
+X.~e.~a. Li,
+\newblock \emph{Proceedings of the IEEE} \textbf{2018}.
+
+\bibitem{yang2018rnn}
+Y.~e.~a. Yang,
+\newblock \emph{Neural Computing and Applications} \textbf{2018}.
+
+\bibitem{wang2022gcn}
+Y.~e.~a. Wang,
+\newblock \emph{Applied Soft Computing} \textbf{2022}.
+
+\bibitem{zhang2021cross}
+D.~e.~a. Zhang,
+\newblock \emph{IEEE Access} \textbf{2021}.
+
+\bibitem{peerjreview2023}
+A.~et~al.,
+\newblock \emph{PeerJ Computer Science} \textbf{2023}.
+
+\bibitem{springerreview2024}
+A.~et~al.,
+\newblock \emph{Applied Soft Computing} \textbf{2024}.
+
+\bibitem{wang2024researchprogress}
+Y.~Wang, et~al.,
+\newblock \emph{ACM Computing Surveys} \textbf{2024}, \emph{56}, 11 Article
+  288, publication date: July 2024.
+
+\bibitem{ma2024peerjreview}
+W.~Ma, et~al.,
+\newblock \emph{PeerJ Computer Science} \textbf{2024}.
+
+\bibitem{li2022transferreview}
+W.~Li, et~al.,
+\newblock \emph{IEEE Transactions on Cognitive and Developmental Systems}
+  \textbf{2022}, \emph{14}, 3.
+
+\bibitem{hamzah2024heliyon}
+H.~A. Hamzah, K.~K. Abdalla,
+\newblock \emph{Heliyon} \textbf{2024}, \emph{10}, 10 e31485.
+
+\bibitem{geng2025dlreview}
+Y.~Geng, S.~Shi, X.~Hao,
+\newblock \emph{Neural Computing and Applications} \textbf{2025}, \emph{37}
+  1919.
+
+\bibitem{tripathi2017deapcnn}
+S.~Tripathi, S.~Acharya, R.~Sharma, et~al.,
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}. San Francisco, USA, \textbf{2017} 4746--4752.
+
+\bibitem{li2018hcnn}
+J.~Li, Z.~Zhang, H.~He,
+\newblock \emph{Cognitive Computation} \textbf{2018}, \emph{10} 368.
+
+\bibitem{kim2020lstmatt}
+Y.~Kim, A.~Choi,
+\newblock \emph{Sensors} \textbf{2020}, \emph{20}, 23 6727.
+
+\bibitem{yang2018pcrnn}
+Y.~Yang, Q.~Wu, M.~Qiu, et~al. \textbf{2018}, 1--7.
+
+\bibitem{zhong2020rgnn}
+P.~Zhong, D.~Wang, C.~Miao,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2020},
+  \emph{13}, 3 1290.
+
+\bibitem{alarcao2019eegsurvey}
+S.~M. Alarcao, M.~J. Fonseca,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2019},
+  \emph{10}, 3 374.
+
+\bibitem{roy2019dleegreview}
+Y.~Roy, H.~Banville, I.~Albuquerque, et~al.,
+\newblock \emph{Journal of Neural Engineering} \textbf{2019}, \emph{16}, 5
+  051001.
+
+\bibitem{jafari2023dlreview}
+R.~Jafari, H.~Seifi, H.~Behnam,
+\newblock \emph{Biomedical Signal Processing and Control} \textbf{2023},
+  \emph{82} 104603.
+
+\bibitem{lu2021bcisurvey}
+Y.~Lu, J.~Wang, B.-L. Lu,
+\newblock \emph{Cognitive Neurodynamics} \textbf{2021}, \emph{15} 593.
+
+\bibitem{wan2021tleeegsurvey}
+Z.~Wan, R.~Yang, M.~Huang, et~al.,
+\newblock \emph{IEEE Computational Intelligence Magazine} \textbf{2021},
+  \emph{16}, 2 43.
+
+\bibitem{wu2020tleeegbci}
+D.~Wu, V.~J. Lawhern, S.~Gordon, B.~J. Lance,
+\newblock \emph{IEEE Transactions on Human-Machine Systems} \textbf{2020},
+  \emph{50}, 5 386.
+
+\bibitem{rayatdoost2020expressionguided}
+S.~Rayatdoost, D.~Rudrauf, M.~Soleymani,
+\newblock In \emph{Proceedings of the ICASSP 2020--2020 IEEE International
+  Conference on Acoustics, Speech and Signal Processing (ICASSP)}. IEEE,
+  \textbf{2020} 3222--3226.
+
+\bibitem{rayatdoost2018crosscorpus}
+S.~Rayatdoost, M.~Soleymani,
+\newblock In \emph{Proceedings of the 2018 IEEE 28th International Workshop on
+  Machine Learning for Signal Processing (MLSP)}. IEEE, \textbf{2018} 1--6.
+
+\bibitem{shen2022contrastive}
+X.~Shen, X.~Liu, X.~Hu, D.~Zhang, S.~Song,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2022},
+  \emph{14} 2496.
+
+\bibitem{sarkar2020selfsupervised}
+P.~Sarkar, A.~Etemad,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2020},
+  \emph{13}, 3 1541.
+
+\bibitem{hairston2014usability}
+W.~D. Hairston, K.~W. Whitaker, A.~J. Ries, J.~M. Vettel, J.~C. Bradford, S.~E.
+  Kerick,
+\newblock \emph{Journal of Neural Engineering} \textbf{2014}, \emph{11}, 4
+  046018.
+
+\bibitem{debener2012mobile}
+S.~Debener, F.~Minow, R.~Emkes, M.~Gandras, M.~de~Vos,
+\newblock \emph{Psychophysiology} \textbf{2012}, \emph{49}, 11 1617.
+
+\bibitem{casson2010wearable}
+A.~J. Casson, S.~Smith, J.~S. Duncan, E.~Rodriguez-Villegas,
+\newblock \emph{IEEE Engineering in Medicine and Biology Magazine}
+  \textbf{2010}, \emph{29}, 3 44.
+
+\bibitem{grozea2011bristle}
+C.~Grozea, C.~D. Voinescu, S.~Fazli,
+\newblock \emph{Journal of Neural Engineering} \textbf{2011}, \emph{8}, 2
+  025008.
+
+\bibitem{huang2015comb}
+Y.~Huang, D.~Wu, B.-L. Lu,
+\newblock \emph{IEEE Transactions on Biomedical Engineering} \textbf{2015},
+  \emph{62}, 11 2730.
+
+\bibitem{zhao2019calibration}
+Y.~Zhao, Y.~Zhang, P.~Xu, D.~Yao,
+\newblock \emph{Sensors} \textbf{2019}, \emph{19}, 6 1356.
+
+\bibitem{mullen2015realtime}
+T.~Mullen, C.~Kothe, Y.-T. Chi, A.~Ojeda, T.~Kerth, S.~Makeig, G.~Cauwenberghs,
+\newblock \emph{IEEE Transactions on Biomedical Engineering} \textbf{2015},
+  \emph{62}, 11 2553.
+
+\bibitem{openbci2013}
+{OpenBCI},
+\newblock Openbci: Open-source brain--computer interface hardware platform,
+  \textbf{2013},
+\newblock Project launched via Kickstarter and adopted widely in EEG research.
+
+\bibitem{soleymani2017survey}
+M.~Soleymani, D.~Garcia, B.~Jou, B.~Schuller, S.-F. Chang, M.~Pantic,
+\newblock \emph{Image and Vision Computing} \textbf{2017}, \emph{65} 3.
+
+\bibitem{baltrusaitis2019multimodal}
+T.~Baltru{\v{s}}aitis, L.-P. Morency, C.~Ahuja,
+\newblock \emph{Communications of the ACM} \textbf{2019}, \emph{62}, 5 64.
+
+\bibitem{d2018physioaffect}
+S.~D'Mello, J.~Kory,
+\newblock \emph{ACM Computing Surveys} \textbf{2018}, \emph{47}, 3 43.
+
+\bibitem{baltrusaitis2018multimodal}
+T.~Baltru{\v{s}}aitis, C.~Ahuja, L.-P. Morency,
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+  \textbf{2018}, \emph{41}, 2 423.
+
+\bibitem{chen2018featurefusion}
+J.~Chen, B.~Hu, L.~Xu,
+\newblock \emph{Sensors} \textbf{2018}, \emph{18}, 7 2041.
+
+\bibitem{kessous2017multimodal}
+L.~Kessous, G.~Castellano,
+\newblock \emph{ACM Transactions on Interactive Intelligent Systems}
+  \textbf{2017}, \emph{7}, 3 1.
+
+\bibitem{shin2017complex}
+D.~Shin, D.~Shin,
+\newblock \emph{Multimedia Tools and Applications} \textbf{2017}, \emph{76}
+  11449.
+
+\bibitem{liu2024multimodal}
+H.~Liu, et~al.,
+\newblock \emph{IEEE Transactions on Instrumentation and Measurement}
+  \textbf{2024}.
+
+\bibitem{wang2018decisionfusion}
+S.~Wang, J.~Du,
+\newblock \emph{Neurocomputing} \textbf{2018}, \emph{275} 765.
+
+\bibitem{mittal2020m3er}
+T.~Mittal, U.~Bhattacharya, R.~Chandra, A.~Bera, D.~Manocha,
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}. \textbf{2020} .
+
+\bibitem{priyasad2020attention}
+D.~Priyasad, T.~Fernando, S.~Denman, S.~Sridharan, C.~Fookes,
+\newblock In \emph{ICASSP}. \textbf{2020} .
+
+\bibitem{zheng2019stablepatterns}
+W.-L. Zheng, J.-Y. Zhu, B.-L. Lu,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2019},
+  \emph{10}, 3 417.
+
+\bibitem{correa2018amigos}
+J.~A.~M. Correa, M.~K. Abadi, N.~Sebe, I.~Patras,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2018},
+  \emph{12}, 2 479.
+
+\bibitem{sun2022_db_dgcn_atffn}
+M.~Sun, W.~Cui, S.~Yu, H.~Han, B.~Hu, Y.~Li,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2022},
+  \emph{13}, 4 2218.
+
+\bibitem{zhang2023_multifreq_fc_emotion}
+Y.~Zhang, G.~Yan, W.~Chang, et~al.,
+\newblock \emph{Biomedical Signal Processing and Control} \textbf{2023},
+  \emph{79} 104157.
+
+\bibitem{choong2021_corr_alpha_beta_gamma}
+W.~Y. Choong, W.~Khairunizam, W.~A. Mustafa, et~al.,
+\newblock In \emph{Journal of Physics: Conference Series}. \textbf{2021}
+  012029.
+
+\bibitem{liu2018_realtime_movie_induced}
+Y.~J. Liu, M.~Yu, G.~Zhao, J.~Song, Y.~Ge, Y.~Shi,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2018},
+  \emph{9}, 4 550.
+
+\bibitem{qing2019_interpretable_eeg_emotion}
+C.~Qing, R.~Qiao, X.~Xu, Y.~Cheng,
+\newblock \emph{IEEE Access} \textbf{2019}, \emph{7} 94160.
+
+\bibitem{rahman2021eegreview}
+M.~M. Rahman, A.~K. Sarkar, M.~A. Hossain, M.~S. Hossain, M.~R. Islam, M.~B.
+  Hossain, J.~M. Quinn, M.~A. Moni,
+\newblock \emph{Computers in Biology and Medicine} \textbf{2021}, \emph{136}
+  104696.
+
+\bibitem{somers2018mcwfilter}
+B.~Somers, T.~Francart, A.~Bertrand,
+\newblock \emph{Journal of Neural Engineering} \textbf{2018}, \emph{15}, 3
+  036007.
+
+\bibitem{kang2019_ica_aug}
+H.-J. Kang, P.-X. Zhong, D.~Wu, Z.~Jiao, W.-H. Liu, Y.-H. Peng,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2019},
+  \emph{13}, 2 616.
+
+\bibitem{sphadi2021automati}
+S.~Phadikar, N.~Sinha, R.~Ghosh,
+\newblock \emph{IEEE Journal of Biomedical and Health Informatics}
+  \textbf{2021}.
+
+\bibitem{Koelstra2012}
+S.~Koelstra, C.~M{\"{u}}hl, M.~Soleymani, J.-S. Lee, A.~Yazdani, T.~Ebrahimi,
+  T.~Pun, A.~Nijholt, I.~Patras,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2012},
+  \emph{3}, 1 18.
+
+\bibitem{Mahajan2014}
+R.~Mahajan, B.~I. Morshed,
+\newblock \emph{IEEE Journal of Biomedical and Health Informatics}
+  \textbf{2014}, \emph{18}, 4 1497.
+
+\bibitem{ValCalvo2019}
+M.~Val{-}Calvo, J.~R. {\'{A}}lvarez{-}S{\'{a}}nchez, J.~M.
+  Ferr{\'{a}}ndez{-}Vicente, E.~Fern{\'{a}}ndez,
+\newblock \emph{Frontiers in Computational Neuroscience} \textbf{2019},
+  \emph{13} 80.
+
+\bibitem{li2021_3dfeatdfcn}
+D.~Li, B.~Chai, Z.~Wang, H.~Yang, W.~Du,
+\newblock \emph{IEEE Transactions on Cognitive and Developmental Systems}
+  \textbf{2021}, \emph{13}, 4 885.
+
+\bibitem{lew2020bigruspatiotemporal}
+W.-C.~L. Lew, D.~Wang, K.~Shylouskaya, Z.~Zhang, J.-H. Lim, K.~K. Ang, A.-H.
+  Tan,
+\newblock In \emph{2020 42nd Annual International Conference of the IEEE
+  Engineering in Medicine \& Biology Society (EMBC)}. IEEE, \textbf{2020}
+  116--119.
+
+\bibitem{song2022eegconformer}
+Y.~Song, Q.~Zheng, B.~Liu, X.~Gao,
+\newblock \emph{IEEE Transactions on Neural Systems and Rehabilitation
+  Engineering} \textbf{2022}, \emph{31} 710.
+
+\bibitem{sun2022paralleltransformer3dcnn}
+J.~Sun, X.~Wang, K.~Zhao, S.~Hao, T.~Wang,
+\newblock \emph{Mathematics} \textbf{2022}, \emph{10}, 17 3131.
+
+\bibitem{sun2022atffnet}
+M.~Sun, W.~Cui, S.~Yu, H.~Han, B.~Hu, Y.~Li,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2022},
+  \emph{13}, 4 2218.
+
+\bibitem{sun2023meegtransformer}
+H.~Sun, L.~Yang, Q.~Wang, D.~Liu, P.~Ni,
+\newblock In \emph{2023 IEEE International Conference on Bioinformatics and
+  Biomedicine (BIBM)}. IEEE, \textbf{2023} 3332--3339.
+
+\bibitem{li2021multidomain}
+Y.~Li, W.-L. Zheng, B.-L. Lu,
+\newblock \emph{Proceedings of the 29th ACM International Conference on
+  Multimedia} \textbf{2021}, 2977--2985.
+
+\bibitem{zheng2022multi}
+C.~Zheng, W.~Wang, J.~Ma,
+\newblock In \emph{Proceedings of the 30th ACM International Conference on
+  Multimedia}. \textbf{2022} 4938--4947.
+
+\bibitem{jia2020sstemotionnet}
+Z.~Jia, Y.~Lin, X.~Cai, H.~Chen, H.~Gou, J.~Wang,
+\newblock In \emph{Proceedings of the 28th ACM International Conference on
+  Multimedia (ACM MM)}. \textbf{2020} 2909--2917.
+
+\bibitem{yudhana2020human}
+A.~Yudhana, A.~Muslim, D.~E. Wati, I.~Puspitasari, A.~Azhari, M.~M. Mardhia,
+\newblock \emph{Adv. Sci. Technol. Eng. Syst. J} \textbf{2020}, \emph{5}, 6
+  1082.
+
+\bibitem{chen2019feature}
+D.-W. Chen, R.~Miao, W.-Q. Yang, Y.~Liang, H.-H. Chen, L.~Huang, C.-J. Deng,
+  N.~Han,
+\newblock \emph{Sensors} \textbf{2019}, \emph{19}, 7 1631.
+
+\bibitem{bigirimana2020emotion}
+A.~D. Bigirimana, N.~Siddique, D.~Coyle,
+\newblock \emph{IEEE Transactions on Neural Systems and Rehabilitation
+  Engineering} \textbf{2020}, \emph{28}, 4 850.
+
+\bibitem{xu2021_pairwise_redundancy}
+X.-Y. Xu, S.-Y. Wu, W.~Liu, W.-L. Zheng, B.-L. Lu,
+\newblock \emph{Knowledge-Based Systems} \textbf{2021}, \emph{214} 106742.
+
+\bibitem{kannadasan2023_de_eeg}
+K.~Kannadasan, N.~Mariyappa, S.~E. Awan, M.~R. Mohebbian, H.~Alaiz-Moreton,
+  M.~A. Naeem, A.~Mehmood, M.~A. Iqbal,
+\newblock \emph{Knowledge and Information Systems} \textbf{2023}, \emph{65}, 1
+  341.
+
+\bibitem{liu2018emdfeature}
+Z.-T. Liu, Q.~Xie, M.~Wu, et~al.,
+\newblock \emph{IEEE Transactions on Cognitive and Developmental Systems}
+  \textbf{2018}, \emph{11}, 4 517.
+
+\bibitem{wang2019channel}
+Z.-M. Wang, S.-Y. Hu, H.~Song,
+\newblock \emph{IEEE access} \textbf{2019}, \emph{7} 143303.
+
+\bibitem{xu2023_fsor_weighting}
+H.~Xu, Q.~Cai, Q.~Zhang, Y.~Han, C.~Wang,
+\newblock \emph{Soft Computing} \textbf{2023}, \emph{27} 12337.
+
+\bibitem{singh2023_imf_aug}
+R.~Singh, A.~Prakash,
+\newblock \emph{Biomedical Signal Processing and Control} \textbf{2023},
+  \emph{83} 104574.
+
+\bibitem{zhang2022_parse}
+L.-H. Zhang, Y.-D. Zhang, B.-L. Lu,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2022},
+  \emph{13}, 3 1145.
+
+\bibitem{luo2018_cwgan}
+Y.~Luo, B.-L. Lu,
+\newblock In \emph{Proceedings of the 2018 40th Annual International Conference
+  of the IEEE Engineering in Medicine and Biology Society (EMBC)}. IEEE,
+  \textbf{2018} 2535--2538.
+
+\bibitem{luo2019_gan_multimodal}
+Y.~Luo, L.-Z. Zhu, B.-L. Lu,
+\newblock In \emph{Proceedings of the International Symposium on Neural
+  Networks}. Springer, \textbf{2019} 141--150.
+
+\bibitem{zhang2022_ganser}
+T.~Zhang, M.~Liu, M.~Shi, M.~Liu, T.~Wen, Y.~Zeng, G.~Yu,
+\newblock \emph{IEEE Transactions on Neural Networks and Learning Systems}
+  \textbf{2022}, \emph{34}, 11 8794.
+
+\bibitem{zhang2024_cccl}
+Y.~Zhang, T.~Zhang, M.~Liu, M.~Shi, M.~Liu, T.~Wen,
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~38. \textbf{2024} 11087--11095.
+
+\bibitem{cui2020regionalasymcnn}
+H.~Cui, A.~Liu, X.~Zhang, et~al.,
+\newblock \emph{Knowledge-Based Systems} \textbf{2020}, \emph{205} 106243.
+
+\bibitem{shen20204dcrnn}
+F.~Shen, G.~Dai, G.~Lin, et~al.,
+\newblock \emph{Cognitive Neurodynamics} \textbf{2020}, \emph{14} 815.
+
+\bibitem{tao2020channelselfatt}
+W.~Tao, C.~Li, R.~Song, et~al.,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2020},
+  \emph{14}, 1 382.
+
+\bibitem{li2022efficientcnncl}
+C.~Li, X.~Lin, Y.~Liu, et~al.,
+\newblock \emph{IEEE Sensors Journal} \textbf{2022}, \emph{22}, 20 19608.
+
+\bibitem{zhong2022graph}
+P.~e.~a. Zhong,
+\newblock \emph{Neural Networks} \textbf{2022}.
+
+\bibitem{li2018emotion}
+J.~e.~a. Li,
+\newblock \emph{Neurocomputing} \textbf{2018}.
+
+\bibitem{zhao2021ppda}
+L.-M. Zhao, X.~Yan, B.-L. Lu,
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~35. \textbf{2021} 863--870.
+
+\bibitem{bao2021tldann}
+G.~Bao, N.~Zhuang, L.~Tong, et~al.,
+\newblock \emph{Frontiers in Human Neuroscience} \textbf{2021}, \emph{14}
+  605246.
+
+\bibitem{li2019lrs}
+J.~Li, S.~Qiu, C.~Du, et~al.,
+\newblock \emph{IEEE Transactions on Cognitive and Developmental Systems}
+  \textbf{2019}, \emph{12}, 2 344.
+
+\bibitem{xu2023dagam}
+T.~Xu, W.~Dang, J.~Wang, Y.~Zhou,
+\newblock \emph{Journal of Neural Engineering} \textbf{2023}, \emph{20}, 1
+  016022.
+
+\bibitem{zhu2022gatstpl}
+Y.~Zhu, Y.~Guo, W.~Zhu, et~al.,
+\newblock In \emph{Chinese Control Conference (CCC)}. IEEE, \textbf{2022}
+  7070--7075.
+
+\bibitem{li2023msfran}
+W.~Li, W.~Huan, S.~Shao, et~al.,
+\newblock \emph{IEEE Journal of Biomedical and Health Informatics}
+  \textbf{2023}, \emph{27}, 11 5302.
+
+\bibitem{zhou2023prpl}
+R.~Zhou, et~al.,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2023},
+  \emph{15} 657.
+
+\bibitem{zhou2022dgsurvey}
+K.~Zhou, Z.~Liu, Y.~Qiao, T.~Xiang, C.~C. Loy,
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+  \textbf{2022}, \emph{45}, 4 4396.
+
+\bibitem{yroyhb2019deeplear}
+Y.~Roy, H.~Banville, I.~Albuquerque, et~al.,
+\newblock \emph{Journal of Neural Engineering} \textbf{2019}.
+
+\bibitem{smalar2019emotions}
+S.~M. Alarcão, M.~J. Fonseca,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2019}.
+
+\bibitem{wlizzh2021physiolo}
+W.~Li, Z.~Zhang, A.~Song,
+\newblock \emph{Measurement} \textbf{2021}.
+
+\bibitem{nssuha2020eegbased}
+N.~S. Suhaimi, J.~Mountstephens, J.~Teo,
+\newblock \emph{Computational Intelligence and Neuroscience} \textbf{2020}.
+
+\bibitem{ztliuq2019electroe}
+Z.-T. Liu, Q.~Xie, M.~Wu, et~al.,
+\newblock \emph{IEEE Transactions on Cognitive and Developmental Systems}
+  \textbf{2019}.
+
+\bibitem{megger2019emotionr}
+M.~Egger, M.~Ley, S.~Hanke,
+\newblock \emph{Electronic Notes in Theoretical Computer Science}
+  \textbf{2019}.
+
+\bibitem{ctanfs2018asurveyo}
+C.~Tan, F.~Sun, et~al.,
+\newblock \emph{Proceedings of a machine learning survey venue} \textbf{2018}.
+
+\bibitem{jwitte2020comparis}
+J.~Witteveen, P.~Pradhapan, V.~Mihajlović,
+\newblock \emph{IEEE Journal of Biomedical and Health Informatics}
+  \textbf{2020}.
+
+\bibitem{shkimh2021asemoaut}
+S.-H. Kim, H.-J. Yang, N.~A.~T. Nguyen, S.-W. Lee,
+\newblock \emph{IEEE Journal of Biomedical and Health Informatics}
+  \textbf{2021}.
+
+\bibitem{jcheng2021emotionr}
+J.~Cheng, et~al.,
+\newblock \emph{IEEE Journal of Biomedical and Health Informatics}
+  \textbf{2021}.
+
+\bibitem{sbwank2019ikknpred}
+S.~B. Wankhade, D.~D. Doye,
+\newblock \emph{Wireless Personal Communications} \textbf{2019}.
+
+\bibitem{sliuxw2020subjecti}
+S.~Liu, X.~Wu, et~al.,
+\newblock \emph{Journal article cited in uploaded reviews} \textbf{2020}.
+
+\bibitem{thzhou2020waveletb}
+T.~H. Zhou, W.~L. Liang, H.~Y. Liu, et~al.,
+\newblock \emph{Proceedings of an intelligent computing conference}
+  \textbf{2020}.
+
+\bibitem{cysain2018automate}
+C.~Y. Sai, N.~Mokhtar, H.~Arof, P.~Cumming, M.~Iwahashi,
+\newblock \emph{IEEE Journal of Biomedical and Health Informatics}
+  \textbf{2018}.
+
+\bibitem{vgupta2019crosssub}
+V.~Gupta, et~al.,
+\newblock \emph{Journal article cited in uploaded reviews} \textbf{2019}.
+
+\bibitem{dwuyxu2020transfer}
+D.~Wu, Y.~Xu, B.-L. Lu,
+\newblock \emph{IEEE Transactions on Cognitive and Developmental Systems}
+  \textbf{2020}.
+
+\bibitem{xjiang2019transfer}
+X.~Jiang, et~al.,
+\newblock \emph{Journal article cited in uploaded reviews} \textbf{2019}.
+
+\bibitem{pyjeng2021lowdimen}
+P.-Y. Jeng, C.-S. Wei, T.-P. Jung, L.-C. Wang,
+\newblock \emph{IEEE Journal of Biomedical and Health Informatics}
+  \textbf{2021}.
+
+\bibitem{lyanrz2018tradaboo}
+L.~Yan, R.~Zhang, et~al.,
+\newblock \emph{Journal article cited in uploaded reviews} \textbf{2018}.
+
+\bibitem{plieta2019eegbased}
+P.~Li, et~al.,
+\newblock \emph{IEEE Transactions on Biomedical Engineering} \textbf{2019}.
+
+\bibitem{gkpvee2019eegbased}
+G.~K.~P. Vee, et~al.,
+\newblock \emph{Journal article cited in uploaded reviews} \textbf{2019}.
+
+\bibitem{sphadi2019asurveyo}
+S.~Phadikar, et~al.,
+\newblock \emph{Survey article cited in uploaded reviews} \textbf{2019}.
+
+\bibitem{tzhang2019spatialt}
+T.~Zhang, et~al.,
+\newblock \emph{Journal article cited in uploaded reviews} \textbf{2019}.
+
+\bibitem{cqlaih2018artifact}
+C.~Q. Lai, H.~Ibrahim, M.~Z. Abdullah, et~al.,
+\newblock \emph{Proceedings of a biomedical engineering conference}
+  \textbf{2018}.
+
+\bibitem{saydn2020deeplear}
+S.~Aydın,
+\newblock \emph{IEEE Journal of Biomedical and Health Informatics}
+  \textbf{2020}.
+
+\bibitem{hheand2019channela}
+H.~He, D.~An, et~al.,
+\newblock \emph{Journal article cited in uploaded reviews} \textbf{2019}.
+
+\bibitem{jweijl2018learning}
+J.~Wei, J.~Li, et~al.,
+\newblock \emph{Journal article cited in uploaded reviews} \textbf{2018}.
+
+\bibitem{jxingk2018adaptive}
+J.~Xing, K., et~al.,
+\newblock \emph{Journal article cited in uploaded reviews} \textbf{2018}.
+
+\bibitem{lzhang2020guidesub}
+L.~Zhang, et~al.,
+\newblock \emph{Journal article cited in uploaded reviews} \textbf{2020}.
+
+\end{thebibliography}
