@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.1)  3 FEB 2026 19:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.1)  5 FEB 2026 19:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1062,13 +1062,23 @@ Overfull \hbox (19.74971pt too wide) in paragraph at lines 353--354
  []
 
 
-Overfull \hbox (19.81082pt too wide) in paragraph at lines 355--357
+Overfull \hbox (19.81082pt too wide) in paragraph at lines 355--356
 []\OT1/cmr/m/n/12 Moreover, transformer-aided fea-ture con-struc-tion can fa-cil-i-tate cross-domain fea-tures, as it does in attention- 
  []
 
 
-Overfull \hbox (4.83182pt too wide) in paragraph at lines 358--359
-\OT1/cmr/m/n/12 much rhyth-mic ac-tiv-ity is present in each band dur-ing an emo-tional state. Dif-fer-en-tial en-tropy is a closely 
+Overfull \hbox (8.84843pt too wide) in paragraph at lines 358--359
+\OT1/cmr/m/n/12 used, which are de-rived from the pre-pro-cessed sig-nals. Some of the com-monly used fea-tures, such as power 
+ []
+
+
+Overfull \hbox (0.42769pt too wide) in paragraph at lines 358--359
+\OT1/cmr/m/n/12 in the sig-nal in the re-spec-tive bands. The con-cept of dif-fer-en-tial en-tropy is re-lated to power spec-tral den- 
+ []
+
+
+Overfull \hbox (3.32631pt too wide) in paragraph at lines 358--359
+\OT1/cmr/m/n/12 sity, but when we con-sider a Gaus-sian dis-tri-bu-tion of the EEG sig-nal am-pli-tude in a short pe-riod of time, 
  []
 
 File: vch-logo.png Graphic file (type png)
@@ -1083,8 +1093,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
 [16]
-Overfull \hbox (1.6791pt too wide) in paragraph at lines 366--367
-\OT1/cmr/m/n/12 based ar-ti-fact cor-rec-tion) to en-hance the qual-ity of EEG data fur-ther. Such de-vel-op-ments will strengthen 
+Overfull \hbox (7.28178pt too wide) in paragraph at lines 364--365
+\OT1/cmr/m/n/12 to be ex-tracted from var-i-ous bands of brain sig-nals, in-clud-ing delta, theta, al-pha, beta, and gamma bands. 
  []
 
 File: vch-logo.png Graphic file (type png)
@@ -1104,15 +1114,11 @@ File: pictures/tem_freq_spa.png Graphic file (type png)
 <use pictures/tem_freq_spa.png>
 Package pdftex.def Info: pictures/tem_freq_spa.png  used on input line 381.
 (pdftex.def)             Requested size: 406.51875pt x 187.42099pt.
-
-Overfull \hbox (17.4303pt too wide) in paragraph at lines 386--387
-\OT1/cmr/m/n/12 any sin-gle fea-ture type. Em-pir-i-cal re-sults have shown that mod-els us-ing com-bined tem-po-ral{spectral{spatial 
- []
-
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 392.
+Package pdftex.def Info: vch-logo.png  used on input line 389.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 24.81955pt, for example:
@@ -1121,38 +1127,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
 [18 <./pictures/tem_freq_spa.png>]
-Overfull \hbox (8.19566pt too wide) in paragraph at lines 398--401
-\OT1/cmr/m/n/12 gamma band power re-flect arousal and va-lence di-men-sions. These rhythms pro-vide sta-ble in-di-ca-tors across 
+Overfull \hbox (9.09499pt too wide) in paragraph at lines 400--401
+ \OT1/cmr/bx/n/10 Fre-quency Do-main Fea-tures:[] \OT1/cmr/m/n/12 The fea-tures iden-ti-fied by the fre-quency do-main have proven to be a promis- 
  []
 
 
-Overfull \hbox (8.779pt too wide) in paragraph at lines 398--401
-\OT1/cmr/m/n/12 graph con-vo-lu-tional net-work that in-te-grated tem-po-ral and DE-based fre-quency fea-tures us-ing dual-channel 
- []
-
-
-Overfull \hbox (8.78316pt too wide) in paragraph at lines 398--401
-\OT1/cmr/m/n/12 com-bin-ing con-vo-lu-tion and Transformer-based at-ten-tion to en-code tem-po-ral and fre-quency fea-tures jointly. 
- []
-
-
-Overfull \hbox (4.73183pt too wide) in paragraph at lines 398--401
-\OT1/cmr/m/n/12 e-fited from ex-plicit band de-com-po-si-tion but was sen-si-tive to STFT pa-ram-e-ter set-tings. Frequency-domain 
- []
-
-
-Overfull \hbox (2.77766pt too wide) in paragraph at lines 398--401
-\OT1/cmr/m/n/12 meth-ods high-light emotion-related rhyth-mic ac-tiv-ity and are cru-cial for dis-tin-guish-ing af-fec-tive re-sponses. 
- []
-
-
-Overfull \hbox (0.39815pt too wide) in paragraph at lines 403--404
- \OT1/cmr/bx/n/10 Temporal-Frequency Do-main Fea-tures:[] \OT1/cmr/m/n/12 Frequency-domain fea-tures are a cor-ner-stone in EEG-based emo- 
+Overfull \hbox (5.68042pt too wide) in paragraph at lines 404--405
+\OT1/cmr/m/n/12 such as the STFT, al-low-ing deep learn-ing mod-els to ef-fec-tively learn the rel-a-tive con-tri-bu-tion of fre-quency 
  []
 
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 405.
+Package pdftex.def Info: vch-logo.png  used on input line 406.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1162,53 +1148,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
 [19]
-Overfull \hbox (6.52902pt too wide) in paragraph at lines 405--406
-\OT1/cmr/m/n/12 ing tools such as the Fourier trans-form, wavelet de-com-po-si-tion, or dif-fer-en-tial en-tropy com-pu-ta-tion. These 
+Overfull \hbox (3.75266pt too wide) in paragraph at lines 414--415
+[]\OT1/cmr/m/n/12 In prac-tice, the anal-y-sis of the elec-tri-cal sig-nals in the fre-quency do-main is achieved through var-i-ous tech- 
  []
 
 
-Overfull \hbox (6.29846pt too wide) in paragraph at lines 409--410
-\OT1/cmr/m/n/12 vary-ing spec-tral pro-files. Nev-er-the-less, when com-bined ef-fec-tively with other modal-i-ties, frequency-domain 
+Overfull \hbox (1.5638pt too wide) in paragraph at lines 416--417
+[]\OT1/cmr/m/n/12 Recently, var-i-ous mod-el-ing tech-niques have adopted fre-quency do-main fea-tures in dif-fer-ent ways. In some 
  []
 
 
-Overfull \hbox (3.58739pt too wide) in paragraph at lines 416--417
-[]\OT1/cmr/m/n/12 Recent ad-vances in multi-domain fu-sion ar-chi-tec-tures have em-pha-sized flex-i-bil-ity and adap-tive-ness. Many 
+Overfull \hbox (0.29297pt too wide) in paragraph at lines 418--419
+\OT1/cmr/m/n/12 win-dow-ing tech-niques em-ployed in the mod-els. In ad-di-tion, mod-els that have adopted fre-quency domain- 
  []
 
 
-Overfull \hbox (0.62352pt too wide) in paragraph at lines 416--417
-\OT1/cmr/m/n/12 ap-proaches em-ploy multi-branch de-signs where domain-specific fea-ture ex-trac-tors pro-cess tem-po-ral, spec- 
- []
-
-
-Overfull \hbox (22.89706pt too wide) in alignment at lines 431--438
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.89706pt too wide) in alignment at lines 438--444
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.89706pt too wide) in alignment at lines 444--448
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.89706pt too wide) in alignment at lines 448--451
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.89706pt too wide) in alignment at lines 451--469
- [] [] [] [] [] 
+Overfull \hbox (13.28311pt too wide) in paragraph at lines 418--419
+\OT1/cmr/m/n/12 with vary-ing fre-quency do-main pat-terns. Nonethe-less, fre-quency domain-based fea-tures have shown promis- 
  []
 
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 469.
+Package pdftex.def Info: vch-logo.png  used on input line 424.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1218,13 +1179,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
 [20]
-Overfull \hbox (0.79578pt too wide) in paragraph at lines 478--479
-[]\OT1/cmr/m/n/12 The rel-e-vance of this sub-sub-sec-tion lies in the high-dimensional and noisy na-ture of EEG data. Emotion- 
+Overfull \hbox (22.89706pt too wide) in alignment at lines 440--447
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.89706pt too wide) in alignment at lines 447--453
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.89706pt too wide) in alignment at lines 453--457
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.89706pt too wide) in alignment at lines 457--460
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.89706pt too wide) in alignment at lines 460--478
+ [] [] [] [] [] 
  []
 
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 481.
+Package pdftex.def Info: vch-logo.png  used on input line 483.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1234,41 +1215,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
 [21]
-Overfull \hbox (4.34431pt too wide) in paragraph at lines 491--492
-\OT1/cmr/m/n/12 oc-cur if the eval-u-a-tion cri-te-rion is not care-fully reg-u-lar-ized or if the fea-ture se-lec-tion pro-cess is too tightly 
+Overfull \hbox (0.79578pt too wide) in paragraph at lines 487--488
+[]\OT1/cmr/m/n/12 The rel-e-vance of this sub-sub-sec-tion lies in the high-dimensional and noisy na-ture of EEG data. Emotion- 
  []
 
-
-Overfull \hbox (22.89706pt too wide) in alignment at lines 503--510
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.89706pt too wide) in alignment at lines 510--516
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.89706pt too wide) in alignment at lines 516--520
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.89706pt too wide) in alignment at lines 520--523
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (22.89706pt too wide) in alignment at lines 523--533
- [] [] [] [] [] 
- []
-
-d:/VS Code/Deep Learning/EEG Signal/EEG_Review_Paper/template.tex:533: ignored: Infinite glue shrinkage found in box being split
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 533.
+Package pdftex.def Info: vch-logo.png  used on input line 499.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 24.81955pt, for example:
@@ -1277,18 +1231,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
 [22]
-Overfull \hbox (0.5888pt too wide) in paragraph at lines 543--544
-\OT1/cmr/m/n/12 pe-nal-ize pair-wise over-lap. For ex-am-ple, orthogonal-regression-based for-mu-la-tions in-cor-po-rate re-dun-dancy 
+Overfull \hbox (4.34431pt too wide) in paragraph at lines 500--501
+\OT1/cmr/m/n/12 oc-cur if the eval-u-a-tion cri-te-rion is not care-fully reg-u-lar-ized or if the fea-ture se-lec-tion pro-cess is too tightly 
  []
 
 
-Overfull \hbox (5.20682pt too wide) in paragraph at lines 551--552
-[]\OT1/cmr/m/n/12 Decomposition-driven aug-men-ta-tion is one es-tab-lished ap-proach. In-de-pen-dent Com-po-nent Anal-y-sis (ICA) 
+Overfull \hbox (22.89706pt too wide) in alignment at lines 512--519
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.89706pt too wide) in alignment at lines 519--525
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.89706pt too wide) in alignment at lines 525--529
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.89706pt too wide) in alignment at lines 529--532
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (22.89706pt too wide) in alignment at lines 532--542
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (0.5888pt too wide) in paragraph at lines 552--553
+\OT1/cmr/m/n/12 pe-nal-ize pair-wise over-lap. For ex-am-ple, orthogonal-regression-based for-mu-la-tions in-cor-po-rate re-dun-dancy 
  []
 
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 553.
+Package pdftex.def Info: vch-logo.png  used on input line 556.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1298,13 +1277,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
 [23]
-Overfull \hbox (1.79434pt too wide) in paragraph at lines 570--571
-[]\OT1/cmr/m/n/12 Interpretability-oriented de-signs in-creas-ingly com-ple-ment ac-cu-racy in subject-dependent set-tings by high- 
+Overfull \hbox (5.20682pt too wide) in paragraph at lines 560--561
+[]\OT1/cmr/m/n/12 Decomposition-driven aug-men-ta-tion is one es-tab-lished ap-proach. In-de-pen-dent Com-po-nent Anal-y-sis (ICA) 
  []
 
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 571.
+Package pdftex.def Info: vch-logo.png  used on input line 574.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1314,11 +1293,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
 [24]
+Overfull \hbox (1.79434pt too wide) in paragraph at lines 579--580
+[]\OT1/cmr/m/n/12 Interpretability-oriented de-signs in-creas-ingly com-ple-ment ac-cu-racy in subject-dependent set-tings by high- 
+ []
+
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 583.
+Package pdftex.def Info: vch-logo.png  used on input line 590.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 24.81955pt, for example:
@@ -1327,16 +1309,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
 [25]
-LaTeX Font Info:    Trying to load font information for U+bbm on input line 586.
+LaTeX Font Info:    Trying to load font information for U+bbm on input line 595.
  (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/latex/bbm\ubbm.fd
 File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
 )
-Overfull \hbox (19.30681pt too wide) in paragraph at lines 588--589
+Overfull \hbox (19.30681pt too wide) in paragraph at lines 597--598
 \OT1/cmr/m/n/12 jointly with $\OML/cmm/m/it/12 g[]\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 ^^A\OT1/cmr/m/n/12 )$ [[]]. Time-frequency en-coders of-ten use short-time Fourier trans-forms (STFT) or wavelet- 
  []
 
 
-Overfull \hbox (0.19714pt too wide) in paragraph at lines 591--593
+Overfull \hbox (0.19714pt too wide) in paragraph at lines 600--602
 \OT1/cmr/m/n/12 Deep mod-els of-ten by-pass ex-plicit fea-ture de-sign by learn-ing con-vo-lu-tional, re-cur-rent, at-ten-tion, or graph 
  []
 
@@ -1352,18 +1334,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
 [26]
-Overfull \hbox (9.69704pt too wide) in paragraph at lines 611--613
+Overfull \hbox (9.69704pt too wide) in paragraph at lines 620--622
 \OT1/cmr/m/n/12 it fa-cil-i-tates hypothesis-driven anal-y-sis even when end-to-end learn-ing re-mains fea-si-ble [[]]. Connectivity- 
  []
 
 
-Overfull \hbox (7.15123pt too wide) in paragraph at lines 617--619
+Overfull \hbox (7.15123pt too wide) in paragraph at lines 626--628
 \OT1/cmr/m/n/12 plicit ro-bust-ness mech-a-nism, be-cause sta-ble sub-sets of chan-nels and bands re-duce sen-si-tiv-ity to impedance 
  []
 
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 632.
+Package pdftex.def Info: vch-logo.png  used on input line 628.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1373,18 +1355,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
 [27]
-Overfull \hbox (0.81935pt too wide) in paragraph at lines 642--644
+Overfull \hbox (0.81935pt too wide) in paragraph at lines 651--653
 \OT1/cmr/m/n/12 which yields data-adaptive ag-gre-ga-tion over to-kens that rep-re-sent chan-nels, time steps, or time-frequency 
- []
-
-
-Overfull \hbox (3.6874pt too wide) in paragraph at lines 649--650
-\OT1/cmr/m/n/12 ten ap-ply 2D or 3D con-vo-lu-tions over struc-tured ten-sors that em-bed elec-trode lay-outs and time-frequency 
  []
 
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 654.
+Package pdftex.def Info: vch-logo.png  used on input line 653.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1394,13 +1371,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
 [28]
-Overfull \hbox (10.62276pt too wide) in paragraph at lines 657--658
+Overfull \hbox (3.6874pt too wide) in paragraph at lines 658--659
+\OT1/cmr/m/n/12 ten ap-ply 2D or 3D con-vo-lu-tions over struc-tured ten-sors that em-bed elec-trode lay-outs and time-frequency 
+ []
+
+
+Overfull \hbox (10.62276pt too wide) in paragraph at lines 666--667
  \OT1/cmr/bx/n/10 Attention-Enhanced Mod-els[] \OT1/cmr/m/n/12 Attention-enhanced mod-els de-fine EEG emo-tion recog-ni-tion through content- 
  []
 
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 685.
+Package pdftex.def Info: vch-logo.png  used on input line 688.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1410,41 +1392,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
 [29]
-Overfull \hbox (16.87062pt too wide) in paragraph at lines 709--709
-\OT1/cmr/m/n/12 2 ((Work ac-cepted)) A. B. Au-thor 1, C. D. Au-thor 2, Macro-mol. Rapid Com-mun., DOI: 10.1002/marc.DOI.  
- []
-
-
-Overfull \hbox (25.0997pt too wide) in paragraph at lines 714--714
-\OT1/cmr/m/n/12 7 ((Patents)) a) A. B. Au-thor 1, C. D. Au-thor 2 (Com-pany), Coun-try Patent Num-ber, Year; b) W. Lehmann, 
- []
-
-<pictures/bio-placeholder.jpg, id=135, 113.7048pt x 142.3719pt>
-File: pictures/bio-placeholder.jpg Graphic file (type jpg)
-<use pictures/bio-placeholder.jpg>
-Package pdftex.def Info: pictures/bio-placeholder.jpg  used on input line 726.
-(pdftex.def)             Requested size: 113.70451pt x 142.37154pt.
-File: pictures/bio-placeholder.jpg Graphic file (type jpg)
-<use pictures/bio-placeholder.jpg>
-Package pdftex.def Info: pictures/bio-placeholder.jpg  used on input line 731.
-(pdftex.def)             Requested size: 113.70451pt x 142.37154pt.
-File: pictures/bio-placeholder.jpg Graphic file (type jpg)
-<use pictures/bio-placeholder.jpg>
-Package pdftex.def Info: pictures/bio-placeholder.jpg  used on input line 736.
-(pdftex.def)             Requested size: 113.70451pt x 142.37154pt.
-File: pictures/bio-placeholder.jpg Graphic file (type jpg)
-<use pictures/bio-placeholder.jpg>
-Package pdftex.def Info: pictures/bio-placeholder.jpg  used on input line 741.
-(pdftex.def)             Requested size: 113.70451pt x 142.37154pt.
-<toc-image.png, id=136, 156.585pt x 142.3719pt>
-File: toc-image.png Graphic file (type png)
-<use toc-image.png>
-Package pdftex.def Info: toc-image.png  used on input line 753.
-(pdftex.def)             Requested size: 156.58461pt x 142.37154pt.
-(template.bbl
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 9.
+Package pdftex.def Info: vch-logo.png  used on input line 717.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
 
 
@@ -1455,9 +1405,41 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
 [30]
+Overfull \hbox (16.87062pt too wide) in paragraph at lines 718--718
+\OT1/cmr/m/n/12 2 ((Work ac-cepted)) A. B. Au-thor 1, C. D. Au-thor 2, Macro-mol. Rapid Com-mun., DOI: 10.1002/marc.DOI.  
+ []
+
+
+Overfull \hbox (25.0997pt too wide) in paragraph at lines 723--723
+\OT1/cmr/m/n/12 7 ((Patents)) a) A. B. Au-thor 1, C. D. Au-thor 2 (Com-pany), Coun-try Patent Num-ber, Year; b) W. Lehmann, 
+ []
+
+<pictures/bio-placeholder.jpg, id=138, 113.7048pt x 142.3719pt>
+File: pictures/bio-placeholder.jpg Graphic file (type jpg)
+<use pictures/bio-placeholder.jpg>
+Package pdftex.def Info: pictures/bio-placeholder.jpg  used on input line 735.
+(pdftex.def)             Requested size: 113.70451pt x 142.37154pt.
+File: pictures/bio-placeholder.jpg Graphic file (type jpg)
+<use pictures/bio-placeholder.jpg>
+Package pdftex.def Info: pictures/bio-placeholder.jpg  used on input line 740.
+(pdftex.def)             Requested size: 113.70451pt x 142.37154pt.
+File: pictures/bio-placeholder.jpg Graphic file (type jpg)
+<use pictures/bio-placeholder.jpg>
+Package pdftex.def Info: pictures/bio-placeholder.jpg  used on input line 745.
+(pdftex.def)             Requested size: 113.70451pt x 142.37154pt.
+File: pictures/bio-placeholder.jpg Graphic file (type jpg)
+<use pictures/bio-placeholder.jpg>
+Package pdftex.def Info: pictures/bio-placeholder.jpg  used on input line 750.
+(pdftex.def)             Requested size: 113.70451pt x 142.37154pt.
+<toc-image.png, id=139, 156.585pt x 142.3719pt>
+File: toc-image.png Graphic file (type png)
+<use toc-image.png>
+Package pdftex.def Info: toc-image.png  used on input line 762.
+(pdftex.def)             Requested size: 156.58461pt x 142.37154pt.
+(template.bbl
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 9.
+Package pdftex.def Info: vch-logo.png  used on input line 29.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
 
 
@@ -1470,7 +1452,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [31 <./pictures/bio-placeholder.jpg>]
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 112.
+Package pdftex.def Info: vch-logo.png  used on input line 29.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
 
 
@@ -1483,7 +1465,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [32 <./toc-image.png (PNG copy)>]
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 236.
+Package pdftex.def Info: vch-logo.png  used on input line 167.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
 
 
@@ -1496,7 +1478,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [33]
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 349.
+Package pdftex.def Info: vch-logo.png  used on input line 291.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
 
 
@@ -1509,7 +1491,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [34]
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 468.
+Package pdftex.def Info: vch-logo.png  used on input line 402.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
 
 
@@ -1522,7 +1504,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [35]
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 594.
+Package pdftex.def Info: vch-logo.png  used on input line 527.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
 
 
@@ -1535,7 +1517,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [36])
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 760.
+Package pdftex.def Info: vch-logo.png  used on input line 769.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
 
 
@@ -1554,13 +1536,13 @@ L3 programming layer <2026-01-19>
 Here is how much of TeX's memory you used:
  6585 strings out of 467866
  114438 string characters out of 5414454
- 515829 words of memory out of 5000000
+ 517829 words of memory out of 5000000
  35370 multiletter control sequences out of 15000+600000
  643792 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,16n,79p,1755b,628s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,16n,79p,1757b,628s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\shihabsarar12\AppData\Local\MiKTeX\fonts/pk/ljfour/public/bbm/dpi600\bbm12.pk> <C:\Users\shihabsarar12\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/grmi1200.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/grmn1200.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on template.pdf (37 pages, 4110570 bytes).
+Output written on template.pdf (37 pages, 4110912 bytes).
 PDF statistics:
  275 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

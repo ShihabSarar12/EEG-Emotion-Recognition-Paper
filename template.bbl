@@ -336,15 +336,15 @@ H.~Sun, L.~Yang, Q.~Wang, D.~Liu, P.~Ni,
 \newblock In \emph{2023 IEEE International Conference on Bioinformatics and
   Biomedicine (BIBM)}. IEEE, \textbf{2023} 3332--3339.
 
-\bibitem{li2021multidomain}
-Y.~Li, W.-L. Zheng, B.-L. Lu,
-\newblock \emph{Proceedings of the 29th ACM International Conference on
-  Multimedia} \textbf{2021}, 2977--2985.
-
 \bibitem{zheng2022multi}
 C.~Zheng, W.~Wang, J.~Ma,
 \newblock In \emph{Proceedings of the 30th ACM International Conference on
   Multimedia}. \textbf{2022} 4938--4947.
+
+\bibitem{li2021multidomain}
+Y.~Li, W.-L. Zheng, B.-L. Lu,
+\newblock \emph{Proceedings of the 29th ACM International Conference on
+  Multimedia} \textbf{2021}, 2977--2985.
 
 \bibitem{jia2020sstemotionnet}
 Z.~Jia, Y.~Lin, X.~Cai, H.~Chen, H.~Gou, J.~Wang,
