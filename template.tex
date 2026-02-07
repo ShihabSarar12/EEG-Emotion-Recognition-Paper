@@ -302,46 +302,48 @@ While these strategies are useful in several ways in terms of reducing computati
 \begin{small}
 \begin{longtable}{
 >{\raggedright\arraybackslash}p{0.13\textwidth}
->{\raggedright\arraybackslash}p{0.22\textwidth}
 >{\raggedright\arraybackslash}p{0.18\textwidth}
->{\raggedright\arraybackslash}p{0.20\textwidth}
->{\raggedright\arraybackslash}p{0.22\textwidth}
+>{\raggedright\arraybackslash}p{0.14\textwidth}
+>{\raggedright\arraybackslash}p{0.18\textwidth}
+>{\raggedright\arraybackslash}p{0.18\textwidth}
+>{\raggedright\arraybackslash}p{0.19\textwidth}
 }
 \caption{Representative studies on EEG preprocessing techniques for emotion recognition.}
 \label{tab:eeg_preprocessing_summary} \\
 
 \toprule
-\textbf{Study} & \textbf{Approach} & \textbf{Advantages} & \textbf{Limitations} & \textbf{Key Findings} \\
+\textbf{Study} & \textbf{Approach} & \textbf{Preprocessing Method} & \textbf{Advantages} & \textbf{Limitations} & \textbf{Key Findings} \\
 \midrule
 \endfirsthead
 
-\multicolumn{5}{c}{\textit{Table~\ref{tab:eeg_preprocessing_summary} continued}} \\
+\multicolumn{6}{c}{\textit{Table~\ref{tab:eeg_preprocessing_summary} continued}} \\
 \toprule
-\textbf{Study} & \textbf{Approach} & \textbf{Advantages} & \textbf{Limitations} & \textbf{Key Findings} \\
+\textbf{Study} & \textbf{Approach} & \textbf{Preprocessing Method} & \textbf{Advantages} & \textbf{Limitations} & \textbf{Key Findings} \\
 \midrule
 \endhead
 
 \midrule
-\multicolumn{5}{r}{\textit{Continued on next page}} \\
+\multicolumn{6}{r}{\textit{Continued on next page}} \\
 \endfoot
 
 \bottomrule
 \endlastfoot
 
-Somers \textit{et al.}~\cite{somers2018mcwfilter} & Multi-channel Wiener filtering for artifact suppression & Preserves neural signal while reducing ocular/muscle noise & Needs covariance estimates; less effective for nonstationary noise & Improves EEG signal quality before emotion decoding \\
+Somers \textit{et al.}~\cite{somers2018mcwfilter} & Multi-channel Wiener filtering for artifact suppression & Artifact Removal & Preserves neural signal while reducing ocular/muscle noise & Needs covariance estimates; less effective for nonstationary noise & Improves EEG signal quality before emotion decoding \\
 
-Kang \textit{et al.}~\cite{kang2019_ica_aug} & ICA with heuristic artifact-aware rejection & Effectively isolates and removes major EEG artifacts & Manual component selection may reduce reproducibility & Boosts classification accuracy post-cleaning \\
+Kang \textit{et al.}~\cite{kang2019_ica_aug} & ICA with heuristic artifact-aware rejection & Artifact Removal & Effectively isolates and removes major EEG artifacts & Manual component selection may reduce reproducibility & Boosts classification accuracy post-cleaning \\
 
-Phadikar \textit{et al.}~\cite{sphadi2021automati} & Wavelet thresholding for blink artifact removal & Fast and adaptive for blink noise & Limited to blink artifacts; not general-purpose & Strengthens EEG robustness in emotion pipelines \\
+Phadikar \textit{et al.}~\cite{sphadi2021automati} & Wavelet thresholding for blink artifact removal & Artifact Removal & Fast and adaptive for blink noise & Limited to blink artifacts; not general-purpose & Strengthens EEG robustness in emotion pipelines \\
 
-Koelstra \textit{et al.}~\cite{Koelstra2012} & Bandpass filtering with baseline normalization & Reduces noise and inter-subject variability & Requires baseline segment; may remove useful bands & Improves single-trial emotion classification \\
+Koelstra \textit{et al.}~\cite{Koelstra2012} & Bandpass filtering with baseline normalization & Channel Selection and Spatial Filtering & Reduces noise and inter-subject variability & Requires baseline segment; may remove useful bands & Improves single-trial emotion classification \\
 
-Mahajan \& Morshed~\cite{Mahajan2014} & Wavelet-enhanced ICA artifact removal & Automated ocular artifact suppression & Mainly targets eye-blink artifacts & Enhances EEG quality for emotion analysis \\
+Mahajan \& Morshed~\cite{Mahajan2014} & Wavelet-enhanced ICA artifact removal & Hybrid ICA-Wavelet Techniques & Automated ocular artifact suppression & Mainly targets eye-blink artifacts & Enhances EEG quality for emotion analysis \\
 
-Val-Calvo \textit{et al.}~\cite{ValCalvo2019} & Lightweight real-time preprocessing pipeline & Low-latency and computationally efficient & Simplified features limit generalization & Enables real-time EEG emotion recognition \\
+Val-Calvo \textit{et al.}~\cite{ValCalvo2019} & Lightweight real-time preprocessing pipeline & Channel Selection and Spatial Filtering & Low-latency and computationally efficient & Simplified features limit generalization & Enables real-time EEG emotion recognition \\
 
 \end{longtable}
 \end{small}
+
 
 
 
@@ -393,8 +395,6 @@ Temporal domain features play a critical role in emotion recognition systems tha
 Within the emotion decoding paradigm, temporal modeling has been integrated using a variety of deep learning approaches that have taken advantage of the strengths of sequence learning. As an example, recurrent models such as LSTMs or bidirectional RNNs have been widely used to capture the dependencies between successive segments of the EEG signals, modeling the temporal dynamics of affective states. In other instances, hybrid models have been proposed that take advantage of the strengths of both convolutional and recurrent models to learn the spatial patterns and their temporal dynamics. In addition, hierarchical sequence models have been proposed that learn the signals regionally and then aggregate them globally, thus preserving the spatial patterns while modeling the temporal dynamics. Finally, temporal convolutional models have been proposed that offer an alternative to recurrent models, enabling the modeling of long-range dependencies using hierarchical, dilated convolutional architectures.
 
 Although these methods are useful in terms of the recognition of dynamic patterns of emotion, there are challenges that are associated with these methods. These challenges include difficulties in integrating frequency and spatial information or the use of uniform timing. The selection of appropriate window length and temporal resolution is also important in temporal domain modeling. This is important for the avoidance of overfitting or the loss of relevant information, particularly for the improvement of the performance of emotion recognition, especially for naturalistic or continuous emotional scenarios where there is the presence of individual variations of emotional expression timing.
-%----------------Humanized upto here-------------------%
-
 
 \subparagraph{Frequency Domain Features:}
 The features identified by the frequency domain have proven to be a promising approach to study the rhythmicity of the EEG signals, which are closely related to the emotional processes of the human brain. These features have enabled researchers to study the power distribution of the EEG signals over standard frequency bands such as alpha, beta, theta, or gamma waves, which are known to be influenced by emotional processes. Unlike features in the time domain, features in the frequency domain offer a more consistent representation of rhythmic activity in the brain, which is known to endure over sessions and subjects, especially if the EEG signals are appropriately filtered. 
@@ -432,51 +432,61 @@ To recapitulate, the integration of various EEG domains can improve the model’
 \setlength{\tabcolsep}{5pt}
 \begin{small}
 \begin{longtable}{
->{\raggedright\arraybackslash}p{0.13\textwidth}
->{\raggedright\arraybackslash}p{0.22\textwidth}
+>{\raggedright\arraybackslash}p{0.11\textwidth}
+>{\raggedright\arraybackslash}p{0.20\textwidth}
+>{\raggedright\arraybackslash}p{0.15\textwidth}
+>{\raggedright\arraybackslash}p{0.16\textwidth}
 >{\raggedright\arraybackslash}p{0.18\textwidth}
 >{\raggedright\arraybackslash}p{0.20\textwidth}
->{\raggedright\arraybackslash}p{0.22\textwidth}
 }
-\caption{Representative studies on EEG feature extraction techniques for emotion recognition.}
+\caption{Representative studies on EEG feature extraction techniques for emotion recognition (with domain categories).}
 \label{tab:eeg_feature_extraction_summary} \\
 
 \toprule
-\textbf{Study} & \textbf{Approach} & \textbf{Advantages} & \textbf{Limitations} & \textbf{Key Findings} \\
+\textbf{Study} & \textbf{Approach} & \textbf{Domain Category} & \textbf{Advantages} & \textbf{Limitations} & \textbf{Key Findings} \\
 \midrule
 \endfirsthead
 
-\multicolumn{5}{c}{\textit{Table~\ref{tab:eeg_feature_extraction_summary} continued}} \\
+\multicolumn{6}{c}{\textit{Table~\ref{tab:eeg_feature_extraction_summary} continued}} \\
 \toprule
-\textbf{Study} & \textbf{Approach} & \textbf{Advantages} & \textbf{Limitations} & \textbf{Key Findings} \\
+\textbf{Study} & \textbf{Approach} & \textbf{Domain Category} & \textbf{Advantages} & \textbf{Limitations} & \textbf{Key Findings} \\
 \midrule
 \endhead
 
 \midrule
-\multicolumn{5}{r}{\textit{Continued on next page}} \\
+\multicolumn{6}{r}{\textit{Continued on next page}} \\
 \endfoot
 
 \bottomrule
 \endlastfoot
 
-Li \textit{et al.}~\cite{li2021_3dfeatdfcn} & 3D spatial-temporal-spectral features with FCNs & Combines rich domain information in unified volume & Heavier computation than 2D encodings & Improves accuracy across datasets \\
+Li \textit{et al.}~\cite{li2021_3dfeatdfcn} & 3D spatial-temporal-spectral features with FCNs & Spatial-Temporal-Spectral & Combines rich domain information in unified volume & Heavier computation than 2D encodings & Improves accuracy across datasets \\
 
-Lew \textit{et al.}~\cite{lew2020bigruspatiotemporal} & Spatiotemporal encoding with Bi-GRU & Captures evolving emotion responses & Sensitive to segmentation granularity & Better for gradual emotion transitions \\
+Lew \textit{et al.}~\cite{lew2020bigruspatiotemporal} & Spatiotemporal encoding with Bi-GRU & Spatial-Temporal & Captures evolving emotion responses & Sensitive to segmentation granularity & Better for gradual emotion transitions \\
 
-Song \textit{et al.}~\cite{song2022eegconformer} & Conformer model for EEG sequences & Fuses local and global patterns effectively & Can overfit without regularization & Outperforms traditional CNN/RNN models \\
+Song \textit{et al.}~\cite{song2022eegconformer} & Conformer model for EEG sequences & Spatial-Temporal & Fuses local and global patterns effectively & Can overfit without regularization & Outperforms traditional CNN/RNN models \\
 
-Jia \textit{et al.}~\cite{jia2020sstemotionnet} & 3D DenseNet with attention across domains & Learns dynamic relevance between features & Model complexity is high & Salient EEG areas enhance emotion decoding \\
+Jia \textit{et al.}~\cite{jia2020sstemotionnet} & 3D DenseNet with attention across domains & Spatial-Temporal-Spectral & Learns dynamic relevance between features & Model complexity is high & Salient EEG areas enhance emotion decoding \\
 
-Sun \textit{et al.}~\cite{sun2022paralleltransformer3dcnn} & Parallel transformer + 3D CNN fusion & Separates local/global representation branches & Careful tuning required for balance & Shows strong performance on multi-channel inputs \\
+Sun \textit{et al.}~\cite{sun2022paralleltransformer3dcnn} & Parallel transformer + 3D CNN fusion & Spatial-Temporal & Separates local/global representation branches & Careful tuning required for balance & Shows strong performance on multi-channel inputs \\
 
-Yudhana \textit{et al.}~\cite{yudhana2020human} & FFT-based spectral features with $k$NN classifier & Simple and computationally efficient & Ignores temporal dynamics; limited scalability & Shows the viability of classic frequency features \\
+Yudhana \textit{et al.}~\cite{yudhana2020human} & FFT-based spectral features with $k$NN classifier & Spectral & Simple and computationally efficient & Ignores temporal dynamics; limited scalability & Shows the viability of classic frequency features \\
 
-Chen \textit{et al.}~\cite{chen2019feature} & Differential entropy features with LDA projection & Compact and discriminative spectral representation & Linear assumptions limit expressiveness & Improves valence and arousal classification \\
+Chen \textit{et al.}~\cite{chen2019feature} & Differential entropy features with LDA projection & Spectral & Compact and discriminative spectral representation & Linear assumptions limit expressiveness & Improves valence and arousal classification \\
 
-Bigirimana \textit{et al.}~\cite{bigirimana2020emotion} & Multi-class CSP spatial filtering & Enhances emotion-specific spatial patterns & Sensitive to non-stationarity and subject variation & Boosts multi-class EEG emotion accuracy \\
+Bigirimana \textit{et al.}~\cite{bigirimana2020emotion} & Multi-class CSP spatial filtering & Spatial & Enhances emotion-specific spatial patterns & Sensitive to non-stationarity and subject variation & Boosts multi-class EEG emotion accuracy \\
 
 \end{longtable}
 \end{small}
+
+Table~\ref{tab:eeg_feature_extraction_summary} proposes a synthesis of prevailing EEG feature extraction paradigms in the area of emotion recognition, recognizing and categorizing existing strategies with regard to the prevailing signal domains they employ. Thus, the prevailing early and light feature extraction strategies applied in the early stages of emotion recognition research relied heavily on signal representations with regard to the spectral domain, applying the Fourier transform or differential entropy. In contrast, the spatial domain-based prevailing feature extraction paradigms in the area emphasize filtering strategies based on common spatial patterns.
+
+More recent studies are beginning to exploit these hybrid spatial-temporal-spectral representations to appropriately capture the intricate and non-linear nature of emotional brain activity. Approaches involving three-dimensional feature volume representations, attention-based techniques, and deep convolutional or transformer-based methods combine multi-modal information from different domains, contributing to even more robust and accurate emotion decoding. Spatiotemporal sequence modeling techniques, like Bi-GRU and conformer-based structures, involve encoding the dynamic emotion changes across time while preserving spatial information, which has been demonstrated to be quite powerful especially for continuous changes. Notably, all these are usually achieved with increased computational costs and the risk of overfitting.
+
+Overall, the progression represented in Table~\ref{tab:eeg_feature_extraction_summary} demonstrates a distinct shift towards unified, or so-called multi-domain, deep representations, further emphasizing the significance of so-called joint spatial, temporal, spectral features in modern emotion recognition paradigms based on EEG technology.
+
+%----------------Humanized upto here-------------------%
+
 
 \subsection{Feature Selection}
 Electroencephalogram (EEG) emotion datasets often contain high-dimensional feature vectors (e.g., numerous channels and frequency-band features), while sample sizes are relatively limited. This disparity can lead to the curse of dimensionality and model overfitting, where irrelevant or redundant features degrade generalization performance. Feature selection addresses this by reducing the feature space to only the most informative and non-redundant features, thus improving classifier training efficiency and robustness. In EEG-based emotion recognition, selecting a compact set of relevant features (or channels) has been shown to improve classification accuracy and stability across subjects. For example, removing noisy channels/features can boost signal-to-noise ratio and emotion recognition performance. Overall, an effective feature selection step can enhance prediction accuracy, reduce model complexity, and facilitate easier interpretation of the brain patterns underlying emotions~\cite{hamzah2024heliyon}.
@@ -505,42 +515,44 @@ However, wrapper methods come with challenges. Their reliance on repeated model 
 \begin{small}
 \begin{longtable}{
 >{\raggedright\arraybackslash}p{0.13\textwidth}
->{\raggedright\arraybackslash}p{0.22\textwidth}
->{\raggedright\arraybackslash}p{0.18\textwidth}
 >{\raggedright\arraybackslash}p{0.20\textwidth}
->{\raggedright\arraybackslash}p{0.22\textwidth}
+>{\raggedright\arraybackslash}p{0.12\textwidth}
+>{\raggedright\arraybackslash}p{0.18\textwidth}
+>{\raggedright\arraybackslash}p{0.18\textwidth}
+>{\raggedright\arraybackslash}p{0.19\textwidth}
 }
 \caption{Representative studies on EEG feature selection techniques for emotion recognition.}
 \label{tab:eeg_feature_selection_summary} \\
 
 \toprule
-\textbf{Study} & \textbf{Approach} & \textbf{Advantages} & \textbf{Limitations} & \textbf{Key Findings} \\
+\textbf{Study} & \textbf{Approach} & \textbf{Feature Selection Method} & \textbf{Advantages} & \textbf{Limitations} & \textbf{Key Findings} \\
 \midrule
 \endfirsthead
 
-\multicolumn{5}{c}{\textit{Table~\ref{tab:eeg_feature_selection_summary} continued}} \\
+\multicolumn{6}{c}{\textit{Table~\ref{tab:eeg_feature_selection_summary} continued}} \\
 \toprule
-\textbf{Study} & \textbf{Approach} & \textbf{Advantages} & \textbf{Limitations} & \textbf{Key Findings} \\
+\textbf{Study} & \textbf{Approach} & \textbf{Feature Selection Method} & \textbf{Advantages} & \textbf{Limitations} & \textbf{Key Findings} \\
 \midrule
 \endhead
 
 \midrule
-\multicolumn{5}{r}{\textit{Continued on next page}} \\
+\multicolumn{6}{r}{\textit{Continued on next page}} \\
 \endfoot
 
 \bottomrule
 \endlastfoot
 
-Xu \textit{et al.}~\cite{xu2021_pairwise_redundancy} & Orthogonal regression for pairwise redundancy reduction & Removes overlapping features, boosts relevance & Assumes linearity in correlations & Improves generalization across individuals \\
+Xu \textit{et al.}~\cite{xu2021_pairwise_redundancy} & Orthogonal regression for pairwise redundancy reduction & Embedded & Removes overlapping features, boosts relevance & Assumes linearity in correlations & Improves generalization across individuals \\
 
-Kannadasan \textit{et al.}~\cite{kannadasan2023_de_eeg} & Differential evolution for feature subset selection & Searches compact, accurate feature sets & Evolution search is slow at scale & Increases classification stability in DEAP \\
+Kannadasan \textit{et al.}~\cite{kannadasan2023_de_eeg} & Differential evolution for feature subset selection & Wrapper & Searches compact, accurate feature sets & Evolution search is slow at scale & Increases classification stability in DEAP \\
 
-Liu \textit{et al.}~\cite{liu2018emdfeature} & EMD with optimal subset evaluation & Efficient combination of decomposition and selection & EMD results vary with input noise & Smaller feature sets yield higher accuracy \\
+Liu \textit{et al.}~\cite{liu2018emdfeature} & EMD with optimal subset evaluation & Wrapper & Efficient combination of decomposition and selection & EMD results vary with input noise & Smaller feature sets yield higher accuracy \\
 
-Wang \textit{et al.}~\cite{wang2019channel} & NMI-based EEG channel selection & Reduces redundancy and sensor count & Subset may vary across subjects & Preserves accuracy with fewer channels \\
+Wang \textit{et al.}~\cite{wang2019channel} & NMI-based EEG channel selection & Filter & Reduces redundancy and sensor count & Subset may vary across subjects & Preserves accuracy with fewer channels \\
 
 \end{longtable}
 \end{small}
+
 
 
 \subsection{Challenges and Strategies in EEG Data Handling}
