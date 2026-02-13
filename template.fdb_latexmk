@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex template"] 1770468706.71571 "template.aux" "template.bbl" "template" 1770468720.48692 0
+["bibtex template"] 1770984553.53099 "template.aux" "template.bbl" "template" 1770984567.89166 0
   "./MSP.bst" 1769907428 25182 619ffd31cd0a328a9ba9e0e5799ee5d9 ""
   "./references.bib" 1769907428 68064 7067e6668d8332f92b446737bf20d766 ""
-  "template.aux" 1770468719 20579 8eaa8166b9a3557c2f19aa256327366a "pdflatex"
+  "template.aux" 1770984566 20554 058ab37ccd4f9dffb6839435ceb7e920 "pdflatex"
   (generated)
   "template.bbl"
   "template.blg"
   (rewritten before read)
-["pdflatex"] 1770468707.25103 "d:/VS Code/Deep Learning/EEG Signal/EEG_Review_Paper/template.tex" "template.pdf" "template" 1770468720.48828 0
+["pdflatex"] 1770984554.03418 "d:/VS Code/Deep Learning/EEG Signal/EEG_Review_Paper/template.tex" "template.pdf" "template" 1770984567.89284 0
   "C:/Users/shihabsarar12/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1769932505 111117 1893ee98a909f5c79a3d60dcc05388f0 ""
   "C:/Users/shihabsarar12/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1769930160 14064 b19a3d1bd44469fa27f53907b4fd038f ""
   "C:/Users/shihabsarar12/AppData/Local/MiKTeX/fonts/pk/ljfour/public/bbm/dpi600/bbm12.pk" 1769930157 8448 63787fbba6ade173dad168bca2d2affa ""
@@ -122,17 +122,17 @@
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1761901070 15651 9d7c62df82cb29a555c00550babfe364 ""
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/tex/latex/tools/longtable.sty" 1761901070 16014 dfa4b4d4e04a78a3f05a90c19711737a ""
   "WileyMSP-template.cls" 1769907428 778 4368b09b65f2d488d6d653ca3702653c ""
-  "d:/VS Code/Deep Learning/EEG Signal/EEG_Review_Paper/template.tex" 1770468678 140996 2e166aab281a1bedc79cceb4075db9f4 ""
-  "pictures/3D_emotion.png" 1769907428 1351649 2bd273227067f8b472a8b6df776bc83e ""
+  "d:/VS Code/Deep Learning/EEG Signal/EEG_Review_Paper/template.tex" 1770984538 142597 06ca7019bbb2c0037fc8e0fff6f7cce7 ""
+  "pictures/3D_emotion.png" 1770983681 1437437 340c2dfe59132f7ed9adb28f82ed1b78 ""
   "pictures/Bands.png" 1769907428 194700 f24f98d5d1501de5ada99eebc4c4ec4c ""
   "pictures/Human_Brain_EEG.png" 1769907428 2011821 f43ea07fcfb0f72018ebc638d0c566f8 ""
-  "pictures/Modalities.png" 1769907428 58447 c23c1559adf48ece3f05019fb66a6a4f ""
+  "pictures/Modalities.jpg" 1770984377 123503 5d94951b7379d5796043ff82a71f0a6d ""
   "pictures/Valence.png" 1769907428 63455 8c6d6523a4c49d1d8cf5809e5130d62b ""
   "pictures/bio-placeholder.jpg" 1769907428 5609 16788fd7cb658c6b14904f6fe7c51b38 ""
-  "pictures/tem_freq_spa.png" 1770466396 1979273 c606291dbc74e627838527027435c840 ""
-  "template.aux" 1770468719 20579 8eaa8166b9a3557c2f19aa256327366a "pdflatex"
-  "template.bbl" 1770468707 20720 c2ce75588e3dc33c24b193f9dd806023 "bibtex template"
-  "template.tex" 1770468678 140996 2e166aab281a1bedc79cceb4075db9f4 ""
+  "pictures/tem_freq_spa.png" 1770469199 1972942 ce5a25a3d13926f319dbe8402bf1d199 ""
+  "template.aux" 1770984566 20554 058ab37ccd4f9dffb6839435ceb7e920 "pdflatex"
+  "template.bbl" 1770984553 20720 c2ce75588e3dc33c24b193f9dd806023 "bibtex template"
+  "template.tex" 1770984538 142597 06ca7019bbb2c0037fc8e0fff6f7cce7 ""
   "toc-image.png" 1769907428 523 8df9cb6676c6568fb0e4c6e50848f15a ""
   "vch-logo.png" 1769907428 16843 cdcb170b29bef54e858ac3c6a69ec018 ""
   (generated)
