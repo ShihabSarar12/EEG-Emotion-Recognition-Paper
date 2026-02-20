@@ -82,14 +82,90 @@ Recent breakthroughs in deep learning have led to significant improvements in EE
 
 There has been an increased need to carry out a review of up-to-date research work in the area of emotion recognition using EEG. There are many reviews that were mainly concentrating on architectural originality or evaluation tasks on a single dataset, with less concern for cross-subject and cross-dataset generalization \cite{alotaiby2017review,craik2019deep}. Additionally, a lack of standardized preprocessing pipelines and inconsistencies in evaluation methodologies make it hard to make a valid inference \cite{peerjreview2023} on the research. There is no consensus or agreement on the best way for model design, evaluation, and implementation of effective EEG-based emotion recognition \cite{springerreview2024}.
 
-Limitations of some of the above-mentioned works have only focused on one aspect of deep learning for EEG-based emotion recognition. In order to overcome these limitations, this paper provides a systematic and detailed review of deep learning methods for EEG-based emotion recognition. The key contributions of this review are summarized as
+\subsection{Contributions}
+Compared with recent surveys and reviews on EEG-based emotion recognition and deep learning
+this review contributes:
 
 \begin{enumerate}
-    \item A well-organized establishment of fundamental research issues pertaining to processing and feature extraction of EEG signals, as well as deep learning-based modeling of emotion.
-    \item Comparative synthesis of CNN, RNN, and GNN-based approaches within subject-specific and subject-independent frameworks.
-    \item Discussion of generalization, robustness, and efficiency tradeoffs in paradigms of deep learning analytically.
-    \item Critical analysis of existing work on transfer learning and domain adaptation methods for dealing with intersubject and cross-dataset variation.
+  \item \textbf{End-to-end coverage from theory to practice:}
+  a unified narrative that connects emotion theory (discrete + dimensional models), neurophysiological foundations,
+  stimulus/induction design, acquisition hardware evolution, multimodal affect modeling, and EEG correlates to the
+  complete learning pipeline (preprocessing $\rightarrow$ feature extraction $\rightarrow$ feature selection $\rightarrow$ modeling).
+
+  \item \textbf{A section-aligned taxonomy matching real research workflows:}
+  a structured map that mirrors how EEG-ER systems are built (data/design $\rightarrow$ sensing $\rightarrow$ processing $\rightarrow$ modeling $\rightarrow$ evaluation),
+  making it easier to locate open problems and best practices than method-only taxonomies.
+
+  \item \textbf{Cross-domain feature viewpoint consolidated into one framework:}
+  explicit, side-by-side synthesis of temporal, frequency, spatial, temporal--frequency, and fusion-domain feature concepts,
+  including how modern deep models operationalize these representations.
+
+  \item \textbf{Evaluation rigor emphasized beyond “accuracy”:}
+  clearer separation of subject-dependent vs.\ subject-independent protocols and how they affect reported performance,
+  plus a consolidated view of metrics, dataset splits, and reproducibility pitfalls.
+
+  \item \textbf{Challenges-to-strategies linking:}
+  each major challenge (redundancy, scarcity, cross-subject generalization, practical deployment constraints)
+  is paired with concrete strategy families (selection/regularization, augmentation/generation, domain adaptation, lightweight pipelines).
+
+  \item \textbf{Modern comparison lens:}
+  an explicit “what is covered vs.\ missing” matrix across leading recent reviews, highlighting under-covered but important
+  aspects (stimulus design, acquisition systems, multimodal modeling, and practical constraints) that this paper includes.
 \end{enumerate}
+
+\begin{table*}[htb]
+\centering
+\small
+\renewcommand{\arraystretch}{1.1}
+\setlength{\tabcolsep}{3pt}
+\caption{Coverage comparison with recent EEG emotion recognition reviews/surveys. The proposed review (Paper~5) provides end-to-end coverage across theoretical, methodological, and evaluation dimensions.}
+\label{tab:coverage_comparison}
+
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{p{0.28\textwidth} c c c c c c c}
+\toprule
+\textbf{Paper} &
+\textbf{Emotion-Theory} &
+\textbf{Subject-Dependent} &
+\textbf{Subject-Independent} &
+\textbf{Acquisition} &
+\textbf{Signal Proc.} &
+\textbf{Model Taxonomy} &
+\textbf{Eval \& Bench.} \\
+\midrule
+
+Jafari \textit{et al.} (2023) \cite{jafari2023dlreview} &
+ &  &  &
+ & $\checkmark$ & $\checkmark$ & $\checkmark$ \\
+
+Wang \textit{et al.} (2024) \cite{wang2024researchprogress} &
+$\checkmark$ & $\checkmark$ & $\checkmark$ &
+ & $\checkmark$ & $\checkmark$ & $\checkmark$ \\
+
+Ma \textit{et al.} (2024) \cite{ma2024peerjreview} &
+ & $\checkmark$ & $\checkmark$ &
+ & $\checkmark$ & $\checkmark$ & $\checkmark$ \\
+
+Erat \textit{et al.} (2024) \cite{erat2024mta} &
+ &  &  &
+ & $\checkmark$ & $\checkmark$ & $\checkmark$ \\
+
+Chen \textit{et al.} (2025) \cite{chen2025asocreview} &
+ &  &  &
+ & $\checkmark$ & $\checkmark$ & $\checkmark$ \\
+
+Geng \textit{et al.} (2025) \cite{geng2025dlreview} &
+ & $\checkmark$ & $\checkmark$ &
+ & $\checkmark$ & $\checkmark$ & $\checkmark$ \\
+
+\textbf{This Work} &
+$\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ &
+$\checkmark$ & $\checkmark$ & $\checkmark$ \\
+
+\bottomrule
+\end{tabular}%
+}
+\end{table*}
 
 This review integrates scattered research on EEG emotion recognition into a cohesive view. It provides an overview of the essential challenges of EEG signal processing, feature extraction, and deep learning for modeling emotions and comparisons of popular neural architectures like convolutional networks, recurrent networks, and graph networks for subject-specific and subject-independent tasks. This review provides an insight into the essential trade-offs of generalization capability, robustness, and complexity that limit the application of the current solutions. Apart from this, the potential of transfer learning and domain adaptation in handling intersubject and cross-domain variability has been discussed with both limitations and opportunities. There are several other topics that will be discussed in the review to introduce an overview of the state of the art while identifying the essential research paths for improving robust and scalable solutions for EEG emotion recognition.
 
@@ -341,11 +417,21 @@ Mahajan \& Morshed~\cite{Mahajan2014} & Wavelet-enhanced ICA artifact removal & 
 
 Val-Calvo \textit{et al.}~\cite{ValCalvo2019} & Lightweight real-time preprocessing pipeline & Channel Selection and Spatial Filtering & Low-latency and computationally efficient & Simplified features limit generalization & Enables real-time EEG emotion recognition \\
 
+Dura \& Wosiak~\cite{dura2021channelstrategy} & Channel selection strategy to reduce electrodes for deep learning emotion ER & Channel Selection and Spatial Filtering & Reduces channels while retaining discriminative information; lowers computation & Strategy may be dataset/model-dependent; risk of losing spatial cues & Shows that careful channel reduction can maintain emotion classification performance \\
+
+Mammone \& Morabito~\cite{mammone2014awica} & Enhanced AWICA (wavelet-assisted ICA) for automatic artifact suppression & Hybrid ICA-Wavelet Techniques & Automated removal with reduced manual intervention; effective on nonstationary artifacts & Performance depends on decomposition settings; may distort low-amplitude neural components & Improves EEG cleanliness via wavelet-based component processing before downstream analysis \\
+
+Kumar \textit{et al.}~\cite{kumar2019wica} & Wavelet-enhanced ICA for ocular artifact removal in EEG & Hybrid ICA-Wavelet Techniques & Better EOG suppression than plain ICA; preserves more neural content using wavelet denoising & Computationally heavier than simple filtering; parameter tuning required & Demonstrates improved ocular artifact attenuation with wavelet+ICA hybrid processing \\
+
 \end{longtable}
 \end{small}
 
 
+The preprocessing of EEG data is the critical first stage that makes up the entire frame of reference and determines whether brain patterns that correspond to emotional states can be simultaneously detected. The drive for affective EEG signatures to be consistently identified relies on a number of factors such as; their low amplitude nature; the amount of ocular, muscular, and nonstationary artifacts present; etc., and as a result, preprocessing conditions, which can either improve or diminish classification accuracy, generalizability, and reproducibility. 
 
+The studies presented in the table can be grouped into four complementary categories. Artifact removal strategies, including multi-channel Wiener filtering, independent component analysis (ICA) based rejection, and wavelet thresholding have been shown to consistently improve the overall quality of the signal, and also have an impact on downstream recognition, but their applicability involves trade-offs such as the validity of the covariance estimated like Gaussian, the subjectivity associated with selecting the appropriate components, or the location of the artifacts being targeted. Hybrid ICA-wavelet approaches attempt to merge the separation component of ICA with the time-frequency denoising capability of wavelets in order to automate the suppression of ocular artifacts, though the benefits of such techniques may be skewed towards blinks and need to be tested on other sources of artifacts. Channel selection and spatial filtering strategies like using baseline normalized bandpass filtering, help to mitigate noise and inter subject variability, but rely heavily on the availability of baseline data, and may also attenuate informative bands unintentionally. Lightweight real-time pipelines are emphasized to provide low latency and computationally efficient online affective interfaces but not all of the simplifications used in these pipelines are designed to ensure that robustness will be obtained across subjects.
+
+It can be inferred from the Table \ref{tab:eeg_preprocessing_summary} that preprocessing must be performed according to deployment constraints: aggressive data cleaning is needed when conducting offline modeling; standardized methods should be used in order to provide comparability between preprocessing results; and streamlined processing must occur when carrying out inference in real time.
 
 \subsubsection{Feature Extraction}
 The process of feature extraction transforms the preprocessed EEG signals into a form where emotion-related features become more easily separable. The most important assumption is that affective neural responses occur collectively in time, frequency, and scalp space. Hence, features relevant to emotions cannot be found in a single domain. Feature extraction techniques can generally be divided into two classes: (i) explicit representations, where features can be derived from signals, and (ii) learned features, where deep models learn features from raw or minimally preprocessed EEG or engineered features.
@@ -476,6 +562,33 @@ Chen \textit{et al.}~\cite{chen2019feature} & Differential entropy features with
 
 Bigirimana \textit{et al.}~\cite{bigirimana2020emotion} & Multi-class CSP spatial filtering & Spatial & Enhances emotion-specific spatial patterns & Sensitive to non-stationarity and subject variation & Boosts multi-class EEG emotion accuracy \\
 
+Lin \textit{et al.}~\cite{lin2010eegpower} & Power spectral asymmetry analysis for emotion classification & Frequency & Captures hemispheric imbalance related to valence & Sensitive to noise and baseline drift & Demonstrates frontal alpha asymmetry correlates with emotional valence \\
+
+Jenke \textit{et al.}~\cite{jenke2014feature} & Comparative evaluation of frequency-domain EEG features & Frequency & Identifies robust spectral descriptors for emotion decoding & Requires feature selection optimization & Highlights differential entropy and PSD as strong frequency predictors \\
+
+Al-Nafjan \textit{et al.}~\cite{alnafjan2017psd} & PSD-based spectral feature extraction with SVM & Frequency & Simple and computationally efficient & Limited temporal resolution & Confirms spectral power variations distinguish valence states \\
+
+
+Murugappan \textit{et al.}~\cite{murugappan2010time} & Statistical time-domain features for emotion classification & Temporal & Low computational cost; suitable for real-time systems & Limited ability to capture nonstationary dynamics & Shows time-domain variance and mean features discriminate emotions \\
+
+Gupta \textit{et al.}~\cite{gupta2019temporal} & Hjorth parameters and higher-order statistics & Temporal & Reflects signal activity and mobility characteristics & Sensitive to artifacts & Demonstrates temporal descriptors contribute to valence-arousal recognition \\
+
+Petrantonakis \& Hadjileontiadis~\cite{petrantonakis2010emotion} & Higher-order crossings (HOC) for EEG temporal dynamics & Temporal & Captures nonlinear signal characteristics & Requires careful parameter tuning & HOC features enhance multi-class emotion accuracy \\
+
+
+Zhao \textit{et al.}~\cite{zhao2019stft} & Short-Time Fourier Transform for emotional EEG analysis & Temporal-Frequency & Preserves both temporal and spectral information & Window-size selection impacts performance & STFT-based representations improve arousal classification \\
+
+Subasi \& Gursoy~\cite{subasi2010wavelet} & Wavelet transform for EEG emotional state detection & Temporal-Frequency & Handles non-stationary EEG signals effectively & Higher computational complexity & Wavelet coefficients improve emotional discrimination \\
+
+Huang \textit{et al.}~\cite{huang2019hilbert} & Hilbert-Huang transform for nonlinear EEG analysis & Temporal-Frequency & Adaptive decomposition for nonlinear signals & Mode mixing may occur & Enhances representation of emotion-related oscillatory patterns \\
+
+
+Li \textit{et al.}~\cite{li2018fusion} & Feature-level fusion of spatial and spectral EEG descriptors & Fusion & Integrates complementary information & Risk of high dimensionality & Fusion improves robustness across subjects \\
+
+Zheng \& Lu~\cite{zheng2015investigating} & Combined frequency and spatial asymmetry features & Fusion & Exploits hemispheric asymmetry and band power & Requires careful channel selection & Identifies critical bands and regions for emotion decoding \\
+
+Zhang \textit{et al.}~\cite{zhang2020multifeature} & Multi-feature fusion with deep neural networks & Fusion & Learns hierarchical representation from heterogeneous features & High model complexity & Feature fusion enhances cross-subject generalization \\
+
 \end{longtable}
 \end{small}
 
@@ -548,9 +661,32 @@ Liu \textit{et al.}~\cite{liu2018emdfeature} & EMD with optimal subset evaluatio
 
 Wang \textit{et al.}~\cite{wang2019channel} & NMI-based EEG channel selection & Filter & Reduces redundancy and sensor count & Subset may vary across subjects & Preserves accuracy with fewer channels \\
 
+Peng \textit{et al.}~\cite{peng2005mrmr} & Minimum Redundancy Maximum Relevance (mRMR) for EEG feature ranking & Filter & Selects maximally relevant yet minimally redundant features & Requires discretization for continuous signals & Improves robustness of EEG-based classifiers via mutual information criteria \\
+
+Al-Nafjan \textit{et al.}~\cite{alnafjan2017feature} & ReliefF-based statistical feature ranking & Filter & Fast computation and noise-tolerant ranking & May overlook nonlinear inter-feature interactions & Demonstrates effective dimensionality reduction for valence classification \\
+
+Jenke \textit{et al.}~\cite{jenke2014feature} & Comparative evaluation of filter-based feature ranking methods & Filter & Identifies most discriminative EEG descriptors & Dependent on classifier compatibility & Highlights mutual information and Fisher score as effective EEG selectors \\
+
+
+Subasi~\cite{subasi2007genetic} & Genetic algorithm for optimal EEG feature subset & Wrapper & Explores global search space effectively & Computationally expensive for large feature pools & GA-based selection improves classification accuracy over manual selection \\
+
+Guler \& Ubeyli~\cite{guler2005adaptive} & Adaptive neuro-fuzzy inference with feature subset search & Wrapper & Combines nonlinear modeling with subset optimization & Risk of overfitting with small datasets & Wrapper optimization enhances emotion-related EEG separability \\
+
+Shen \textit{et al.}~\cite{shen2010feature} & Sequential forward selection with SVM evaluation & Wrapper & Produces compact feature subsets & Greedy search may miss global optimum & Reduces dimensionality while preserving classification performance \\
+
+
+Guyon \textit{et al.}~\cite{guyon2002gene} & Recursive Feature Elimination (RFE) with SVM & Embedded & Integrates selection into classifier training & Sensitive to parameter settings & Embedded ranking improves generalization in high-dimensional data \\
+
+Zhang \textit{et al.}~\cite{zhang2016lasso} & LASSO-based sparse feature learning & Embedded & Automatically enforces sparsity during training & Linear constraint limits nonlinear capture & Sparse modeling enhances cross-subject stability \\
+
+Li \textit{et al.}~\cite{li2019embedded} & Deep neural network with attention-based embedded selection & Embedded & Learns task-relevant features automatically & Requires large training data & Embedded attention improves discriminative EEG feature learning \\
+
 \end{longtable}
 \end{small}
 
+Table~\ref{tab:eeg_feature_selection_summary} summarizes representative feature selection strategies employed in EEG-based emotion recognition and highlights the evolution from conventional statistical ranking methods to model-integrated sparse learning approaches. Overall, the studies demonstrate that feature selection plays a crucial role in addressing the high dimensionality, redundancy, and subject variability inherent in EEG signals. The table shows that filter methods provide computationally efficient redundancy reduction and channel optimization, making them suitable for real-time or resource-constrained systems. Wrapper methods, although computationally heavier, generally achieve improved classification stability by directly optimizing feature subsets with respect to classifier performance. Embedded approaches integrate feature selection within the learning process itself, enabling simultaneous model training and dimensionality reduction, which is particularly beneficial for deep learning-based frameworks.
+
+Across all categories, a consistent finding is that reducing irrelevant or overlapping EEG features enhances generalization, improves robustness across subjects, and lowers computational burden without sacrificing accuracy. The table therefore reflects a broader research trend toward compact, discriminative, and task-adaptive feature representations, which are essential for scalable and cross-subject emotion recognition systems.
 
 \subsection{Challenges and Strategies in EEG Data Handling}
 Single-modal EEG emotion recognition remains constrained by practical data-handling issues that directly influence generalization, reproducibility, and deployment. Two recurring bottlenecks are (i) redundant or weakly informative feature sets that inflate model capacity requirements and (ii) limited labeled samples that encourage overfitting and unstable training. Recent work, therefore, treats data handling as a co-design problem, where feature selection, augmentation, and generation are integrated into the learning pipeline rather than being optional post-processing steps.

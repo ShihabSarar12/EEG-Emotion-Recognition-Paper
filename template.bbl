@@ -50,6 +50,11 @@ A.~et~al.,
 A.~et~al.,
 \newblock \emph{Applied Soft Computing} \textbf{2024}.
 
+\bibitem{jafari2023dlreview}
+R.~Jafari, H.~Seifi, H.~Behnam,
+\newblock \emph{Biomedical Signal Processing and Control} \textbf{2023},
+  \emph{82} 104603.
+
 \bibitem{wang2024researchprogress}
 Y.~Wang, et~al.,
 \newblock \emph{ACM Computing Surveys} \textbf{2024}, \emph{56}, 11 Article
@@ -59,6 +64,19 @@ Y.~Wang, et~al.,
 W.~Ma, et~al.,
 \newblock \emph{PeerJ Computer Science} \textbf{2024}.
 
+\bibitem{erat2024mta}
+K.~Erat, E.~B. Şahin, et~al.,
+\newblock \emph{Multimedia Tools and Applications} \textbf{2024}.
+
+\bibitem{chen2025asocreview}
+Y.~Chen, et~al.,
+\newblock \emph{Applied Soft Computing} \textbf{2025}, \emph{180} 113478.
+
+\bibitem{geng2025dlreview}
+Y.~Geng, S.~Shi, X.~Hao,
+\newblock \emph{Neural Computing and Applications} \textbf{2025}, \emph{37}
+  1919.
+
 \bibitem{li2022transferreview}
 W.~Li, et~al.,
 \newblock \emph{IEEE Transactions on Cognitive and Developmental Systems}
@@ -67,11 +85,6 @@ W.~Li, et~al.,
 \bibitem{hamzah2024heliyon}
 H.~A. Hamzah, K.~K. Abdalla,
 \newblock \emph{Heliyon} \textbf{2024}, \emph{10}, 10 e31485.
-
-\bibitem{geng2025dlreview}
-Y.~Geng, S.~Shi, X.~Hao,
-\newblock \emph{Neural Computing and Applications} \textbf{2025}, \emph{37}
-  1919.
 
 \bibitem{tripathi2017deapcnn}
 S.~Tripathi, S.~Acharya, R.~Sharma, et~al.,
@@ -103,11 +116,6 @@ S.~M. Alarcao, M.~J. Fonseca,
 Y.~Roy, H.~Banville, I.~Albuquerque, et~al.,
 \newblock \emph{Journal of Neural Engineering} \textbf{2019}, \emph{16}, 5
   051001.
-
-\bibitem{jafari2023dlreview}
-R.~Jafari, H.~Seifi, H.~Behnam,
-\newblock \emph{Biomedical Signal Processing and Control} \textbf{2023},
-  \emph{82} 104603.
 
 \bibitem{lu2021bcisurvey}
 Y.~Lu, J.~Wang, B.-L. Lu,
@@ -305,6 +313,18 @@ M.~Val{-}Calvo, J.~R. {\'{A}}lvarez{-}S{\'{a}}nchez, J.~M.
 \newblock \emph{Frontiers in Computational Neuroscience} \textbf{2019},
   \emph{13} 80.
 
+\bibitem{dura2021channelstrategy}
+M.~Dura, A.~Wosiak,
+\newblock \emph{Procedia Computer Science} \textbf{2021}, \emph{192} 1765.
+
+\bibitem{mammone2014awica}
+N.~Mammone, F.~C. Morabito,
+\newblock \emph{Entropy} \textbf{2014}, \emph{16}, 12 6553.
+
+\bibitem{kumar2019wica}
+B.~Kumar, R.~Kumar, J.~Singh,
+\newblock \emph{Brain Sciences} \textbf{2019}.
+
 \bibitem{li2021_3dfeatdfcn}
 D.~Li, B.~Chai, Z.~Wang, H.~Yang, W.~Du,
 \newblock \emph{IEEE Transactions on Cognitive and Developmental Systems}
@@ -366,6 +386,63 @@ A.~D. Bigirimana, N.~Siddique, D.~Coyle,
 \newblock \emph{IEEE Transactions on Neural Systems and Rehabilitation
   Engineering} \textbf{2020}, \emph{28}, 4 850.
 
+\bibitem{lin2010eegpower}
+Y.-P. Lin, C.-H. Wang, T.-P. Jung, T.-L. Wu, S.-K. Jeng, J.-R. Duann, J.-H.
+  Chen,
+\newblock \emph{IEEE Transactions on Biomedical Engineering} \textbf{2010},
+  \emph{57}, 7 1798.
+
+\bibitem{jenke2014feature}
+R.~Jenke, A.~Peer, M.~Buss,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2014},
+  \emph{5}, 3 327.
+
+\bibitem{alnafjan2017psd}
+A.~Al-Nafjan, M.~Hosny, Y.~Al-Ohali, A.~Al-Wabil,
+\newblock \emph{Sensors} \textbf{2017}, \emph{17}, 5 1237.
+
+\bibitem{murugappan2010time}
+M.~Murugappan, R.~Nagarajan, S.~Yaacob,
+\newblock \emph{Expert Systems with Applications} \textbf{2010}, \emph{37}, 3
+  2527.
+
+\bibitem{gupta2019temporal}
+R.~Gupta, R.~B. Pachori,
+\newblock \emph{Biomedical Signal Processing and Control} \textbf{2019},
+  \emph{52} 204.
+
+\bibitem{petrantonakis2010emotion}
+P.~C. Petrantonakis, L.~J. Hadjileontiadis,
+\newblock \emph{IEEE Transactions on Information Technology in Biomedicine}
+  \textbf{2010}, \emph{14}, 2 186.
+
+\bibitem{zhao2019stft}
+X.~Zhao, L.~Zhang, Y.~Xu,
+\newblock \emph{Biomedical Signal Processing and Control} \textbf{2019},
+  \emph{52} 194.
+
+\bibitem{subasi2010wavelet}
+A.~Subasi, M.~I. Gursoy,
+\newblock \emph{Expert Systems with Applications} \textbf{2010}, \emph{32}, 4
+  1084.
+
+\bibitem{huang2019hilbert}
+N.~E. Huang, Z.~Shen, S.~R. Long,
+\newblock \emph{Annual Review of Fluid Mechanics} \textbf{2019}, \emph{31} 417.
+
+\bibitem{li2018fusion}
+J.~Li, S.~Qiu, C.~Du, Y.~Wang, H.~He,
+\newblock \emph{IEEE Access} \textbf{2018}, \emph{6} 40446.
+
+\bibitem{zheng2015investigating}
+W.-L. Zheng, B.-L. Lu,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2015},
+  \emph{6}, 1 18.
+
+\bibitem{zhang2020multifeature}
+Y.~Zhang, S.~Wang, G.~Ji, P.~Phillips,
+\newblock \emph{Knowledge-Based Systems} \textbf{2020}, \emph{191} 105458.
+
 \bibitem{xu2021_pairwise_redundancy}
 X.-Y. Xu, S.-Y. Wu, W.~Liu, W.-L. Zheng, B.-L. Lu,
 \newblock \emph{Knowledge-Based Systems} \textbf{2021}, \emph{214} 106742.
@@ -384,6 +461,41 @@ Z.-T. Liu, Q.~Xie, M.~Wu, et~al.,
 \bibitem{wang2019channel}
 Z.-M. Wang, S.-Y. Hu, H.~Song,
 \newblock \emph{IEEE access} \textbf{2019}, \emph{7} 143303.
+
+\bibitem{peng2005mrmr}
+H.~Peng, F.~Long, C.~Ding,
+\newblock \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+  \textbf{2005}, \emph{27}, 8 1226.
+
+\bibitem{alnafjan2017feature}
+A.~Al-Nafjan, M.~Hosny, Y.~Al-Ohali, A.~Al-Wabil,
+\newblock \emph{Sensors} \textbf{2017}, \emph{17}, 5 1237.
+
+\bibitem{subasi2007genetic}
+A.~Subasi,
+\newblock \emph{Expert Systems with Applications} \textbf{2007}, \emph{32}, 4
+  1084.
+
+\bibitem{guler2005adaptive}
+I.~Guler, E.~D. Ubeyli,
+\newblock \emph{Journal of Medical Systems} \textbf{2005}, \emph{29}, 5 467.
+
+\bibitem{shen2010feature}
+J.~Shen, H.~Zhang, Y.~Xu,
+\newblock \emph{International Journal of Computer Applications} \textbf{2010},
+  \emph{3}, 3 1.
+
+\bibitem{guyon2002gene}
+I.~Guyon, J.~Weston, S.~Barnhill, V.~Vapnik,
+\newblock \emph{Machine Learning} \textbf{2002}, \emph{46}, 1 389.
+
+\bibitem{zhang2016lasso}
+Y.~Zhang, S.~Wang, P.~Phillips,
+\newblock \emph{Neurocomputing} \textbf{2016}, \emph{174} 1091.
+
+\bibitem{li2019embedded}
+X.~Li, D.~Song, P.~Zhang, G.~Yu, Y.~Hou, B.~Hu,
+\newblock \emph{IEEE Access} \textbf{2019}, \emph{7} 111410.
 
 \bibitem{xu2023_fsor_weighting}
 H.~Xu, Q.~Cai, Q.~Zhang, Y.~Han, C.~Wang,
