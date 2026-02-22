@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex template"] 1771569838.1822 "template.aux" "template.bbl" "template" 1771569907.48539 0
+["bibtex template"] 1771655199.64793 "template.aux" "template.bbl" "template" 1771655213.16388 0
   "./MSP.bst" 1769907428 25182 619ffd31cd0a328a9ba9e0e5799ee5d9 ""
-  "./references.bib" 1771568658 74972 7a32aa9723a7efae7bb4329ebbeaaaed ""
-  "template.aux" 1771569906 22679 1bfdd1059b6b7ec72debc5b133d55910 "pdflatex"
+  "./references.bib" 1771655136 79132 1e40e54843e708f0e828a225dbbd9aaa ""
+  "template.aux" 1771655211 23836 268279a793ed7bd2b2893763da81efd9 "pdflatex"
   (generated)
   "template.bbl"
   "template.blg"
   (rewritten before read)
-["pdflatex"] 1771569894.30982 "d:/VS Code/Deep Learning/EEG Signal/EEG_Review_Paper/template.tex" "template.pdf" "template" 1771569907.48674 0
+["pdflatex"] 1771655200.12491 "d:/VS Code/Deep Learning/EEG Signal/EEG_Review_Paper/template.tex" "template.pdf" "template" 1771655213.16495 0
   "C:/Users/shihabsarar12/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1769932505 111117 1893ee98a909f5c79a3d60dcc05388f0 ""
   "C:/Users/shihabsarar12/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1769930160 14064 b19a3d1bd44469fa27f53907b4fd038f ""
   "C:/Users/shihabsarar12/AppData/Local/MiKTeX/fonts/pk/ljfour/public/bbm/dpi600/bbm12.pk" 1769930157 8448 63787fbba6ade173dad168bca2d2affa ""
@@ -55,6 +55,7 @@
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy9.tfm" 1136765053 1116 25a7bf822c58caf309a702ef79f4afbb ""
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti12.tfm" 1136765053 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti9.tfm" 1136765053 1476 cccc6cc4935c18ec3d5623b77ecb8b74 ""
+  "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmtt12.tfm" 1136765053 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1247596666 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb" 1247596666 32166 b0c356b15f19587482a9217ce1d8fa67 ""
@@ -76,6 +77,7 @@
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1247596667 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1247596667 36118 fad905eba93cff5bce1e185fe980a177 ""
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb" 1247596667 36310 f5ddc6715cc60deb16d9db5ded6a9391 ""
+  "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb" 1247596666 24252 1e4e051947e12dfb50fee0b7f4e26e3a ""
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb" 1247596670 35479 2cca68718f15872e7cce1a8f6033b99b ""
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1247596673 31764 459c573c03a4949a528c2cc7f557e217 ""
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596673 34694 870c211f62cb72718a00e353f14f254d ""
@@ -123,17 +125,17 @@
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1761901070 15651 9d7c62df82cb29a555c00550babfe364 ""
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/tex/latex/tools/longtable.sty" 1761901070 16014 dfa4b4d4e04a78a3f05a90c19711737a ""
   "WileyMSP-template.cls" 1769907428 778 4368b09b65f2d488d6d653ca3702653c ""
-  "d:/VS Code/Deep Learning/EEG Signal/EEG_Review_Paper/template.tex" 1771569893 156059 3851a4056a8ffc1867d7ff17a5a8f33c ""
+  "d:/VS Code/Deep Learning/EEG Signal/EEG_Review_Paper/template.tex" 1771655184 163259 79136dcbc58dd263a78ae9d47df21b38 ""
   "pictures/3D_emotion.png" 1770983681 1437437 340c2dfe59132f7ed9adb28f82ed1b78 ""
   "pictures/Bands.png" 1769907428 194700 f24f98d5d1501de5ada99eebc4c4ec4c ""
   "pictures/Human_Brain_EEG.png" 1769907428 2011821 f43ea07fcfb0f72018ebc638d0c566f8 ""
-  "pictures/Modalities.jpg" 1770984377 123503 5d94951b7379d5796043ff82a71f0a6d ""
+  "pictures/Modalities.png" 1771652236 61267 450065f9d8f28fe69dace1ebbea8f1b8 ""
   "pictures/Valence.png" 1769907428 63455 8c6d6523a4c49d1d8cf5809e5130d62b ""
   "pictures/bio-placeholder.jpg" 1769907428 5609 16788fd7cb658c6b14904f6fe7c51b38 ""
   "pictures/tem_freq_spa.png" 1770469199 1972942 ce5a25a3d13926f319dbe8402bf1d199 ""
-  "template.aux" 1771569906 22679 1bfdd1059b6b7ec72debc5b133d55910 "pdflatex"
-  "template.bbl" 1771569838 24349 e286fd2fe3f6f69ad3c4c8b197973b11 "bibtex template"
-  "template.tex" 1771569893 156059 3851a4056a8ffc1867d7ff17a5a8f33c ""
+  "template.aux" 1771655211 23836 268279a793ed7bd2b2893763da81efd9 "pdflatex"
+  "template.bbl" 1771655200 26342 1572cc633b820b94c3a801a47d9a116e "bibtex template"
+  "template.tex" 1771655184 163259 79136dcbc58dd263a78ae9d47df21b38 ""
   "toc-image.png" 1769907428 523 8df9cb6676c6568fb0e4c6e50848f15a ""
   "vch-logo.png" 1769907428 16843 cdcb170b29bef54e858ac3c6a69ec018 ""
   (generated)

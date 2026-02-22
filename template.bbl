@@ -597,6 +597,58 @@ K.~Zhou, Z.~Liu, Y.~Qiao, T.~Xiang, C.~C. Loy,
 \newblock \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}
   \textbf{2022}, \emph{45}, 4 4396.
 
+\bibitem{ganin2016dann}
+Y.~Ganin, E.~Ustinova, H.~Ajakan, P.~Germain, H.~Larochelle, F.~Laviolette,
+  M.~Marchand, V.~Lempitsky,
+\newblock \emph{Journal of Machine Learning Research} \textbf{2016}, \emph{17},
+  59 1.
+
+\bibitem{gretton2012kernel}
+A.~Gretton, K.~M. Borgwardt, M.~J. Rasch, B.~Sch{\"o}lkopf, A.~Smola,
+\newblock \emph{Journal of Machine Learning Research} \textbf{2012}, \emph{13},
+  25 723.
+
+\bibitem{sun2016deepcoral}
+B.~Sun, K.~Saenko,
+\newblock In \emph{Computer Vision - {ECCV} 2016 Workshops - Amsterdam, The
+  Netherlands, October 8-10 and 15-16, 2016, Proceedings, Part {III}}, volume
+  9915 of \emph{Lecture Notes in Computer Science}. \textbf{2016} 443--450.
+
+\bibitem{pan2011tca}
+S.~J. Pan, I.~W. Tsang, J.~T. Kwok, Q.~Yang,
+\newblock \emph{{IEEE} Transactions on Neural Networks} \textbf{2011},
+  \emph{22}, 2 199.
+
+\bibitem{chai2017asfm}
+X.~Chai, Q.~Wang, Y.~Zhao, Y.~Li, D.~Liu, X.~Liu, O.~Bai,
+\newblock \emph{Sensors} \textbf{2017}, \emph{17}, 5 1014.
+
+\bibitem{bao2021tdann}
+G.~Bao, N.~Zhuang, L.~Tong, B.~Yan, J.~Shu, L.~Wang, Y.~Zeng, Z.~Shen,
+\newblock \emph{Frontiers in Human Neuroscience} \textbf{2021}, \emph{14}
+  605246.
+
+\bibitem{chen2021msmda}
+H.~Chen, M.~Jin, Z.~Li, C.~Fan, J.~Li, H.~He,
+\newblock \emph{Frontiers in Neuroscience} \textbf{2021}, \emph{15} 778488.
+
+\bibitem{wang2025pesd}
+F.~Wang, Y.-C. Tian, X.~Zhou,
+\newblock \emph{Expert Systems with Applications} \textbf{2025}, \emph{279}
+  127348.
+
+\bibitem{finn2017maml}
+C.~Finn, P.~Abbeel, S.~Levine,
+\newblock In \emph{Proceedings of the 34th International Conference on Machine
+  Learning}, volume~70 of \emph{Proceedings of Machine Learning Research}.
+  PMLR, \textbf{2017} 1126--1135,
+\newblock \urlprefix\url{https://proceedings.mlr.press/v70/finn17a.html}.
+
+\bibitem{li2020latentda}
+J.~Li, S.~Qiu, C.~Du, Y.~Wang, H.~He,
+\newblock \emph{{IEEE} Transactions on Cognitive and Developmental Systems}
+  \textbf{2020}, \emph{12}, 2 344.
+
 \bibitem{yroyhb2019deeplear}
 Y.~Roy, H.~Banville, I.~Albuquerque, et~al.,
 \newblock \emph{Journal of Neural Engineering} \textbf{2019}.

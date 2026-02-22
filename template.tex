@@ -118,49 +118,42 @@ this review contributes:
 \small
 \renewcommand{\arraystretch}{1.1}
 \setlength{\tabcolsep}{3pt}
-\caption{Coverage comparison with recent EEG emotion recognition reviews/surveys. The proposed review (Paper~5) provides end-to-end coverage across theoretical, methodological, and evaluation dimensions.}
-\label{tab:coverage_comparison}
+\caption{Comparison of coverage across recent EEG emotion recognition reviews. The proposed review (This Work) provides comprehensive coverage across all major dimensions.}
+\label{tab:coverage_comparison_transposed}
 
 \resizebox{\textwidth}{!}{%
-\begin{tabular}{p{0.28\textwidth} c c c c c c c}
+\begin{tabular}{p{0.26\textwidth} c c c c c c c}
 \toprule
-\textbf{Paper} &
-\textbf{Emotion-Theory} &
-\textbf{Subject-Dependent} &
-\textbf{Subject-Independent} &
-\textbf{Acquisition} &
-\textbf{Signal Proc.} &
-\textbf{Model Taxonomy} &
-\textbf{Eval \& Bench.} \\
+\textbf{Attribute} &
+\textbf{Jafari 2023 \cite{jafari2023dlreview}} &
+\textbf{Wang 2024 \cite{wang2024researchprogress}} &
+\textbf{Ma 2024 \cite{ma2024peerjreview}} &
+\textbf{Erat 2024 \cite{erat2024mta}} &
+\textbf{Chen 2025 \cite{chen2025asocreview}} &
+\textbf{Geng 2025 \cite{geng2025dlreview}} &
+\textbf{This Work} \\
 \midrule
 
-Jafari \textit{et al.} (2023) \cite{jafari2023dlreview} &
- &  &  &
- & $\checkmark$ & $\checkmark$ & $\checkmark$ \\
+Emotion-Theory &
+ & $\checkmark$ &  &  &  &  & $\checkmark$ \\
 
-Wang \textit{et al.} (2024) \cite{wang2024researchprogress} &
-$\checkmark$ & $\checkmark$ & $\checkmark$ &
- & $\checkmark$ & $\checkmark$ & $\checkmark$ \\
+Subject-Dependent &
+ & $\checkmark$ & $\checkmark$ &  &  & $\checkmark$ & $\checkmark$ \\
 
-Ma \textit{et al.} (2024) \cite{ma2024peerjreview} &
- & $\checkmark$ & $\checkmark$ &
- & $\checkmark$ & $\checkmark$ & $\checkmark$ \\
+Subject-Independent &
+ & $\checkmark$ & $\checkmark$ &  &  & $\checkmark$ & $\checkmark$ \\
 
-Erat \textit{et al.} (2024) \cite{erat2024mta} &
- &  &  &
- & $\checkmark$ & $\checkmark$ & $\checkmark$ \\
+Acquisition &
+ &  &  &  &  &  & $\checkmark$ \\
 
-Chen \textit{et al.} (2025) \cite{chen2025asocreview} &
- &  &  &
- & $\checkmark$ & $\checkmark$ & $\checkmark$ \\
+Signal Processing &
+$\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ \\
 
-Geng \textit{et al.} (2025) \cite{geng2025dlreview} &
- & $\checkmark$ & $\checkmark$ &
- & $\checkmark$ & $\checkmark$ & $\checkmark$ \\
+Model Taxonomy &
+$\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ \\
 
-\textbf{This Work} &
-$\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ &
-$\checkmark$ & $\checkmark$ & $\checkmark$ \\
+Evaluation \& Benchmarking &
+$\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ & $\checkmark$ \\
 
 \bottomrule
 \end{tabular}%
@@ -297,7 +290,7 @@ Wang et al. \cite{wang2018decisionfusion} delve into a decision-level fusion whe
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.35\linewidth]{pictures/Modalities.jpg}
+    \includegraphics[width=0.75\linewidth]{pictures/Modalities.png}
     \caption{Modalities}
     \label{fig:modalities}
 \end{figure}
@@ -728,6 +721,39 @@ Interpretability-oriented designs increasingly complement accuracy in subject-de
 Subject-independent analysis trains on a source cohort and evaluates on unseen subjects, so domain shift across individuals becomes the dominant error source \cite{li2018emotion}. Transfer learning and cross-subject adaptation methods reduce this mismatch by learning subject-invariant features through feature alignment, parameter sharing, and regularization, while preserving emotion-relevant variation \cite{zhang2021cross,li2018emotion}. Plug-and-play and adversarial domain adaptation frameworks explicitly align latent distributions between source and target subjects using unlabeled target data, so these methods target invariance without requiring full target supervision \cite{zhao2021ppda}. Domain-adaptive neural formulations further refine alignment to preserve discriminability under shift \cite{bao2021tldann}. Latent-representation similarity objectives also constrain transfer by regularizing feature geometry between domains \cite{li2019lrs}. Contrastive objectives encourage subject-invariant embeddings by pulling together emotion-consistent samples while pushing apart emotion-inconsistent samples across subjects \cite{shen2022contrastive}, and cross-corpus evaluation settings reveal how these invariances behave under dataset-level mismatch \cite{rayatdoost2018crosscorpus}.
 
 More recent subject-independent methods integrate topology-aware backbones with adaptation modules that manage both cross-subject and cross-dataset variability \cite{xu2023dagam}. Domain-adversarial graph attention models align relational representations across domains while maintaining spatial-temporal structure \cite{xu2023dagam,zhong2022graph}. Graph attention-based spatial-temporal learning further supports subject-independent decoding by encoding dynamic interactions among electrodes \cite{zhu2022gatstpl}. Multi-source adaptation methods treat each subject or dataset as a distinct source and learn transferable prototypes or shared subspaces \cite{li2023msfran}. Pairwise and prototypical learning frameworks mitigate negative transfer under heterogeneous sources \cite{zhou2023prpl}. Parameter-efficient adaptation formulations reduce adaptation overhead while preserving transfer performance \cite{zhang2022_parse}. Broader domain generalization theory motivates training objectives that optimize shift-robust representations rather than single-domain accuracy \cite{zhou2022dgsurvey}.
+
+\subsubsection{Domain Adaptation Models}
+\label{sec:domain_adaptation}
+
+A central barrier to \emph{subject-independent} EEG emotion recognition is \textbf{domain shift}: the statistical mismatch between data used for training (source domain) and data observed at deployment (target domain). In EEG emotion tasks, a ``domain'' commonly corresponds to a \emph{subject}, \emph{session/day}, or an entirely different \emph{dataset/device montage}. Because EEG is highly nonstationary and strongly individualized, the feature distribution and even class-conditional structure can drift across subjects and recording contexts. Formally, letting the labeled source set be $\mathcal{D}_s=\{(x_i^s,y_i^s)\}_{i=1}^{n_s}$ and the target set be $\mathcal{D}_t=\{x_j^t\}_{j=1}^{n_t}$ (often unlabeled in practice), domain shift implies $P_s(X,Y)\neq P_t(X,Y)$, e.g., due to changes in $P(X)$ (covariate shift), $P(Y)$ (label shift), or $P(Y|X)$ (concept drift). Consequently, models optimized only for empirical risk on $\mathcal{D}_s$ can fail under leave-one-subject-out (LOSO) testing. \textbf{Domain adaptation (DA)} addresses this by learning representations and/or decision rules that transfer across domains, typically by aligning source and target distributions while preserving emotion-discriminative structure \cite{ganin2016dann,gretton2012kernel,sun2016deepcoral}.
+
+\vspace{2pt}
+\noindent\textbf{Taxonomy of DA in EEG emotion recognition.}
+Method families used in affective EEG map closely to general DA, but with EEG-specific choices (e.g., differential entropy features, graph-structured channels, multi-source subjects). (i) \emph{Instance reweighting} adjusts the contribution of source samples to approximate the target distribution (importance weighting), partially correcting covariate shift; this is attractive when feature spaces are stable but subject distributions differ. (ii) \emph{Subspace alignment / projection-based DA} learns a shared latent space where domains become closer (e.g., kernel subspace transfer such as Transfer Component Analysis, TCA) \cite{pan2011tca}, or EEG-specific efficient alignment (e.g., adaptive subspace feature matching for cross-subject/session emotion recognition) \cite{chai2017asfm}. (iii) \emph{Discrepancy-based feature alignment} minimizes an explicit distance between source and target features, such as maximum mean discrepancy (MMD) rooted in RKHS mean embeddings \cite{gretton2012kernel} or correlation alignment (CORAL) that matches second-order statistics \cite{sun2016deepcoral}. (iv) \emph{Adversarial DA} learns \emph{domain-invariant} features by training a domain discriminator against the feature extractor (Domain-Adversarial Neural Networks, DANN) \cite{ganin2016dann}, and has been repeatedly adapted to EEG emotion settings, including two-level strategies combining discrepancy and adversarial alignment \cite{bao2021tdann}. (v) \emph{Multi-source DA} treats each source subject/session as a separate domain to reduce negative transfer; MS-MDA is a representative approach for cross-subject/cross-session EEG emotion recognition that performs one-to-one adaptation per source branch \cite{chen2021msmda}. (vi) \emph{Transfer learning / fine-tuning} leverages pretraining to initialize models, then adapts with limited target data or weak supervision; recent cross-dataset transfer work explores pretrained encoders plus alignment losses and discriminators to generalize across datasets \cite{wang2025pesd}. (vii) \emph{Few-shot and meta-learning} aims to learn initializations or update rules that rapidly adapt with a handful of target samples; model-agnostic meta-learning (MAML) is a common conceptual template for such fast adaptation \cite{finn2017maml}.
+
+\begin{align}
+\min_{G,F}\max_{D}\;\; \mathcal{L}_{\text{DANN}}
+&=\mathcal{L}_y(\mathcal{D}_s;G,F)\;-\;\lambda\,\mathcal{L}_d(\mathcal{D}_s,\mathcal{D}_t;G,D), \label{eq:dann} \\
+\mathrm{MMD}^2(\mathcal{Z}_s,\mathcal{Z}_t)
+&=\Big\|\frac{1}{n_s}\sum_{i=1}^{n_s}\phi(z_i^s)\;-\;\frac{1}{n_t}\sum_{j=1}^{n_t}\phi(z_j^t)\Big\|_{\mathcal{H}}^2, \label{eq:mmd}\\
+\mathcal{L}_{\text{CORAL}}
+&=\frac{1}{4d^2}\,\|C_s-C_t\|_F^2. \label{eq:coral}
+\end{align}
+In \eqref{eq:dann}, $G$ is a feature extractor mapping $x\mapsto z$, $F$ is the emotion classifier, and $D$ is a domain discriminator; $\mathcal{L}_y$ is the supervised emotion loss on labeled source data and $\mathcal{L}_d$ is a domain classification loss that encourages $z$ to be indistinguishable across domains via adversarial training (often implemented with a gradient reversal layer) \cite{ganin2016dann}. In \eqref{eq:mmd}, $\phi(\cdot)$ maps features into an RKHS $\mathcal{H}$, making MMD a kernel-based measure that aligns mean embeddings of source/target features \cite{gretton2012kernel}. In \eqref{eq:coral}, $C_s$ and $C_t$ are the empirical covariance matrices of source/target features (dimension $d$), and CORAL reduces shift by matching second-order statistics \cite{sun2016deepcoral}.
+
+\noindent\textbf{Evaluation protocols and metrics.}
+DA methods are typically assessed under \emph{LOSO} (train on all but one subject and test/adapt on the held-out subject) and cross-session protocols (train on one session/day, adapt to another). More challenging \emph{cross-dataset transfer} evaluates robustness to device, montage, and stimulus differences \cite{wang2025pesd}. Standard metrics include classification accuracy (often reported for valence/arousal binaries), macro-F1 for class imbalance, and balanced accuracy when per-class recall parity matters; reporting variance across folds is particularly important in LOSO due to heterogeneous subjects.
+
+\noindent\textbf{Practical challenges and mitigation.}
+EEG DA must contend with (i) nonstationarity and temporal drift, (ii) very limited labeled target data (or none), (iii) strong inter-subject variability that can cause negative transfer, and (iv) sensor/montage mismatch that complicates feature alignment. Effective mitigations include strong regularization and early stopping to prevent overfitting to noisy pseudo-labels, subject-aware normalization/alignment in feature space, and augmented training (e.g., mixup-style perturbations or noise models) to prevent the discriminator from exploiting trivial domain cues \cite{chai2017asfm,bao2021tdann,chen2021msmda}. When small labeled calibration is available, hybrid semi-supervised strategies can stabilize conditional alignment; when not, robust marginal alignment plus structured inductive biases (topology-aware encoders, multi-source weighting) can improve invariance \cite{li2020latentda,chen2021msmda}.
+
+\begin{enumerate}
+  \item \textbf{Report protocols precisely:} specify LOSO splits, whether target labels are used (unsupervised vs.\ semi-supervised), and any calibration budget.
+  \item \textbf{Diagnose shift explicitly:} visualize/quantify domain discrepancy (e.g., MMD, covariance shift) before and after adaptation to validate that ``adaptation'' is occurring.
+  \item \textbf{Control negative transfer:} include ablations for multi-source weighting/selection and monitor per-subject failures rather than only mean accuracy.
+  \item \textbf{Stress-test generalization:} complement LOSO with at least one cross-dataset setting to capture device/montage shift \cite{wang2025pesd}.
+\end{enumerate}
+
 
 \subsection{Machine Learning and Deep Learning Methods}
 
