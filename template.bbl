@@ -614,40 +614,121 @@ B.~Sun, K.~Saenko,
   Netherlands, October 8-10 and 15-16, 2016, Proceedings, Part {III}}, volume
   9915 of \emph{Lecture Notes in Computer Science}. \textbf{2016} 443--450.
 
-\bibitem{pan2011tca}
-S.~J. Pan, I.~W. Tsang, J.~T. Kwok, Q.~Yang,
-\newblock \emph{{IEEE} Transactions on Neural Networks} \textbf{2011},
-  \emph{22}, 2 199.
+\bibitem{pyjeng2021lowdimen}
+P.-Y. Jeng, C.-S. Wei, T.-P. Jung, L.-C. Wang,
+\newblock \emph{IEEE Journal of Biomedical and Health Informatics}
+  \textbf{2021}.
 
-\bibitem{chai2017asfm}
-X.~Chai, Q.~Wang, Y.~Zhao, Y.~Li, D.~Liu, X.~Liu, O.~Bai,
-\newblock \emph{Sensors} \textbf{2017}, \emph{17}, 5 1014.
+\bibitem{lyanrz2018tradaboo}
+L.~Yan, R.~Zhang, et~al.,
+\newblock \emph{Journal article cited in uploaded reviews} \textbf{2018}.
 
-\bibitem{bao2021tdann}
-G.~Bao, N.~Zhuang, L.~Tong, B.~Yan, J.~Shu, L.~Wang, Y.~Zeng, Z.~Shen,
-\newblock \emph{Frontiers in Human Neuroscience} \textbf{2021}, \emph{14}
-  605246.
+\bibitem{lzhang2020guidesub}
+L.~Zhang, et~al.,
+\newblock \emph{Journal article cited in uploaded reviews} \textbf{2020}.
+
+\bibitem{dwuyxu2020transfer}
+D.~Wu, Y.~Xu, B.-L. Lu,
+\newblock \emph{IEEE Transactions on Cognitive and Developmental Systems}
+  \textbf{2020}.
 
 \bibitem{chen2021msmda}
 H.~Chen, M.~Jin, Z.~Li, C.~Fan, J.~Li, H.~He,
 \newblock \emph{Frontiers in Neuroscience} \textbf{2021}, \emph{15} 778488.
 
-\bibitem{wang2025pesd}
+\bibitem{Imtiaz2025}
+M.~N. Imtiaz, N.~Khan,
+\newblock \emph{Computers in Biology and Medicine} \textbf{2025}, \emph{184}
+  109394.
+
+\bibitem{cimtay2020pretrainedcnn}
+Y.~Cimtay, E.~Ekmekcioglu,
+\newblock \emph{Sensors} \textbf{2020}, \emph{20}, 7 2034.
+
+\bibitem{wu2022tcds_tl_bci_review}
+D.~Wu, Y.~Xu, B.-L. Lu,
+\newblock \emph{IEEE Transactions on Cognitive and Developmental Systems}
+  \textbf{2022}, \emph{14}, 1 4.
+
+\bibitem{wan2021neucom_transferreview}
+Z.~Wan, R.~Yang, M.~Huang, N.~Zeng, X.~Liu,
+\newblock \emph{Neurocomputing} \textbf{2021}, \emph{421} 1.
+
+\bibitem{li2022tcds_emotiontransfer_review}
+W.~Li, W.~Huan, B.~Hou, Y.~Tian, Z.~Zhang, A.~Song,
+\newblock \emph{IEEE Transactions on Cognitive and Developmental Systems}
+  \textbf{2022}, \emph{14}, 3 833.
+
+\bibitem{apicella2024neucom_systematic}
+A.~Apicella, P.~Arpaia, G.~D'Errico, D.~Marocco, G.~Mastrati, N.~Moccaldi,
+  R.~Prevete,
+\newblock \emph{Neurocomputing} \textbf{2024}, \emph{604} 128354.
+
+\bibitem{wang2024csur_researchprogress}
+Y.~Wang, B.~Zhang, L.~Di,
+\newblock \emph{ACM Computing Surveys} \textbf{2024}, \emph{56}, 11 1.
+
+\bibitem{li2018iconip_dan}
+H.~Li, Y.-M. Jin, W.-L. Zheng, B.-L. Lu,
+\newblock In \emph{Neural Information Processing (ICONIP 2018)}, volume 11305
+  of \emph{Lecture Notes in Computer Science}. Springer, Cham, \textbf{2018}
+  403--413.
+
+\bibitem{luo2018iconip_wganda}
+Y.~Luo, S.-Y. Zhang, W.-L. Zheng, B.-L. Lu,
+\newblock In \emph{Neural Information Processing (ICONIP 2018)}, volume 11305
+  of \emph{Lecture Notes in Computer Science}. Springer, Cham, \textbf{2018}
+  275--286.
+
+\bibitem{cimtay2020sensors_pretrainedcnn}
+Y.~Cimtay, E.~Ekmekcioglu,
+\newblock \emph{Sensors} \textbf{2020}, \emph{20}, 7 2034.
+
+\bibitem{bao2021frontiers_tdann}
+G.~Bao, N.~Zhuang, L.~Tong, B.~Yan, J.~Shu, L.~Wang, Y.~Zeng, Z.~Shen,
+\newblock \emph{Frontiers in Human Neuroscience} \textbf{2021}, \emph{14}
+  605246.
+
+\bibitem{zhao2021aaai_ppda}
+L.~Zhao, X.~Yan, B.-L. Lu,
+\newblock In \emph{Proceedings of the {AAAI} Conference on Artificial
+  Intelligence}, volume~35. \textbf{2021} 863--870,
+\newblock
+  \urlprefix\url{https://cdn.aaai.org/ojs/16169/16169-13-19663-1-2-20210518.pdf}.
+
+\bibitem{chen2021frontiers_msmda}
+H.~Chen, M.~Jin, Z.~Li, C.~Fan, J.~Li, H.~He,
+\newblock \emph{Frontiers in Neuroscience} \textbf{2021}, \emph{15} 778488.
+
+\bibitem{bhosale2022bspc_calibrationfree_metalearning}
+S.~Bhosale, R.~Chakraborty, S.~K. Kopparapu,
+\newblock \emph{Biomedical Signal Processing and Control} \textbf{2022},
+  \emph{72} 103289.
+
+\bibitem{li2022compbiomed_metatransfer_connectivity}
+J.~Li, H.~Hua, Z.~Xu, L.~Shu, X.~Xu, F.~Kuang, S.~Wu,
+\newblock \emph{Computers in Biology and Medicine} \textbf{2022}, \emph{145}
+  105519.
+
+\bibitem{quan2023bspc_multisource_transfer}
+J.~Quan, Y.~Li, L.~Wang, R.~He, S.~Yang, L.~Guo,
+\newblock \emph{Biomedical Signal Processing and Control} \textbf{2023},
+  \emph{84} 104741.
+
+\bibitem{lu2023frontiers_dffnet}
+W.~Lu, H.~Liu, H.~Ma, T.-P. Tan, L.~Xia,
+\newblock \emph{Frontiers in Human Neuroscience} \textbf{2023}, \emph{17}
+  1280241.
+
+\bibitem{imtiaz2025compbiomed_uda_gptds}
+M.~N. Imtiaz, N.~Khan,
+\newblock \emph{Computers in Biology and Medicine} \textbf{2025}, \emph{184}
+  109394.
+
+\bibitem{wang2025eswa_pesd}
 F.~Wang, Y.-C. Tian, X.~Zhou,
 \newblock \emph{Expert Systems with Applications} \textbf{2025}, \emph{279}
   127348.
-
-\bibitem{finn2017maml}
-C.~Finn, P.~Abbeel, S.~Levine,
-\newblock In \emph{Proceedings of the 34th International Conference on Machine
-  Learning}, volume~70 of \emph{Proceedings of Machine Learning Research}.
-  PMLR, \textbf{2017} 1126--1135,
-\newblock \urlprefix\url{https://proceedings.mlr.press/v70/finn17a.html}.
-
-\bibitem{li2020latentda}
-J.~Li, S.~Qiu, C.~Du, Y.~Wang, H.~He,
-\newblock \emph{{IEEE} Transactions on Cognitive and Developmental Systems}
-  \textbf{2020}, \emph{12}, 2 344.
 
 \bibitem{yroyhb2019deeplear}
 Y.~Roy, H.~Banville, I.~Albuquerque, et~al.,
@@ -716,23 +797,9 @@ C.~Y. Sai, N.~Mokhtar, H.~Arof, P.~Cumming, M.~Iwahashi,
 V.~Gupta, et~al.,
 \newblock \emph{Journal article cited in uploaded reviews} \textbf{2019}.
 
-\bibitem{dwuyxu2020transfer}
-D.~Wu, Y.~Xu, B.-L. Lu,
-\newblock \emph{IEEE Transactions on Cognitive and Developmental Systems}
-  \textbf{2020}.
-
 \bibitem{xjiang2019transfer}
 X.~Jiang, et~al.,
 \newblock \emph{Journal article cited in uploaded reviews} \textbf{2019}.
-
-\bibitem{pyjeng2021lowdimen}
-P.-Y. Jeng, C.-S. Wei, T.-P. Jung, L.-C. Wang,
-\newblock \emph{IEEE Journal of Biomedical and Health Informatics}
-  \textbf{2021}.
-
-\bibitem{lyanrz2018tradaboo}
-L.~Yan, R.~Zhang, et~al.,
-\newblock \emph{Journal article cited in uploaded reviews} \textbf{2018}.
 
 \bibitem{plieta2019eegbased}
 P.~Li, et~al.,
@@ -771,9 +838,5 @@ J.~Wei, J.~Li, et~al.,
 \bibitem{jxingk2018adaptive}
 J.~Xing, K., et~al.,
 \newblock \emph{Journal article cited in uploaded reviews} \textbf{2018}.
-
-\bibitem{lzhang2020guidesub}
-L.~Zhang, et~al.,
-\newblock \emph{Journal article cited in uploaded reviews} \textbf{2020}.
 
 \end{thebibliography}
