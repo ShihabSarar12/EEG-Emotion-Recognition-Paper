@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex template"] 1771940556.99248 "template.aux" "template.bbl" "template" 1771940570.81149 0
+["bibtex template"] 1772268929.03556 "template.aux" "template.bbl" "template" 1772268943.2326 0
   "./MSP.bst" 1769907428 25182 619ffd31cd0a328a9ba9e0e5799ee5d9 ""
-  "./references.bib" 1771940447 88512 43b32f8c3d17c9d459d291579b4fa063 ""
-  "template.aux" 1771940569 25705 49ffb0f1e15166467ec1f047026a825c "pdflatex"
+  "./references.bib" 1772268751 88923 ea6777d5fca6a66c5ca20326d964b51d ""
+  "template.aux" 1772268941 25117 2dccec718a25ece319a80fd57a5a1a12 "pdflatex"
   (generated)
   "template.bbl"
   "template.blg"
   (rewritten before read)
-["pdflatex"] 1771940557.47695 "d:/VS Code/Deep Learning/EEG Signal/EEG_Review_Paper/template.tex" "template.pdf" "template" 1771940570.81246 0
+["pdflatex"] 1772268929.52049 "d:/VS Code/Deep Learning/EEG Signal/EEG_Review_Paper/template.tex" "template.pdf" "template" 1772268943.2342 0
   "C:/Users/shihabsarar12/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1769932505 111117 1893ee98a909f5c79a3d60dcc05388f0 ""
   "C:/Users/shihabsarar12/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1769930160 14064 b19a3d1bd44469fa27f53907b4fd038f ""
   "C:/Users/shihabsarar12/AppData/Local/MiKTeX/fonts/pk/ljfour/public/bbm/dpi600/bbm12.pk" 1769930157 8448 63787fbba6ade173dad168bca2d2affa ""
@@ -72,6 +72,7 @@
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1247596666 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
+  "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1247596667 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1247596666 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb" 1247596666 35022 e40946b20bfdcd1099eafb2bcd9f25dd ""
@@ -127,7 +128,7 @@
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1761901070 15651 9d7c62df82cb29a555c00550babfe364 ""
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/tex/latex/tools/longtable.sty" 1761901070 16014 dfa4b4d4e04a78a3f05a90c19711737a ""
   "WileyMSP-template.cls" 1769907428 778 4368b09b65f2d488d6d653ca3702653c ""
-  "d:/VS Code/Deep Learning/EEG Signal/EEG_Review_Paper/template.tex" 1771940542 170387 6a941d7631d84b35a6907ed07a0d8024 ""
+  "d:/VS Code/Deep Learning/EEG Signal/EEG_Review_Paper/template.tex" 1772268914 182811 c09ea1a81ebbfe1d1854b571b85ff266 ""
   "pictures/3D_emotion.png" 1770983681 1437437 340c2dfe59132f7ed9adb28f82ed1b78 ""
   "pictures/Bands.png" 1769907428 194700 f24f98d5d1501de5ada99eebc4c4ec4c ""
   "pictures/Human_Brain_EEG.png" 1769907428 2011821 f43ea07fcfb0f72018ebc638d0c566f8 ""
@@ -135,9 +136,9 @@
   "pictures/Valence.png" 1769907428 63455 8c6d6523a4c49d1d8cf5809e5130d62b ""
   "pictures/bio-placeholder.jpg" 1769907428 5609 16788fd7cb658c6b14904f6fe7c51b38 ""
   "pictures/tem_freq_spa.png" 1770469199 1972942 ce5a25a3d13926f319dbe8402bf1d199 ""
-  "template.aux" 1771940569 25705 49ffb0f1e15166467ec1f047026a825c "pdflatex"
-  "template.bbl" 1771940557 28657 16d3bbf1bf0871c93f12de70ac5fe442 "bibtex template"
-  "template.tex" 1771940542 170387 6a941d7631d84b35a6907ed07a0d8024 ""
+  "template.aux" 1772268941 25117 2dccec718a25ece319a80fd57a5a1a12 "pdflatex"
+  "template.bbl" 1772268929 27537 6de02b07cb3c799b08bf9aedc1f1f3f7 "bibtex template"
+  "template.tex" 1772268914 182811 c09ea1a81ebbfe1d1854b571b85ff266 ""
   "toc-image.png" 1769907428 523 8df9cb6676c6568fb0e4c6e50848f15a ""
   "vch-logo.png" 1769907428 16843 cdcb170b29bef54e858ac3c6a69ec018 ""
   (generated)
