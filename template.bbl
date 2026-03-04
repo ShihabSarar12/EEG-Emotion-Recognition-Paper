@@ -620,6 +620,36 @@ A.~Apicella, P.~Arpaia, G.~D'Errico, D.~Marocco, G.~Mastrati, N.~Moccaldi,
   R.~Prevete,
 \newblock \emph{Neurocomputing} \textbf{2024}, \emph{604} 128354.
 
+\bibitem{ganin2016dann}
+Y.~Ganin, E.~Ustinova, H.~Ajakan, P.~Germain, H.~Larochelle, F.~Laviolette,
+  M.~Marchand, V.~Lempitsky,
+\newblock \emph{Journal of Machine Learning Research} \textbf{2016}, \emph{17},
+  59 1.
+
+\bibitem{gretton2012kernel}
+A.~Gretton, K.~M. Borgwardt, M.~J. Rasch, B.~Sch{\"o}lkopf, A.~Smola,
+\newblock \emph{Journal of Machine Learning Research} \textbf{2012}, \emph{13},
+  25 723.
+
+\bibitem{sun2016deepcoral}
+B.~Sun, K.~Saenko,
+\newblock In \emph{Computer Vision - {ECCV} 2016 Workshops - Amsterdam, The
+  Netherlands, October 8-10 and 15-16, 2016, Proceedings, Part {III}}, volume
+  9915 of \emph{Lecture Notes in Computer Science}. \textbf{2016} 443--450.
+
+\bibitem{chen2021msmda}
+H.~Chen, M.~Jin, Z.~Li, C.~Fan, J.~Li, H.~He,
+\newblock \emph{Frontiers in Neuroscience} \textbf{2021}, \emph{15} 778488.
+
+\bibitem{Imtiaz2025}
+M.~N. Imtiaz, N.~Khan,
+\newblock \emph{Computers in Biology and Medicine} \textbf{2025}, \emph{184}
+  109394.
+
+\bibitem{cimtay2020pretrainedcnn}
+Y.~Cimtay, E.~Ekmekcioglu,
+\newblock \emph{Sensors} \textbf{2020}, \emph{20}, 7 2034.
+
 \bibitem{li2018iconip_dan}
 H.~Li, Y.-M. Jin, W.-L. Zheng, B.-L. Lu,
 \newblock In \emph{Neural Information Processing (ICONIP 2018)}, volume 11305
@@ -656,12 +686,6 @@ L.~Zhao, X.~Yan, B.-L. Lu,
 \bibitem{yang2024ssaamsda}
 Y.~e.~a. Yang,
 \newblock \emph{IEEE Transactions on Affective Computing} \textbf{2024}.
-
-\bibitem{ganin2016dann}
-Y.~Ganin, E.~Ustinova, H.~Ajakan, P.~Germain, H.~Larochelle, F.~Laviolette,
-  M.~Marchand, V.~Lempitsky,
-\newblock \emph{Journal of Machine Learning Research} \textbf{2016}, \emph{17},
-  59 1.
 
 \bibitem{peng2022jfaglp}
 Y.~e.~a. Peng,

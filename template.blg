@@ -11,45 +11,45 @@ Warning--empty pages in priyasad2020attention
 Warning--can't use both volume and number fields in zhang2024_cccl
 Warning--can't use both volume and number fields in zhao2021ppda
 Warning--can't use both volume and number fields in zhao2021aaai_ppda
-You've used 173 entries,
+You've used 178 entries,
             2305 wiz_defined-function locations,
-            1301 strings with 33340 characters,
-and the built_in function-call counts, 55337 in all, are:
-= -- 3089
-> -- 1979
-< -- 5
-+ -- 775
-- -- 602
-* -- 3639
-:= -- 6382
-add.period$ -- 192
-call.type$ -- 173
-change.case$ -- 41
+            1322 strings with 34144 characters,
+and the built_in function-call counts, 57196 in all, are:
+= -- 3202
+> -- 2035
+< -- 6
++ -- 797
+- -- 619
+* -- 3768
+:= -- 6584
+add.period$ -- 198
+call.type$ -- 178
+change.case$ -- 43
 chr.to.int$ -- 0
-cite$ -- 179
-duplicate$ -- 5919
-empty$ -- 5425
-format.name$ -- 758
-if$ -- 11986
+cite$ -- 184
+duplicate$ -- 6109
+empty$ -- 5607
+format.name$ -- 780
+if$ -- 12398
 int.to.chr$ -- 0
-int.to.str$ -- 173
-missing$ -- 1570
-newline$ -- 698
-num.names$ -- 173
-pop$ -- 2267
+int.to.str$ -- 178
+missing$ -- 1620
+newline$ -- 718
+num.names$ -- 178
+pop$ -- 2335
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1447
+skip$ -- 1505
 stack$ -- 0
-substring$ -- 1950
-swap$ -- 3870
-text.length$ -- 5
+substring$ -- 2043
+swap$ -- 4002
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 6
-while$ -- 329
-width$ -- 176
-write$ -- 1528
+while$ -- 341
+width$ -- 181
+write$ -- 1574
 (There were 6 warnings)
