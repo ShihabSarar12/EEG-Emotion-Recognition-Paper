@@ -532,26 +532,49 @@ Y.~Zhang, T.~Zhang, M.~Liu, M.~Shi, M.~Liu, T.~Wen,
 \newblock In \emph{Proceedings of the AAAI Conference on Artificial
   Intelligence}, volume~38. \textbf{2024} 11087--11095.
 
-\bibitem{cui2020regionalasymcnn}
-H.~Cui, A.~Liu, X.~Zhang, et~al.,
-\newblock \emph{Knowledge-Based Systems} \textbf{2020}, \emph{205} 106243.
+\bibitem{wang2024csur_researchprogress}
+Y.~Wang, B.~Zhang, L.~Di,
+\newblock \emph{ACM Computing Surveys} \textbf{2024}, \emph{56}, 11 1.
 
-\bibitem{shen20204dcrnn}
-F.~Shen, G.~Dai, G.~Lin, et~al.,
-\newblock \emph{Cognitive Neurodynamics} \textbf{2020}, \emph{14} 815.
+\bibitem{apicella2024neucom_systematic}
+A.~Apicella, P.~Arpaia, G.~D'Errico, D.~Marocco, G.~Mastrati, N.~Moccaldi,
+  R.~Prevete,
+\newblock \emph{Neurocomputing} \textbf{2024}, \emph{604} 128354.
 
-\bibitem{tao2020channelselfatt}
-W.~Tao, C.~Li, R.~Song, et~al.,
+\bibitem{song2020dgcnn}
+T.~Song, W.~Zheng, P.~Song, Z.~Cui,
 \newblock \emph{IEEE Transactions on Affective Computing} \textbf{2020},
-  \emph{14}, 1 382.
+  \emph{11}, 3 532.
 
-\bibitem{li2022efficientcnncl}
-C.~Li, X.~Lin, Y.~Liu, et~al.,
-\newblock \emph{IEEE Sensors Journal} \textbf{2022}, \emph{22}, 20 19608.
+\bibitem{ma2019mmreslstm}
+J.~Ma, H.~Tang, W.-L. Zheng, B.-L. Lu,
+\newblock In \emph{Proceedings of the 27th ACM International Conference on
+  Multimedia (MM '19)}. Association for Computing Machinery, \textbf{2019} 8
+  pages.
 
-\bibitem{zhong2022graph}
-P.~e.~a. Zhong,
-\newblock \emph{Neural Networks} \textbf{2022}.
+\bibitem{ding2022tsception}
+Y.~Ding, N.~Robinson, S.~Zhang, Q.~Zeng, C.~Guan,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2023},
+  \emph{14} 2238.
+
+\bibitem{guo2022dcot}
+J.-Y. Guo, Q.~Cai, J.-P. An, P.-Y. Chen, C.~Ma, J.-H. Wan, Z.-K. Gao,
+\newblock \emph{Physica A: Statistical Mechanics and its Applications}
+  \textbf{2022}, \emph{603} 127700.
+
+\bibitem{liu2024ertnet}
+R.~Liu, Y.~Chao, X.~Ma, X.~Sha, L.~Sun, S.~Li, S.~Chang,
+\newblock \emph{Frontiers in Neuroscience} \textbf{2024}, \emph{18}, published:
+  17 January 2024.
+
+\bibitem{zhu2024sogpcn}
+X.~Zhu, C.~Liu, L.~Zhao, S.~Wang,
+\newblock \emph{Sensors} \textbf{2024}, \emph{24}, 11 3464.
+
+\bibitem{khan2024eegconvnet}
+S.~A. Khan, E.~Chaudary, W.~Mumtaz,
+\newblock \emph{Computers and Electrical Engineering} \textbf{2024}, \emph{116}
+  109178.
 
 \bibitem{li2018emotion}
 J.~e.~a. Li,
@@ -576,6 +599,10 @@ J.~Li, S.~Qiu, C.~Du, et~al.,
 T.~Xu, W.~Dang, J.~Wang, Y.~Zhou,
 \newblock \emph{Journal of Neural Engineering} \textbf{2023}, \emph{20}, 1
   016022.
+
+\bibitem{zhong2022graph}
+P.~e.~a. Zhong,
+\newblock \emph{Neural Networks} \textbf{2022}.
 
 \bibitem{zhu2022gatstpl}
 Y.~Zhu, Y.~Guo, W.~Zhu, et~al.,
@@ -610,15 +637,6 @@ Z.~Wan, R.~Yang, M.~Huang, N.~Zeng, X.~Liu,
 W.~Li, W.~Huan, B.~Hou, Y.~Tian, Z.~Zhang, A.~Song,
 \newblock \emph{IEEE Transactions on Cognitive and Developmental Systems}
   \textbf{2022}, \emph{14}, 3 833.
-
-\bibitem{wang2024csur_researchprogress}
-Y.~Wang, B.~Zhang, L.~Di,
-\newblock \emph{ACM Computing Surveys} \textbf{2024}, \emph{56}, 11 1.
-
-\bibitem{apicella2024neucom_systematic}
-A.~Apicella, P.~Arpaia, G.~D'Errico, D.~Marocco, G.~Mastrati, N.~Moccaldi,
-  R.~Prevete,
-\newblock \emph{Neurocomputing} \textbf{2024}, \emph{604} 128354.
 
 \bibitem{ganin2016dann}
 Y.~Ganin, E.~Ustinova, H.~Ajakan, P.~Germain, H.~Larochelle, F.~Laviolette,
