@@ -12,45 +12,45 @@ Warning--can't use both volume and number fields in zhang2024_cccl
 Warning--empty pages in ma2019mmreslstm
 Warning--can't use both volume and number fields in zhao2021ppda
 Warning--can't use both volume and number fields in zhao2021aaai_ppda
-You've used 181 entries,
+You've used 182 entries,
             2305 wiz_defined-function locations,
-            1338 strings with 34997 characters,
-and the built_in function-call counts, 58342 in all, are:
-= -- 3257
-> -- 2092
+            1343 strings with 35210 characters,
+and the built_in function-call counts, 58759 in all, are:
+= -- 3271
+> -- 2120
 < -- 6
-+ -- 818
-- -- 637
-* -- 3849
-:= -- 6711
-add.period$ -- 202
-call.type$ -- 181
++ -- 828
+- -- 646
+* -- 3881
+:= -- 6761
+add.period$ -- 203
+call.type$ -- 182
 change.case$ -- 47
 chr.to.int$ -- 0
-cite$ -- 188
-duplicate$ -- 6234
-empty$ -- 5713
-format.name$ -- 801
-if$ -- 12640
+cite$ -- 189
+duplicate$ -- 6280
+empty$ -- 5748
+format.name$ -- 811
+if$ -- 12724
 int.to.chr$ -- 0
-int.to.str$ -- 181
-missing$ -- 1658
-newline$ -- 730
-num.names$ -- 181
-pop$ -- 2393
+int.to.str$ -- 182
+missing$ -- 1673
+newline$ -- 734
+num.names$ -- 182
+pop$ -- 2410
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1530
+skip$ -- 1535
 stack$ -- 0
-substring$ -- 2066
-swap$ -- 4081
+substring$ -- 2070
+swap$ -- 4118
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 7
-while$ -- 345
-width$ -- 184
-write$ -- 1603
+while$ -- 347
+width$ -- 185
+write$ -- 1612
 (There were 7 warnings)

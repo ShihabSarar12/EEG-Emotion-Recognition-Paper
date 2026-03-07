@@ -714,6 +714,11 @@ M.~N. Imtiaz, N.~Khan,
 \newblock \emph{Computers in Biology and Medicine} \textbf{2025}, \emph{184}
   109394.
 
+\bibitem{li2022tutorial}
+X.~Li, Y.~Zhang, P.~Tiwari, D.~Song, B.~Hu, M.~Yang, Z.~Zhao, N.~Kumar,
+  P.~Marttinen,
+\newblock \emph{ACM Computing Surveys} \textbf{2022}, \emph{55}, 4 1.
+
 \bibitem{quan2023bspc_multisource_transfer}
 J.~Quan, Y.~Li, L.~Wang, R.~He, S.~Yang, L.~Guo,
 \newblock \emph{Biomedical Signal Processing and Control} \textbf{2023},
@@ -818,13 +823,13 @@ L.~Yan, R.~Zhang, et~al.,
 P.~Li, et~al.,
 \newblock \emph{IEEE Transactions on Biomedical Engineering} \textbf{2019}.
 
-\bibitem{gkpvee2019eegbased}
-G.~K.~P. Vee, et~al.,
-\newblock \emph{Journal article cited in uploaded reviews} \textbf{2019}.
-
 \bibitem{sphadi2019asurveyo}
 S.~Phadikar, et~al.,
 \newblock \emph{Survey article cited in uploaded reviews} \textbf{2019}.
+
+\bibitem{gkpvee2019eegbased}
+G.~K.~P. Vee, et~al.,
+\newblock \emph{Journal article cited in uploaded reviews} \textbf{2019}.
 
 \bibitem{tzhang2019spatialt}
 T.~Zhang, et~al.,
