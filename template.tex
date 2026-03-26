@@ -11,6 +11,7 @@
 \usepackage{geometry}
 \usepackage{caption}   
 
+
 \begin{document}
 
 
@@ -459,7 +460,7 @@ which is the adjacency matrix for the graph representation of the spatial featur
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.75\linewidth]{pictures/tem_freq_spa.png}
+    \includegraphics[width=\linewidth]{pictures/tem_freq_spa.png}
     \caption{Temporal vs Frequency vs Spatial Domain}
     \label{fig:temp_freq_spatial}
 \end{figure}
@@ -681,6 +682,13 @@ Table~\ref{tab:eeg_feature_selection_summary} summarizes representative feature 
 
 Across all categories, a consistent finding is that reducing irrelevant or overlapping EEG features enhances generalization, improves robustness across subjects, and lowers computational burden without sacrificing accuracy. The table therefore reflects a broader research trend toward compact, discriminative, and task-adaptive feature representations, which are essential for scalable and cross-subject emotion recognition systems.
 
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=\linewidth]{pictures/Method Overview.png}
+    \caption{Method Overview}
+    \label{fig:method}
+\end{figure}
+
 \subsection{Challenges and Strategies in EEG Data Handling}
 Single-modal EEG emotion recognition remains constrained by practical data-handling issues that directly influence generalization, reproducibility, and deployment. Two recurring bottlenecks are (i) redundant or weakly informative feature sets that inflate model capacity requirements and (ii) limited labeled samples that encourage overfitting and unstable training. Recent work, therefore, treats data handling as a co-design problem, where feature selection, augmentation, and generation are integrated into the learning pipeline rather than being optional post-processing steps.
 
@@ -863,6 +871,8 @@ Across subject-independent EEG emotion recognition, \textbf{multi-source DA} (e.
 
 Overall, fine-tuning strategies remain an effective mechanism for adapting pretrained EEG emotion recognition models to new subjects or datasets when a small labeled calibration set is available. Recent works combining fine-tuning with multi-source transfer, domain adaptation, or large-scale pretraining have achieved strong cross-subject and cross-dataset performance. However, these approaches still depend on limited labeled target data and may introduce additional training complexity, especially when hybrid adaptation frameworks or large pretrained encoders are employed.
 
+
+
 \subsection{Machine Learning and Deep Learning Methods}
 
 Machine learning and deep learning methods define EEG emotion recognition models through three core design decisions: the representation that converts raw EEG into learnable inputs, the hypothesis class that maps representations to affect labels, and the optimization strategy that estimates parameters under limited and noisy supervision \cite{yroyhb2019deeplear}. The model family also implies an assumption about what remains stable across trials and subjects, because shallow models often assume engineered features already encode invariances \cite{smalar2019emotions}, whereas deep models often learn invariances from data through inductive bias and regularization \cite{wlizzh2021physiolo}. A practical description of ``the model'' therefore includes not only the classifier but also the feature extraction operator, the regularizers that control complexity, and the training protocol that prevents leakage-driven shortcuts in time-windowed EEG segmentation \cite{nssuha2020eegbased}. Model choice also reflects an implicit stance on nonstationarity, because feature-engineering pipelines often treat stationarity as a preprocessing outcome \cite{ztliuq2019electroe}, while end-to-end learners treat stationarity as a representation-learning target \cite{megger2019emotionr}. The model specification, therefore, remains inseparable from the data collection and annotation process, because stimulus design and subject instruction define the distribution that the optimizer actually sees \cite{ctanfs2018asurveyo}.
@@ -968,7 +978,6 @@ CNN--RNN hybrids commonly pass convolutional embeddings $\mathbf{h}_t$ (local sp
 where $\mathbf{s}_t$ is the hidden state, $\mathbf{z}_t$ and $\mathbf{r}_t$ are update/reset gates, and $\odot$ denotes element-wise multiplication. This structure encodes multi-scale context by pairing local feature extraction (CNN) with sequential memory (RNN/GRU), which is useful when affective dynamics evolve over extended time \cite{tzhang2019spatialt,hheand2019channela}.
 
 Overall, hybrid models are best when emotion cues are \textbf{multi-factorial} (simultaneously spatial, temporal, and relational) and when the dataset/protocol provides enough coverage to train multi-module systems without overfitting. CNN--RNN (or CNN--Transformer) hybrids are often preferable when both short-term rhythmic patterns and longer temporal context are discriminative, whereas topology-aware+temporal hybrids are preferable when inter-channel coupling is central to affect representation \cite{tzhang2019spatialt,hheand2019channela}. However, because hybrids introduce optimization sensitivity and branch-dominance risks, they are most reliable under careful normalization, regularization, and disciplined ablations that separate true architectural benefit from preprocessing or split artifacts \cite{megger2019emotionr,nssuha2020eegbased,wlizzh2021physiolo}.
-
 
 
 \textbf{References}\\
