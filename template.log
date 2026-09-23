@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.1)  26 MAR 2026 12:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.1)  23 SEP 2026 18:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -606,45 +606,64 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \extratabsurround=\skip86
 \backup@length=\skip87
 \ar@cellbox=\box61
+) (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen192
+\TX@old@table=\dimen193
+\TX@old@col=\dimen194
+\TX@target=\dimen195
+\TX@delta=\dimen196
+\TX@cols=\count309
+\TX@ftn=\toks30
+) (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2025/01/14 v2.16e rotated objects in LaTeX
+ (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count310
+\rotFPtop=\skip88
+\rotFPbot=\skip89
+\rot@float@box=\box62
+\rot@mess@toks=\toks31
 ) (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count309
+\l__color_backend_stack_int=\count311
 ) (template.aux)
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 15.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 17.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 17.
  (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    ... okay on input line 17.
  (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count310
-\scratchdimen=\dimen192
-\scratchbox=\box62
-\nofMPsegments=\count311
-\nofMParguments=\count312
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count313
-\MPscratchDim=\dimen193
-\MPnumerator=\count314
-\makeMPintoPDFobject=\count315
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count312
+\scratchdimen=\dimen197
+\scratchbox=\box63
+\nofMPsegments=\count313
+\nofMParguments=\count314
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count315
+\MPscratchDim=\dimen198
+\MPnumerator=\count316
+\makeMPintoPDFobject=\count317
+\everyMPtoPDFconversion=\toks33
 ) (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -656,6 +675,7 @@ Package caption Info: longtable package is loaded.
  (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
+Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
@@ -692,13 +712,13 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \celsius on input line 15.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 15.
+LaTeX Info: Redefining \celsius on input line 17.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 17.
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 15.
-Package gensymb Info: Using \Omega for \ohm on input line 15.
+LaTeX Info: Redefining \ohm on input line 17.
+Package gensymb Info: Using \Omega for \ohm on input line 17.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1744,41 +1764,665 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
 [41]
-Overfull \hbox (16.87062pt too wide) in paragraph at lines 985--985
-\OT1/cmr/m/n/12 2 ((Work ac-cepted)) A. B. Au-thor 1, C. D. Au-thor 2, Macro-mol. Rapid Com-mun., DOI: 10.1002/marc.DOI.  
+Overfull \hbox (2.73882pt too wide) in paragraph at lines 987--988
+\OT1/cmr/m/n/12 gories, and (c) mul-ti-modal ex-ten-sions (ECG/GSR/eye gaze/video) en-abling fu-sion and ro-bust-ness checks. 
  []
 
 
-Overfull \hbox (25.0997pt too wide) in paragraph at lines 990--990
-\OT1/cmr/m/n/12 7 ((Patents)) a) A. B. Au-thor 1, C. D. Au-thor 2 (Com-pany), Coun-try Patent Num-ber, Year; b) W. Lehmann, 
+Overfull \hbox (2.05962pt too wide) in paragraph at lines 987--988
+\OT1/cmr/m/n/12 This se-lec-tion sup-ports both al-go-rith-mic com-par-i-son and method-olog-i-cal au-dit-ing (e.g., whether im-prove- 
  []
 
-<pictures/bio-placeholder.jpg, id=177, 113.7048pt x 142.3719pt>
-File: pictures/bio-placeholder.jpg Graphic file (type jpg)
-<use pictures/bio-placeholder.jpg>
-Package pdftex.def Info: pictures/bio-placeholder.jpg  used on input line 1002.
-(pdftex.def)             Requested size: 113.70451pt x 142.37154pt.
-File: pictures/bio-placeholder.jpg Graphic file (type jpg)
-<use pictures/bio-placeholder.jpg>
-Package pdftex.def Info: pictures/bio-placeholder.jpg  used on input line 1007.
-(pdftex.def)             Requested size: 113.70451pt x 142.37154pt.
-File: pictures/bio-placeholder.jpg Graphic file (type jpg)
-<use pictures/bio-placeholder.jpg>
-Package pdftex.def Info: pictures/bio-placeholder.jpg  used on input line 1012.
-(pdftex.def)             Requested size: 113.70451pt x 142.37154pt.
-File: pictures/bio-placeholder.jpg Graphic file (type jpg)
-<use pictures/bio-placeholder.jpg>
-Package pdftex.def Info: pictures/bio-placeholder.jpg  used on input line 1017.
-(pdftex.def)             Requested size: 113.70451pt x 142.37154pt.
-<toc-image.png, id=178, 156.585pt x 142.3719pt>
-File: toc-image.png Graphic file (type png)
-<use toc-image.png>
-Package pdftex.def Info: toc-image.png  used on input line 1029.
-(pdftex.def)             Requested size: 156.58461pt x 142.37154pt.
+
+Overfull \hbox (1.47212pt too wide) in paragraph at lines 989--991
+\OT1/cmr/m/n/12 tion as a fi-nite set of cat-e-gories. The cir-cum-plex model mo-ti-vates the valence--arousal plane and is widely 
+ []
+
+
+Overfull \hbox (9.79224pt too wide) in paragraph at lines 995--999
+\OT1/cmr/m/n/12 cal method-olog-i-cal pit-fall is \OT1/cmr/m/it/12 segment-level leak-age\OT1/cmr/m/n/12 : if win-dows orig-i-nat-ing from the same con-tin-u-ous record- 
+ []
+
+
+Overfull \hbox (1.54854pt too wide) in paragraph at lines 995--999
+\OT1/cmr/m/n/12 tures rather than emotion-related struc-ture, in-flat-ing per-for-mance. This is-sue is well doc-u-mented in EEG 
+ []
+
+File: vch-logo.png Graphic file (type png)
+<use vch-logo.png>
+Package pdftex.def Info: vch-logo.png  used on input line 1015.
+(pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.81955pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.81955pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
+
+[42]
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1017.
+ (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1017.
+
+Overfull \hbox (1.98886pt too wide) in paragraph at lines 1016--1023
+\OT1/cmr/m/n/12 plet-ing three ses-sions (about a week apart), watch-ing 15 emotion-eliciting film clips se-lected for \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 positive, 
+ []
+
+
+Overfull \hbox (3.11798pt too wide) in paragraph at lines 1032--1037
+\OT1/cmr/m/n/12 port. [[]] DREAMER is ad-van-ta-geous when the in-tended method must op-er-ate un-der con-strained chan- 
+ []
+
+
+Overfull \hbox (2.88046pt too wide) in paragraph at lines 1046--1051
+\OT1/cmr/m/n/12 head-set (14 chan-nels, 128 Hz) with ex-plicit chan-nel nam-ing, and pe-riph-eral sig-nals in-clude ECG (256 Hz) 
+ []
+
+File: vch-logo.png Graphic file (type png)
+<use vch-logo.png>
+Package pdftex.def Info: vch-logo.png  used on input line 1051.
+(pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.81955pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.81955pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
+
+[43]
+Overfull \hbox (21.51219pt too wide) in paragraph at lines 1058--1063
+\OT1/cmr/m/n/12 doc-u-ments the dataset folder struc-ture and an ex-plicit la-bel map-ping (e.g., neu-tral/joy/fear/disgust/sadness) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 40 mu-sic videos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 V/A/D +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 EEG + pe-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+\OT1/cmr/m/n/8 riph-eral +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 Strong base-line;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 SEED
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 15 film clips ($\OMS/cmsy/m/n/8 ^^X$\OT1/cmr/m/n/8 4
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 EEG + eye
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 Multi-session; DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 SEED-IV
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 72 clips (24/ses-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 EEG + eye
+ []
+
+
+Overfull \hbox (3.4498pt too wide) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 DREAMER
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 18 clips (65--393
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 Wearable-oriented,
+ []
+
+
+Overfull \hbox (1.08865pt too wide) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 MAHNOB-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+\OT1/cmr/m/n/8 HCI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 Dimensional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 V/A/D +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 EEG + mul-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 Rich syn-chro-nized
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 AMIGOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 16 short + 4
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 Dimensional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 EEG + mul-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 Includes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+\OT1/cmr/m/n/8 group/social con-
+ []
+
+
+Overfull \hbox (8.5221pt too wide) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 ASCERTAIN
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 36 clips (51--127
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 Dimensional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 V/A + Big-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 EEG + mul-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 Single dry sen-sor,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 MPED
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 Ratings +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 EEG + mul-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 Fine-grained dis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 FACED
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 28 videos ($\OMS/cmsy/m/n/8 ^^X$\OT1/cmr/m/n/8 66
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 0--7 rat-ings +
+ []
+
+
+Overfull \hbox (5.51788pt too wide) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 GAMEEMO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 Protocol-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1119
+[]|\OT1/cmr/m/n/8 Game-induced
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1121--1121
+[]\OT1/cmr/m/n/10 Table 6: |Com-pact rep-re-sen-ta-tion of com-monly used EEG emo-tion datasets. The ta-ble is scaled to fit page width while
+ []
+
+
+Overfull \hbox (4.21376pt too wide) in paragraph at lines 1125--1132
+[]\OT1/cmr/m/n/12 To jus-tify dataset choice in an ab-stract (method-agnostic) sense, we rec-om-mend eval-u-at-ing datasets along 
+ []
+
+
+Overfull \hbox (9.9066pt too wide) in paragraph at lines 1125--1132
+\OT1/cmr/m/n/12 five axes: \OT1/cmr/m/it/12 (1) phys-i-o-log-i-cal fi-delity \OT1/cmr/m/n/12 (chan-nel den-sity and sam-pling rate), \OT1/cmr/m/it/12 (2) la-bel va-lid-ity \OT1/cmr/m/n/12 (self-report driven 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1142--1142
+[]|\OT1/cmr/m/n/8 Cross-subject (unseen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1142--1142
+[]|\OT1/cmr/m/n/8 FACED; SEED/SEED-IV (with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1142--1143
+[]|\OT1/cmr/m/n/8 Large sub-ject count (FACED) im-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1142--1143
+\OT1/cmr/m/n/8 proves subject-invariant learn-ing;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1142--1143
+\OT1/cmr/m/n/8 SEED se-ries sup-ports strict subject-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1144--1144
+[]|\OT1/cmr/m/n/8 Cross-session ro-bust-ness
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1144--1144
+\OT1/cmr/m/n/8 (same users, dif-fer-ent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1144--1145
+[]|\OT1/cmr/m/n/8 Multiple ses-sions per sub-ject re-veal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1144--1145
+\OT1/cmr/m/n/8 tem-po-ral drift and re-duce overly op-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1146--1146
+[]|\OT1/cmr/m/n/8 Wearable / low-channel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1146--1146
+[]|\OT1/cmr/m/n/8 DREAMER; AMI-GOS;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1146--1147
+[]|\OT1/cmr/m/n/8 Explicitly col-lected with low-channel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1146--1147
+\OT1/cmr/m/n/8 or consumer-grade sen-sors; bet-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1148--1148
+[]|\OT1/cmr/m/n/8 Multimodal fu-sion /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1148--1148
+[]|\OT1/cmr/m/n/8 DEAP; MAHNOB-HCI; AMI-GOS;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1148--1149
+[]|\OT1/cmr/m/n/8 Provides syn-chro-nized aux-il-iary
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1148--1149
+\OT1/cmr/m/n/8 modal-i-ties (pe-riph-eral sig-nals, gaze,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1148--1149
+\OT1/cmr/m/n/8 video) en-abling fu-sion and ab-la-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1150--1150
+[]|\OT1/cmr/m/n/8 Dimensional af-fect
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1150--1150
+\OT1/cmr/m/n/8 (va-lence/arousal) as pri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1150--1150
+[]|\OT1/cmr/m/n/8 DEAP; DREAMER; MAHNOB-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1150--1151
+[]|\OT1/cmr/m/n/8 Direct V/A (and of-ten dom-i-nance)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1150--1151
+\OT1/cmr/m/n/8 rat-ings; sup-ports re-gres-sion or bi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1150--1151
+\OT1/cmr/m/n/8 na-rized clas-si-fi-ca-tion with ex-plicit
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1152--1152
+[]|\OT1/cmr/m/n/8 Discrete multi-class emo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1152--1152
+[]|\OT1/cmr/m/n/8 SEED-IV; MPED; FACED;
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 1152--1153
+[]|\OT1/cmr/m/n/8 Provides cat-e-gor-i-cal la-bels with $\OMS/cmsy/m/n/8 ^^U \OT1/cmr/m/n/8 4$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1152--1153
+\OT1/cmr/m/n/8 classes; sup-ports confusion-matrix-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1152--1153
+\OT1/cmr/m/n/8 oriented anal-y-sis and class im-bal-ance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1155--1155
+[]\OT1/cmr/m/n/10 Table 7: |Scenario-driven dataset suit-abil-ity. The rec-om-mended choice de-pends on whether the method tar-gets gen-er-al-iza-
+ []
+
+
+Overfull \hbox (4.1349pt too wide) in paragraph at lines 1160--1165
+[]\OT1/cmr/m/n/12 Overall, if the goal is a \OT1/cmr/m/it/12 com-par-a-tive study that claims gen-er-al-iza-tion\OT1/cmr/m/n/12 , FACED is the strongest sin-gle choice 
+ []
+
+File: vch-logo.png Graphic file (type png)
+<use vch-logo.png>
+Package pdftex.def Info: vch-logo.png  used on input line 1165.
+(pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.81955pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.81955pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
+
+[44]
+Overfull \hbox (0.67685pt too wide) in paragraph at lines 1167--1169
+ \OT1/cmr/bx/n/10 Ex-ec-u-tive sum-mary.[] \OT1/cmr/m/n/12 Re-li-able con-clu-sions in EEG-based emo-tion recog-ni-tion re-quire \OT1/cmr/m/it/12 protocol-aware \OT1/cmr/m/n/12 eval- 
+ []
+
+
+Overfull \hbox (0.75407pt too wide) in paragraph at lines 1167--1169
+\OT1/cmr/m/n/12 ric suite and re-port-ing con-ven-tions, then an-a-lyze how eval-u-a-tion pro-to-col (subject-dependent vs. subject- 
+ []
+
+
+Overfull \hbox (6.3679pt too wide) in paragraph at lines 1171--1173
+\OT1/cmr/m/n/12 cretiz-ing con-tin-u-ous rat-ings (e.g., high/low va-lence), (ii) la-bel noise from sub-jec-tive self-report and thresh- 
+ []
+
+
+Overfull \hbox (22.94838pt too wide) in paragraph at lines 1171--1173
+\OT1/cmr/m/it/12 ac-cu-racy alone \OT1/cmr/m/n/12 can be mis-lead-ing: it may in-crease sim-ply by fa-vor-ing the ma-jor-ity class, even when minority- 
+ []
+
+File: vch-logo.png Graphic file (type png)
+<use vch-logo.png>
+Package pdftex.def Info: vch-logo.png  used on input line 1190.
+(pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.81955pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.81955pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
+
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 1224--1225
+[]|\OT1/cmr/m/n/8 Overall cor-rect-ness; can be in-flated un-der
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1226--1227
+[]|\OT1/cmr/m/n/8 Costly false pos-i-tives (e.g., ``high arousal''
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1228--1229
+[]|\OT1/cmr/m/n/8 Costly false neg-a-tives; re-port per-class re-call
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1231
+[]|\OT1/cmr/m/n/8 Balances pre-ci-sion/recall; ro-bust when classes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1232--1233
+[]|\OT1/cmr/m/n/8 Multi-class fair-ness: each class counts equally
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1234--1235
+[]|\OT1/cmr/m/n/8 Preferred over ac-cu-racy when class pri-ors
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1236--1237
+[]|\OT1/cmr/m/n/8 Threshold-free rank-ing qual-ity for score-
+ []
+
+
+Overfull \hbox (15.82892pt too wide) in paragraph at lines 1243--1245
+\OT1/cmr/m/n/12 fold-wise dif-fer-ences are ap-prox-i-mately sym-met-ric/normal, a paired $\OML/cmm/m/it/12 t$\OT1/cmr/m/n/12 -test is ac-cept-able; oth-er-wise, Wilcoxon 
+ []
+
+
+Overfull \hbox (5.5193pt too wide) in paragraph at lines 1243--1245
+\OT1/cmr/m/n/12 ing (sub-ject/fold), and an ef-fect size (e.g., mean dif-fer-ence with con-fi-dence in-ter-val) to avoid ``significance- 
+ []
+
+File: vch-logo.png Graphic file (type png)
+<use vch-logo.png>
+Package pdftex.def Info: vch-logo.png  used on input line 1252.
+(pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.81955pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.81955pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
+
+[46]
+Overfull \hbox (12.30812pt too wide) in paragraph at lines 1253--1254
+\OT1/cmr/m/n/12 inter-subject recog-ni-tion, while re-cent deep ar-chi-tec-tures in-creas-ingly ad-dress this prob-lem through spatial-- 
+ []
+
+
+Overfull \hbox (11.45952pt too wide) in paragraph at lines 1260--1261
+\OT1/cmr/m/n/12 shows a tran-si-tion from graph-based spec-tral mod-el-ing to-ward mul-tido-main at-ten-tion, Transformer-assisted 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1267--1267
+[]\OT1/cmr/m/n/10 Table 9: |Rep-re-sen-ta-tive subject-dependent EEG emotion-recognition re-sults. Ac-cu-racy val-ues cor-re-spond to the ex-per-i-men-tal pro-to-cols re-ported in the orig-i-nal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1267--1267
+\OT1/cmr/m/n/10 stud-ies and should there-fore be in-ter-preted with re-spect to the dataset, emotion-label con-fig-u-ra-tion, and val-i-da-tion strat-egy. A = arousal, V = va-lence, and D =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1388--1391
+[]\OT1/cmr/m/it/7 Note: \OT1/cmr/m/n/7 Nu-mer-i-cal re-sults are not di-rectly com-pa-ra-ble across rows be-cause the stud-ies dif-fer in emo-tion la-bels, seg-men-ta-tion strat-egy, val-i-da-tion pro-to-col, fea-ture con-struc-tion, and dataset com-po-si-tion.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1388--1391
+\OT1/cmr/m/n/7 In par-tic-u-lar, window-level ran-dom split-ting can yield more op-ti-mistic es-ti-mates than trial-wise group-ing. Ac-cord-ingly, AWT-Net re-ports both its window-level re-sult (99.61%) and the stricter trial-wise
+ []
+
+File: vch-logo.png Graphic file (type png)
+<use vch-logo.png>
+Package pdftex.def Info: vch-logo.png  used on input line 1402.
+(pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.81955pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.81955pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
+
+[47]
+File: vch-logo.png Graphic file (type png)
+<use vch-logo.png>
+Package pdftex.def Info: vch-logo.png  used on input line 1402.
+(pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.81955pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.81955pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 1408--1408
+[]\OT1/cmr/m/n/10 Table 10: |Rep-re-sen-ta-tive subject-independent EEG emotion-recognition re-sults. The com-par-i-son in-te-grates graph-based learn-ing, trans-fer learn-ing, do-main adap-ta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1521--1525
+[]\OT1/cmr/m/it/7 Note: \OT1/cmr/m/n/7 Re-sults are re-ported un-der the eval-u-a-tion pro-to-col of the cor-re-spond-ing study and are there-fore not di-rectly in-ter-change-able as a com-mon bench-mark. Dif-fer-ences in emo-tion classes, pre-pro-cess-
+ []
+
+
+Overfull \hbox (1.27629pt too wide) in paragraph at lines 1536--1537
+\OT1/cmr/m/n/12 Transfer learn-ing ex-plic-itly ad-dresses dis-tri-bu-tion mis-match by trans-fer-ring use-ful emotion-related knowl- 
+ []
+
+
+Overfull \hbox (7.34706pt too wide) in paragraph at lines 1536--1537
+\OT1/cmr/m/n/12 multi-source learn-ing, calibration-efficient adap-ta-tion, hy-brid fine-tuning, cross-dataset un-su-per-vised adap- 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1544--1544
+[]\OT1/cmr/m/n/10 Table 11: |Rep-re-sen-ta-tive transfer-learning eval-u-a-tions for EEG-based emo-tion recog-ni-tion. Re-sults cor-re-spond to the orig-i-nal trans-fer set-ting of each method; cross-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1676--1683
+[]\OT1/cmr/m/it/7 Note: \OT1/cmr/m/n/7 Re-sults from dif-fer-ent trans-fer sce-nar-ios are not di-rectly com-pa-ra-ble. Cross-subject adap-ta-tion ad-dresses inter-individual vari-abil-ity within a dataset, cross-session adap-ta-tion ad-dresses tem-po-ral
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1676--1683
+\OT1/cmr/m/n/7 non-stationarity, whereas cross-dataset trans-fer ad-di-tion-ally in-tro-duces dif-fer-ences in par-tic-i-pants, ac-qui-si-tion hard-ware, elec-trode con-fig-u-ra-tions, stim-uli, and pre-pro-cess-ing. Some meth-ods also use un-
+ []
+
+
+Overfull \hbox (5.78041pt too wide) in paragraph at lines 1686--1687
+[]\OT1/cmr/m/n/12 The transfer-learning re-sults show a clear method-olog-i-cal shift from global fea-ture align-ment to-ward class- 
+ []
+
+
+Overfull \hbox (0.4888pt too wide) in paragraph at lines 1688--1689
+\OT1/cmr/m/n/12 conditional align-ment with pro-gres-sively se-lected pseudo-labels [[]]. Nu-mer-i-cally, these re-ported within- 
+ []
+
 (template.bbl
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 21.
+Package pdftex.def Info: vch-logo.png  used on input line 25.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
 
 
@@ -1788,10 +2432,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
-[42 <./pictures/bio-placeholder.jpg>]
+[49]
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 21.
+Package pdftex.def Info: vch-logo.png  used on input line 25.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
 
 
@@ -1801,7 +2445,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
-[43 <./toc-image.png (PNG copy)>]
+[50]
+File: vch-logo.png Graphic file (type png)
+<use vch-logo.png>
+Package pdftex.def Info: vch-logo.png  used on input line 25.
+(pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.81955pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.81955pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
+
+[51]
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
 Package pdftex.def Info: vch-logo.png  used on input line 161.
@@ -1814,7 +2471,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
-[44]
+[52]
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
 Package pdftex.def Info: vch-logo.png  used on input line 289.
@@ -1827,7 +2484,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
-[45]
+[53]
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
 Package pdftex.def Info: vch-logo.png  used on input line 400.
@@ -1840,7 +2497,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
-[46]
+[54]
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
 Package pdftex.def Info: vch-logo.png  used on input line 535.
@@ -1853,7 +2510,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
-[47]
+[55]
 Underfull \hbox (badness 1097) in paragraph at lines 642--646
 []\OT1/cmr/m/n/12 Y. Ganin, E. Usti-nova, H. Ajakan, P. Ger-main, H. Larochelle, F. Lavi-o-lette, M. Marc-hand, 
  []
@@ -1869,7 +2526,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
-[48]
+[56]
 Underfull \hbox (badness 10000) in paragraph at lines 698--703
 []\OT1/cmr/m/n/12 L. Zhao, X. Yan, B.-L. Lu,  In \OT1/cmr/m/it/12 Pro-ceed-ings of the AAAI Con-fer- 
  []
@@ -1890,10 +2547,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
-[49])
+[57]
 File: vch-logo.png Graphic file (type png)
 <use vch-logo.png>
-Package pdftex.def Info: vch-logo.png  used on input line 1036.
+Package pdftex.def Info: vch-logo.png  used on input line 908.
 (pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
 
 
@@ -1903,24 +2560,50 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
 
-[50] (template.aux)
+[58]
+File: vch-logo.png Graphic file (type png)
+<use vch-logo.png>
+Package pdftex.def Info: vch-logo.png  used on input line 1034.
+(pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.81955pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.81955pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
+
+[59])
+File: vch-logo.png Graphic file (type png)
+<use vch-logo.png>
+Package pdftex.def Info: vch-logo.png  used on input line 1692.
+(pdftex.def)             Requested size: 71.13188pt x 21.21951pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 24.81955pt, for example:
+(fancyhdr)                \setlength{\headheight}{24.81955pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-12.81955pt}.
+
+[60] (template.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6667 strings out of 467866
- 116195 string characters out of 5414454
- 535482 words of memory out of 5000000
- 35450 multiletter control sequences out of 15000+600000
- 644864 words of font info for 99 fonts, out of 8000000 for 9000
+ 6954 strings out of 467866
+ 120924 string characters out of 5414454
+ 549418 words of memory out of 5000000
+ 35719 multiletter control sequences out of 15000+600000
+ 646227 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,19n,79p,6109b,628s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\shihabsarar12\AppData\Local\MiKTeX\fonts/pk/ljfour/public/bbm/dpi600\bbm12.pk> <C:\Users\shihabsarar12\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/grmi1200.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/grmn1200.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on template.pdf (50 pages, 5046898 bytes).
+ <C:\Users\shihabsarar12\AppData\Local\MiKTeX\fonts/pk/ljfour/public/bbm/dpi600\bbm12.pk> <C:\Users\shihabsarar12\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti7.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/grmi1200.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/grmn1200.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on template.pdf (60 pages, 5231798 bytes).
 PDF statistics:
- 333 PDF objects out of 1000 (max. 8388607)
+ 392 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

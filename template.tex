@@ -7,9 +7,11 @@
 \usepackage{longtable}   
 \usepackage{booktabs}   
 \usepackage{array}  
-\usepackage{booktabs}
 \usepackage{geometry}
-\usepackage{caption}   
+\usepackage{caption}  
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{rotating}
 
 
 \begin{document}
@@ -42,18 +44,16 @@ Shihab Sarar\\
 Department of Computer Science and Engineering, Ahsanullah University of Science and Technology, Love Road, Tejgaon Industrial Area, Dhaka-1208, Bangladesh\\
 Email Address: shihabsararchamok@gmail.com
 
-Md Niaz Imtiaz\\
+Dr. Md Niaz Imtiaz\\
 Department of Electrical, Computer and Biomedical Engineering, Toronto Metropolitan University, 350 Victoria St, Toronto, ON M5B 2K3, Canada\\
 Email Address: niaz.imtiaz@torontomu.ca
 
-Naimul Khan\\
+Dr. Naimul Khan\\
 Department of Electrical, Computer and Biomedical Engineering, Toronto Metropolitan University, 350 Victoria St, Toronto, ON M5B 2K3, Canada\\
 Email Address: n77khan@torontomu.ca
 
 \end{affiliations}
 
-
-% Keywords: Please provide a minimum of three and a maximum of seven keywords, separated by commas
 
 \keywords{electroencephalography (EEG); emotion recognition; affective computing; deep learning; cross-subject learning; brain–computer interface (BCI); signal processing}
 
@@ -979,57 +979,713 @@ where $\mathbf{s}_t$ is the hidden state, $\mathbf{z}_t$ and $\mathbf{r}_t$ are 
 
 Overall, hybrid models are best when emotion cues are \textbf{multi-factorial} (simultaneously spatial, temporal, and relational) and when the dataset/protocol provides enough coverage to train multi-module systems without overfitting. CNN--RNN (or CNN--Transformer) hybrids are often preferable when both short-term rhythmic patterns and longer temporal context are discriminative, whereas topology-aware+temporal hybrids are preferable when inter-channel coupling is central to affect representation \cite{tzhang2019spatialt,hheand2019channela}. However, because hybrids introduce optimization sensitivity and branch-dominance risks, they are most reliable under careful normalization, regularization, and disciplined ablations that separate true architectural benefit from preprocessing or split artifacts \cite{megger2019emotionr,nssuha2020eegbased,wlizzh2021physiolo}.
 
+\section{Datasets and Comparative Study}
 
-\textbf{References}\\
-1	((Journal articles)) a) A. B. Author 1, C. D. Author 2, Adv. Mater. 2006, 18, 1; b) A. Author 1, B. Author 2, Adv. Funct. Mater. 2006, 16, 1.\\
-2	((Work accepted)) A. B. Author 1, C. D. Author 2, Macromol. Rapid Commun., DOI: 10.1002/marc.DOI.\\
-3	((Books)) H. R. Allcock, Introduction to Materials Chemistry, Wiley, Hoboken, NJ, USA 2008.\\
-4	((Edited books or proceedings volumes)) J. W. Grate, G. C. Frye, in Sensors Update, Vol. 2 (Eds: H. Baltes, W. Göpel, J. Hesse), Wiley-VCH, Weinheim, Germany 1996, Ch. 2.\\
-5	((Presentation at a conference, proceeding not published)) Author, presented at Abbrev. Conf. Title, Location of Conference, Date of Conference ((Month, Year)).\\
-6	((Thesis)) Author, Degree Thesis, University (location if not obvious), Month, Year.\\
-7	((Patents)) a) A. B. Author 1, C. D. Author 2 (Company), Country Patent Number, Year; b) W. Lehmann, H. Rinke (Bayer AG) Ger. 838217, 1952.\\
-8	((Website)) Author, Short description or title, URL, accessed: Month, Year.\\
-9	…((Please include all authors, and do not use “et al.”))\\
+A dataset-centric comparative study is the most defensible way to evaluate EEG-based emotion recognition pipelines because (i) reported performance is highly sensitive to the recording protocol (stimuli, baseline, sensor montage), (ii) label construction (self-report vs.\ clip-assigned ground truth) changes the learning target, and (iii) preprocessing and splitting strategies can dominate the apparent model gain if they are not aligned across studies. Consequently, a fair comparison must explicitly document: the dataset structure and labeling scheme, the EEG acquisition settings, and the evaluation regime (subject-dependent vs.\ subject-independent). This protocol-aware position is repeatedly emphasized in recent EEG-ER surveys, where heterogeneous preprocessing (downsampling, window length, filtering, normalization) and inconsistent train/test splitting are identified as primary obstacles to reproducible benchmarking. \cite{kukhilava2025evaluation,li2022tutorial}
 
 
+In practical terms, our comparative study is organized around public benchmarks that cover (a) dimensional affect (valence/arousal/dominance) through self-assessment, (b) discrete affect via clip-level categories, and (c) multimodal extensions (ECG/GSR/eye gaze/video) enabling fusion and robustness checks. This selection supports both algorithmic comparison and methodological auditing (e.g., whether improvements persist under cross-subject evaluation). \cite{li2022tutorial,kukhilava2025evaluation}
 
-% Please provide Biographies and photos for Essays, Feature Articles, Progress Reports, Reviews, and Perspectives for those authors who should be highlighted  
-% These should be at most 100 words long
-% For other article types this section can be removed
-% Photographs should be 40mm broad and 50 mm high
+Two modeling families dominate EEG-ER datasets: dimensional models that position affect in a low-dimensional continuous space (most commonly valence and arousal), and discrete models that treat emotion as a finite set of categories. The circumplex model motivates the valence--arousal plane and is widely used to operationalize continuous affect in dataset design and evaluation. \cite{russell1980circumplex}
+In many experiments, self-report is captured via pictorial or low-burden instruments (e.g., Self-Assessment Manikin), which are preferred when repeated ratings are required and language neutrality is important. \cite{bradley1994sam}
 
-\begin{figure}
-  \includegraphics{pictures/bio-placeholder.jpg}
-  \caption*{Biography}
-\end{figure}
+EEG is low-SNR, artifact-prone, and non-stationary; these characteristics make results highly dependent on denoising choices, channel referencing, and time-windowing. \cite{zheng2015seed}
+Windowing (segmenting continuous trials into fixed-length epochs) increases sample count and standardizes input size, but it also weakens the label-to-window alignment when the ground truth is assigned to entire clips rather than local temporal moments. \cite{kukhilava2025evaluation}
 
-\begin{figure}
-  \includegraphics{pictures/bio-placeholder.jpg}
-  \caption*{Biography}
-\end{figure}
+EEG-ER papers frequently report both:
+(i) \emph{subject-dependent} evaluation, where training and test contain data from the same subject (e.g., leave-one-trial-out or within-subject cross-validation), and
+(ii) \emph{subject-independent} evaluation, where entire subjects are held out for testing (e.g., leave-one-subject-out), reflecting deployment scenarios where a model must generalize to unseen users. \cite{kukhilava2025evaluation,li2022tutorial}
+A critical methodological pitfall is \emph{segment-level leakage}: if windows originating from the same continuous recording are randomly split across train and test, the model can exploit subject- and session-specific signatures rather than emotion-related structure, inflating performance. This issue is well documented in EEG deep learning work and motivates strict subject-wise (and sometimes session-wise) splitting when claiming generalization. \cite{brookshire2024leakage,kukhilava2025evaluation}
 
-\begin{figure}
-  \includegraphics{pictures/bio-placeholder.jpg}
-  \caption*{Biography}
-\end{figure}
+Many benchmarks provide precomputed band features (PSD, differential entropy) because they are fast to train and historically strong baselines. Differential entropy (DE) is often used under a Gaussian assumption; for a random variable $X\sim\mathcal{N}(\mu,\sigma^2)$,
+\begin{equation}
+h(X)=\frac{1}{2}\ln\!\left(2\pi e \sigma^2\right),
+\label{eq:de_gaussian}
+\end{equation}
+which explains why DE can be computed efficiently from band-limited EEG segments once variance estimates are obtained. \cite{seediv_page,duan2013de}
 
-\begin{figure}
-  \includegraphics{pictures/bio-placeholder.jpg}
-  \caption*{Biography}
-\end{figure}
+% Sources: citeturn27view0turn12view0turn12view1
+
+\textbf{DEAP}
+ is a multimodal benchmark designed for affect analysis under controlled stimulus presentation. It records EEG and peripheral physiology from 32 participants while they watch 40 one-minute music video excerpts; participants rate each trial in arousal, valence, dominance, liking, and familiarity. EEG is acquired using 32 channels at 512~Hz, and a subset of participants also has frontal face video. \cite{koelstra2012deap}
+% Sources: citeturn27view0turn10view0
+A key protocol detail for reproducibility is the clear baseline structure: the study includes a 2-minute initial baseline and an additional short pre-trial baseline (fixation cross) before each stimulus, followed by self-assessment. \cite{koelstra2012deap}
+% Sources: citeturn29search4turn27view0
+For comparative studies, DEAP is particularly useful when the method targets dimensional affect (binary high/low splits of valence/arousal are common) and when multimodal fusion is of interest, but it requires careful subject-wise splitting to avoid segment leakage when windowing is applied. \cite{kukhilava2025evaluation,brookshire2024leakage}
+
+\textbf{SEED}
+ is a multi-session dataset emphasizing stability across days. It includes 15 subjects, each completing three sessions (about a week apart), watching 15 emotion-eliciting film clips selected for \{positive, neutral, negative\} targets. EEG is recorded using a 62-channel ESI NeuroScan system; the provided preprocessed EEG is downsampled to 200~Hz and band-limited (0--75~Hz). \cite{seed_page}
+% Sources: citeturn12view0
+SEED is also structured to support fast experimentation: per-session MATLAB files contain trial-wise arrays (e.g., \texttt{eeg\_1}--\texttt{eeg\_15}) with labels embedded, and an extracted-feature folder offers differential entropy and asymmetry variants (DASM/RASM) for rapid baseline evaluation. \cite{seed_page,duan2013de}
+% Sources: citeturn12view0turn40view0
+Methodologically, SEED is well suited for (i) within-session training, (ii) cross-session testing (leave-one-session-out), and (iii) cross-subject evaluation, because the session dimension directly exposes temporal variability that can reduce real-world robustness if ignored. \cite{kukhilava2025evaluation}
+% Sources: citeturn31view0
+
+\textbf{SEED-IV}
+ extends the SEED-style acquisition protocol to four discrete emotions (happiness, sadness, fear, neutral) with a larger stimulus pool (72 clips; 24 trials per session) and the same 62-channel platform. The dataset page specifies three sessions per subject and provides both raw and feature-level EEG (PSD/DE) organized by session folders; each session is also sliced into non-overlapping 4-second segments for model training. \cite{seediv_page}
+% Sources: citeturn12view1
+A crucial comparative nuance is ground truth construction: while participants provide subjective ratings, many SEED-IV benchmarks treat the clip category as the label, simplifying multi-class learning but also shifting the target from \emph{felt affect} to \emph{stimulus class}. This affects interpretability and should be stated explicitly when comparing against self-report-driven datasets. \cite{kukhilava2025evaluation,seediv_page}
+% Sources: citeturn31view0turn12view1
+Because SEED-IV has multiple sessions, it is a strong choice for evaluating whether a pipeline remains stable across days and whether domain adaptation is needed when session drift is present. \cite{kukhilava2025evaluation}
+% Sources: citeturn31view0
+
+\textbf{DREAMER}
+ is a compact benchmark oriented toward low-cost, wearable acquisition. The published protocol uses 18 affective film clips (65--393~s) and stores EEG (14 channels, 128~Hz) and ECG (256~Hz) alongside self-assessments on 1--5 scales for arousal, valence, and dominance, using SAM for rating support. \cite{katsigiannis2018dreamer}
+% Sources: citeturn11view0
+DREAMER is advantageous when the intended method must operate under constrained channel count and lower sampling rates (e.g., real-time or mobile settings). However, because it is frequently windowed to create many training instances, subject-independent splitting is essential when stating generalization claims. \cite{brookshire2024leakage,kukhilava2025evaluation}
+% Sources: citeturn24search1turn31view0
+
+\textbf{MAHNOB-HCI}
+ is a multimodal database designed for affect recognition and implicit tagging, providing synchronized face video/audio, eye gaze, peripheral physiology, and 32-channel EEG recorded with a Biosemi Active II setup. In the emotion experiment, participants watch emotional videos and self-report arousal, valence, dominance, predictability, and an emotion label. The dataset stores recordings per stimulus in BDF/EDF-like formats and includes a neutral segment per trial for baseline handling. \cite{soleymani2012mahnob}
+% Sources: citeturn14view2turn35view2
+MAHNOB-HCI is particularly useful when the comparative goal includes multimodal fusion (e.g., EEG + eye gaze) and when one wants to analyze how different modality families contribute under the same stimulus. Reviews commonly report the public EEG stream at 256~Hz, enabling cross-dataset downsampling alignment with other benchmarks. \cite{kukhilava2025evaluation}
+% Sources: citeturn31view0
+A practical caveat for comparative studies is preprocessing sensitivity: the database does not record a dedicated EEG reference electrode in the Biosemi methodology, so rereferencing (e.g., average reference) needs to be standardized across methods for fair comparison. \cite{soleymani2012mahnob}
+% Sources: citeturn35view2
+
+\textbf{AMIGOS}
+ is designed to study affect, personality, and mood in both individual and social settings. It includes two experiments: (i) 40 participants watch 16 short emotional videos alone, and (ii) a subset watches four long videos either alone or in groups. EEG is recorded using a wearable Emotiv EPOC headset (14 channels, 128~Hz) with explicit channel naming, and peripheral signals include ECG (256~Hz) and GSR (128~Hz). \cite{amigos2018}
+% Sources: citeturn18view1turn18view0
+For dataset selection, AMIGOS is most informative when the method aims to test robustness to \emph{context shift} (short vs.\ long stimuli; solo vs.\ group viewing), or when auxiliary targets such as social context or personality are relevant. For pure EEG-ER benchmarking, its main limitation is the low-channel dry-electrode configuration, which may cap ceiling performance but better reflects wearable deployment. \cite{kukhilava2025evaluation,amigos2018}
+% Sources: citeturn31view0turn18view1
+
+\textbf{ASCERTAIN}
+ focuses on personality--affect interactions and is collected using commercial sensors. It includes 58 users viewing 36 movie clips (51--127~s) and provides self-ratings alongside personality measures (Big Five). The EEG component is a single dry-electrode consumer sensor that outputs eight information streams sampled at 32~Hz; ECG, GSR, and facial video are also recorded. \cite{subramanian2018ascertain}
+% Sources: citeturn14view1turn22view1turn22view2
+ASCERTAIN is best used when the objective is multimodal inference under minimal EEG instrumentation (e.g., low-burden user profiling or affect + trait modeling). It is generally not ideal for architectures that assume spatially rich scalp topographies (graph-conv or dense connectivity), because the EEG channelization is not a standard multichannel montage. \cite{li2022tutorial,subramanian2018ascertain}
+% Sources: citeturn25view0turn22view1
+
+\textbf{MPED}
+ is a multi-modal physiological database constructed for discrete emotion recognition, collecting synchronized EEG, GSR, respiration (RSP), and ECG while participants watch standardized video clips. The dataset uses 28 elicitation videos covering six discrete emotions plus neutral; a public repository documents the dataset folder structure and an explicit label mapping (e.g., neutral/joy/fear/disgust/sadness) and provides a reference train/test trial split. \cite{song2019mped}
+% Sources: citeturn19view0turn20view0
+MPED is a strong choice when the method compares discrete-class classifiers (including temporal models) and when respiration is considered as an additional modality. For purely EEG-focused studies, MPED is still useful because labels are provided in a discrete space, but comparative reporting should clarify whether results are EEG-only or cross-modal fusion. \cite{song2019mped}
+% Sources: citeturn19view0
+
+\textbf{FACED}
+ was introduced to address two common benchmarking limitations: small subject counts and coarse emotion taxonomies, especially on the positive side. It records 32-channel EEG from 123 subjects watching 28 video clips that cover nine emotion categories (four positive, four negative, plus neutral). The dataset reports sampling at 250 or 1000~Hz depending on cohort and provides raw EEG plus event and rating files, enabling both intra-subject and cross-subject validation. \cite{chen2023faced}
+% Sources: citeturn21view0
+FACED is therefore one of the most suitable public datasets for subject-independent deep learning because its large $N$ reduces variance in estimation and makes subject-invariant representation learning more plausible than in 20--40 subject datasets. \cite{chen2023faced}
+% Sources: citeturn21view0
+
+\textbf{GAMEEMO}
+ captures affect elicited by interactive gameplay rather than passive viewing. In commonly used releases, EEG from 28 subjects is recorded using an EMOTIV EPOC+ wearable system (14 channels, 128~Hz), while participants play four games designed to evoke distinct affective states (funny, boring, horror, calm), typically 5 minutes per game. \cite{alakus2021gameemo}
+% Sources: citeturn23view0
+GAMEEMO is particularly appropriate for studies emphasizing (i) low-channel inference, (ii) single-channel feasibility, and (iii) task-based affect induction. However, comparisons to clip-based datasets should be framed carefully because labels are tied to game condition design rather than standardized self-report V/A scores. \cite{alakus2021gameemo}
+Table~\ref{tab:dataset_attr} summarizes key attributes needed for protocol-aligned comparison.
+
+\begin{table*}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\renewcommand{\arraystretch}{1.2}
+
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|p{1.45cm}|c|c|c|c|p{2.2cm}|p{1.9cm}|p{1.9cm}|p{1.9cm}|p{2.6cm}|}
+\hline
+\textbf{Dataset} & \textbf{\#Subj} & \textbf{Sess} & \textbf{EEG Ch} & \textbf{$f_s$} & \textbf{Stimuli} & \textbf{Label space} & \textbf{Ratings} & \textbf{Modalities} & \textbf{Notes} \\
+\hline
+
+DEAP \cite{koelstra2012deap} & 32 & 1 & 32 & 512 Hz & 40 music videos (60 s) & Dimensional & V/A/D + liking (1--9) & EEG + peripheral + video & Strong baseline; clear trial structure \\
+
+\hline
+SEED \cite{seed_page,zheng2015seed} & 15 & 3 & 62 & 200 Hz & 15 film clips ($\sim$4 min) & 3-class & Self-report & EEG + eye tracking & Multi-session; DE features available \\
+
+\hline
+SEED-IV \cite{seediv_page,zheng2019emotionmeter} & 15 & 3 & 62 & 200 Hz & 72 clips (24/session) & 4-class & PANAS-style & EEG + eye tracking & Fixed 4 s segments \\
+
+\hline
+DREAMER \cite{katsigiannis2018dreamer} & 23 & 1 & 14 & 128 Hz & 18 clips (65--393 s) & Dimensional & V/A/D (1--5) & EEG + ECG & Wearable-oriented, low channels \\
+
+\hline
+MAHNOB-HCI \cite{soleymani2012mahnob,kukhilava2025evaluation} & 27 & 1 & 32 & 256 Hz & 20 videos & Dimensional + tags & V/A/D + keywords & EEG + multimodal & Rich synchronized modalities \\
+
+\hline
+AMIGOS \cite{amigos2018} & 40 & 2 & 14 & 128 Hz & 16 short + 4 long videos & Dimensional + basic & V/A/D (1--9) & EEG + multimodal & Includes group/social context \\
+
+\hline
+ASCERTAIN \cite{subramanian2018ascertain} & 58 & 1 & 1 & 32 Hz & 36 clips (51--127 s) & Dimensional + personality & V/A + Big-Five & EEG + multimodal & Single dry sensor, low bandwidth \\
+
+\hline
+MPED \cite{song2019mped} & 23 & 1 & 62 & -- & 28 videos & 7-class & Ratings + labels & EEG + multimodal & Fine-grained discrete emotions \\
+
+\hline
+FACED \cite{chen2023faced} & 123 & 1 & 32 & 250/1000 Hz & 28 videos ($\sim$66 s) & 9-class & 0--7 ratings + V/A & EEG & Large-scale dataset \\
+
+\hline
+GAMEEMO \cite{alakus2021gameemo} & 28 & 1 & 14 & 128 Hz & 4 games (5 min) & 4-class & Protocol-based & EEG & Game-induced emotions \\
+
+\hline
+\end{tabular}
+}
+
+\caption{Compact representation of commonly used EEG emotion datasets. The table is scaled to fit page width while preserving comparative attributes relevant for model evaluation.}
+\label{tab:dataset_attr}
+\end{table*}
+
+To justify dataset choice in an abstract (method-agnostic) sense, we recommend evaluating datasets along five axes:
+\textit{(1) physiological fidelity} (channel density and sampling rate),
+\textit{(2) label validity} (self-report driven vs.\ clip-assigned; discrete vs.\ continuous),
+\textit{(3) generalization support} (subject count; multi-session availability),
+\textit{(4) ecological validity} (naturalistic stimuli, social interaction, task-based affect),
+and \textit{(5) reproducibility support} (documentation, file structure, provided features).
+These criteria align with the main reproducibility concerns highlighted in recent EEG-ER methodological reviews. \cite{li2022tutorial,kukhilava2025evaluation,brookshire2024leakage}
+
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{|p{3.3cm}|p{4.6cm}|p{5.0cm}|}
+\hline
+\textbf{Scenario / goal} & \textbf{Recommended datasets} & \textbf{Rationale} \\
+\hline
+Cross-subject (unseen-user) modeling & FACED; SEED/SEED-IV (with subject-wise splits) & Large subject count (FACED) improves subject-invariant learning; SEED series supports strict subject-wise and session-wise tests. \\
+\hline
+Cross-session robustness (same users, different days) & SEED; SEED-IV & Multiple sessions per subject reveal temporal drift and reduce overly optimistic single-session conclusions. \\
+\hline
+Wearable / low-channel deployment constraints & DREAMER; AMIGOS; GAMEEMO; ASCERTAIN & Explicitly collected with low-channel or consumer-grade sensors; better matches realistic device constraints. \\
+\hline
+Multimodal fusion / sensor complementarity & DEAP; MAHNOB-HCI; AMIGOS; MPED; ASCERTAIN & Provides synchronized auxiliary modalities (peripheral signals, gaze, video) enabling fusion and ablation studies. \\
+\hline
+Dimensional affect (valence/arousal) as primary target & DEAP; DREAMER; MAHNOB-HCI; AMIGOS; ASCERTAIN & Direct V/A (and often dominance) ratings; supports regression or binarized classification with explicit thresholds. \\
+\hline
+Discrete multi-class emotion classification & SEED-IV; MPED; FACED; GAMEEMO & Provides categorical labels with $\ge 4$ classes; supports confusion-matrix-oriented analysis and class imbalance study. \\
+\hline
+\end{tabular}
+\caption{Scenario-driven dataset suitability. The recommended choice depends on whether the method targets generalization (SI/LOSO), robustness over time (session-wise), or deployment constraints (low-channel, wearable).}
+\label{tab:scenario_map}
+\end{table}
+% Sources: citeturn21view0turn12view0turn12view1
+
+Overall, if the goal is a \emph{comparative study that claims generalization}, FACED is the strongest single choice due to its 123-subject scale and balanced discrete taxonomy, while SEED/SEED-IV are the most diagnostic for \emph{temporal stability} because they expose session drift explicitly. \cite{chen2023faced,seed_page,seediv_page}
+% Sources: citeturn21view0turn12view0turn12view1
+If the goal is \emph{method translation to wearable settings}, DREAMER and AMIGOS provide the most realistic acquisition constraints (14-channel, 128~Hz), and ASCERTAIN further stresses ultra-low EEG instrumentation at 32~Hz with an implicit focus on user profiling. \cite{katsigiannis2018dreamer,amigos2018,subramanian2018ascertain}
+% Sources: citeturn11view0turn18view1turn22view1
+Finally, for \emph{multimodal justification} (whether EEG helps beyond simpler signals), MAHNOB-HCI and DEAP are preferred because they provide synchronized modalities and well-documented trial structures, enabling controlled ablations and fusion baselines under identical stimuli. \cite{soleymani2012mahnob,koelstra2012deap}
+
+\paragraph{Executive summary.}
+Reliable conclusions in EEG-based emotion recognition require \emph{protocol-aware} evaluation: the reported score must reflect the intended deployment setting (personalized vs.\ unseen-user generalization), and the full pipeline must prevent information leakage from correlated windows, subjects, or sessions into the test set. Recent meta-analyses show that a large fraction of apparent gains across papers can be explained by differences in data splitting, window construction, and metric choice rather than by modeling advances alone \cite{kukhilava2025evaluation,li2022tutorial,PeerJCS2065}. The following subsections define a rigorous metric suite and reporting conventions, then analyze how evaluation protocol (subject-dependent vs.\ subject-independent), dataset attributes (channels, sessions, label type), and preprocessing decisions interact to shape performance and fairness.
+I hate to see the citations gone.
+\subsection{Performance Metrics}
+\label{subsec:performance_metrics}
+\textbf{Why metric selection matters.}
+EEG-ER datasets commonly exhibit (i) class imbalance after discretizing continuous ratings (e.g., high/low valence), (ii) label noise from subjective self-report and thresholding, and (iii) multiple classes with asymmetric confusability (e.g., fear vs.\ neutral). In such settings, \emph{accuracy alone} can be misleading: it may increase simply by favoring the majority class, even when minority-class recall collapses \cite{li2022tutorial,PeerJCS2065}. Therefore, we recommend reporting a small \emph{complementary set} of metrics that jointly capture overall correctness, class-wise sensitivity, and threshold robustness \cite{kukhilava2025evaluation}.
+
+\textbf{Core definitions.}
+Let $TP$, $TN$, $FP$, and $FN$ denote true/false positives/negatives for the class of interest in a binary setting, and $N=TP+TN+FP+FN$.
+\begin{equation}
+\mathrm{Accuracy}=\frac{TP+TN}{N}, \quad
+\mathrm{Precision}=\frac{TP}{TP+FP}, \quad
+\mathrm{Recall}=\frac{TP}{TP+FN}.
+\label{eq:basic_metrics}
+\end{equation}
+\begin{equation}
+\mathrm{F1}=\frac{2\,\mathrm{Precision}\cdot \mathrm{Recall}}{\mathrm{Precision}+\mathrm{Recall}}.
+\label{eq:f1}
+\end{equation}
+For multi-class problems with $C$ classes, compute per-class F1 in a one-vs-rest fashion and report \emph{macro-F1}:
+\begin{equation}
+\mathrm{MacroF1}=\frac{1}{C}\sum_{c=1}^{C}\mathrm{F1}_c.
+\label{eq:macro_f1}
+\end{equation}
+To reduce sensitivity to class imbalance, report \emph{balanced accuracy}. For binary tasks:
+\begin{equation}
+\mathrm{BalAcc}=\frac{1}{2}\left(\mathrm{TPR}+\mathrm{TNR}\right)
+=\frac{1}{2}\left(\frac{TP}{TP+FN}+\frac{TN}{TN+FP}\right),
+\label{eq:balacc}
+\end{equation}
+and for multi-class tasks a common extension is the mean per-class recall,
+$\mathrm{BalAcc}=\frac{1}{C}\sum_{c=1}^{C}\mathrm{Recall}_c$.
+Finally, when models output scores (not just hard labels), include the threshold-free \emph{area under the ROC curve} (AUC):
+\begin{equation}
+\mathrm{AUC}=\int_{0}^{1}\mathrm{TPR}(\mathrm{FPR})\, d\mathrm{FPR},
+\label{eq:auc}
+\end{equation}
+which summarizes the trade-off between hit rate and false-alarm rate across all thresholds \cite{Fawcett2006ROC}.
+
+\textbf{Cross-fold aggregation (mean$\pm$std).}
+For a $K$-fold procedure (including LOSO where $K$ equals the number of subjects), let $m_k$ be the metric value on fold $k$.
+\begin{equation}
+\overline{m}=\frac{1}{K}\sum_{k=1}^{K} m_k, \qquad
+s=\sqrt{\frac{1}{K-1}\sum_{k=1}^{K}\left(m_k-\overline{m}\right)^2}.
+\label{eq:mean_std}
+\end{equation}
+Report $\overline{m}\pm s$ and, when feasible, include the distribution across folds/subjects (e.g., min--max, boxplot in supplementary material) \cite{kukhilava2025evaluation}.
+
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|p{2.2cm}|p{4.2cm}|p{6.0cm}|}
+\hline
+\textbf{Metric} & \textbf{Formula (binary or macro)} & \textbf{When to use / interpretation} \\
+\hline
+Accuracy & $(TP+TN)/N$ & Overall correctness; can be inflated under class imbalance or leakage. \\
+\hline
+Precision & $TP/(TP+FP)$ & Costly false positives (e.g., ``high arousal'' alerts). \\
+\hline
+Recall (TPR) & $TP/(TP+FN)$ & Costly false negatives; report per-class recall in multi-class. \\
+\hline
+F1 & $2PR/(P+R)$ & Balances precision/recall; robust when classes are imbalanced. \\
+\hline
+Macro-F1 & $\frac{1}{C}\sum_c \mathrm{F1}_c$ & Multi-class fairness: each class counts equally (recommended). \\
+\hline
+Balanced Acc & $\frac{1}{2}(\mathrm{TPR}+\mathrm{TNR})$ (binary) & Preferred over accuracy when class priors differ across folds/subjects. \\
+\hline
+AUC & $\int_0^1 \mathrm{TPR}(\mathrm{FPR})\,d\mathrm{FPR}$ & Threshold-free ranking quality for score-based models; use OVR for multi-class. \\
+\hline
+\end{tabular}
+\caption{Compact metric summary for EEG emotion recognition experiments.}
+\label{tab:metrics_compact}
+\end{table}
+
+\textbf{Reporting conventions and statistical testing.}
+At minimum, report mean$\pm$std over folds, macro-F1 (or per-class recall), and a confusion matrix for multi-class tasks \cite{kukhilava2025evaluation,PeerJCS2065}. For method comparisons, perform paired tests on \emph{matched} folds/subjects (e.g., LOSO yields one score per held-out subject). If fold-wise differences are approximately symmetric/normal, a paired $t$-test is acceptable; otherwise, Wilcoxon signed-rank is a robust nonparametric alternative \cite{Demsar2006}. In either case, report the test, the unit of pairing (subject/fold), and an effect size (e.g., mean difference with confidence interval) to avoid ``significance-only'' claims.
 
 
-% Table of contents entry should be 50 - 60 words long
-% Image should be 55 mm broad and 50 mm high or 110 mm broad and 20 mm high
+
+\subsection{Experimental Analysis}
+\label{subsec:experimental_analysis}
+
+Experimental analysis in EEG-based emotion recognition must be interpreted with respect to the evaluation protocol because the degree of subject overlap between training and testing directly affects task difficulty. Subject-dependent evaluation permits participant-specific information to be learned during training, whereas subject-independent evaluation tests whether emotion-related representations remain valid for previously unseen participants. Transfer-learning evaluation further examines whether knowledge acquired from a source subject, session, or dataset can be adapted to a shifted target domain. Consequently, accuracy values obtained under these settings should not be compared without considering the dataset, feature representation, number of emotion classes, and train--test protocol.
+
+This distinction is especially important for EEG because inter-subject variability, session-to-session non-stationarity, electrode configuration, and stimulus design can substantially alter the underlying feature distribution. Earlier comparisons already showed a considerable difference between intra-subject and inter-subject recognition, while recent deep architectures increasingly address this problem through spatial--spectral modeling, graph learning, attention, domain adaptation, and transfer learning. The following comparisons therefore retain the original experimental conditions and reported accuracies rather than combining heterogeneous results into a single aggregate score.
 
 
-\begin{figure}
-\textbf{Table of Contents}\\
-\medskip
-  \includegraphics{toc-image.png}
-  \medskip
-  \caption*{ToC Entry}
-\end{figure}
+% ============================================================
+\subsubsection{Subject-Dependent Evaluation}
+\label{subsubsec:subject_dependent_evaluation}
+
+Subject-dependent evaluation uses EEG from the same participant population in both model development and testing, typically through within-subject partitioning or cross-validation. This setting is useful for measuring the representational capacity of a model when subject-specific calibration is available, and it generally produces higher accuracies than subject-independent evaluation. The progression in Table~\ref{tab:subject_dependent_results} shows a transition from graph-based spectral modeling toward multidomain attention, Transformer-assisted architectures, and, most recently, computationally efficient capsule-based representations.
+
+\begin{sidewaystable*}[p]
+\centering
+
+\caption{Representative subject-dependent EEG emotion-recognition results. 
+Accuracy values correspond to the experimental protocols reported in the original studies and should therefore be interpreted with respect to the dataset, emotion-label configuration, and validation strategy. 
+A = arousal, V = valence, and D = dominance.}
+
+\label{tab:subject_dependent_results}
+
+\scriptsize
+\setlength{\tabcolsep}{3.0pt}
+\renewcommand{\arraystretch}{1.18}
+
+\begin{tabularx}{\textheight}{
+>{\raggedright\arraybackslash}p{2.55cm}
+>{\raggedright\arraybackslash}p{3.15cm}
+>{\raggedright\arraybackslash}X
+>{\raggedright\arraybackslash}X
+>{\raggedright\arraybackslash}p{3.65cm}
+>{\raggedright\arraybackslash}p{5.15cm}}
+
+\toprule
+
+\textbf{Category} &
+\textbf{Study} &
+\textbf{Input feature(s)} &
+\textbf{Method} &
+\textbf{Dataset / evaluation} &
+\textbf{Accuracy (\%)} \\
+
+\midrule
+
+Graph-based DL &
+Song et al. \cite{song2020dgcnn} &
+DE, PSD, DASM, RASM, and DCAU EEG descriptors represented over electrode graphs &
+DGCNN with dynamically learned inter-electrode adjacency relationships &
+SEED; subject-dependent &
+$90.40 \pm 8.49$ \\
+
+Spatial CNN &
+Deng et al. \cite{deng2021sfenet} &
+Multichannel EEG reorganized into symmetry-aware spatial representations preserving electrode topology &
+SFE-Net with symmetrical spatial feature extraction and convolutional representation learning &
+SEED; subject-dependent &
+99.19 \\
+
+Multidomain attention &
+Jia et al. \cite{jia2020sstemotionnet} &
+Three-dimensional differential-entropy representations encoding spatial, spectral, and temporal information &
+SST-EmotionNet using spatial--spectral--temporal attention with a 3-D dense architecture &
+SEED and SEED-IV; subject-dependent &
+SEED: $96.02 \pm 2.17$; SEED-IV: $84.92 \pm 6.66$ \\
+
+CNN--Transformer &
+Guo et al. \cite{guo2022dcot} &
+Differential-entropy features extracted from the principal EEG frequency bands &
+DCoT combining depthwise convolutional representation learning with a Transformer encoder &
+SEED; subject-dependent &
+93.83 \\
+
+Dynamic graph attention &
+Ding et al. \cite{ding2025dgat} &
+DE features extracted by STFT from four frequency bands for DEAP and five bands for SEED; EEG electrodes form graph nodes &
+DGAT with a dynamically updated adjacency matrix and multi-head graph attention for adaptive inter-channel relationship learning &
+DEAP and SEED; five-fold subject-dependent cross-validation &
+SEED: $94.00 \pm 2.60$; 
+DEAP-V: $93.55 \pm 3.89$; 
+DEAP-A: $93.19 \pm 3.65$ \\
+
+Sparse-channel feature fusion &
+Xiong et al. \cite{xiong2025cnnkanf2ca} &
+DE, PSD, EVI, and ASI features from four frontal channels (FP1, FP2, AF3, AF4), mapped into pseudo-RGB feature matrices &
+CNN-KAN-F2CA integrating convolutional feature extraction, FFT-based frequency-channel attention, and a Kolmogorov--Arnold Network classifier &
+SEED and DEAP; single-subject subject-dependent evaluation &
+SEED three-class: 97.45; 
+DEAP-V: 90.03; 
+DEAP-A: 91.33; 
+DEAP VA four-class: 89.16 \\
+
+\textbf{Efficient capsule DL (2026)} &
+Lin et al. \cite{lin2026pconvcapsnet} &
+Band-pass filtered and baseline-corrected multichannel EEG transformed into time--frequency representations &
+PconvCapsNet using selective partial convolution with synchronized channel bypass and primary--dense capsules with dynamic routing &
+DEAP and DREAMER; subject-dependent &
+DEAP: A 98.03, V 97.81, D 98.11; 
+DREAMER: A 97.20, V 96.49, D 97.04 \\
+
+\textbf{Wavelet--Transformer (2026)} &
+Soundariya and Thangaraj \cite{soundariya2026awtnet} &
+Multiscale EEG components obtained through hierarchical wavelet packet decomposition and EWT with Kalman filtering &
+AWT-Net combining multiscale wavelet analysis, multi-head self-attention, a hybrid spatio-temporal Transformer, and adaptive focal loss &
+DEAP; five-fold subject-dependent evaluation &
+99.61 window-level; 
+99.30 trial-wise grouped \\
+
+\textbf{Brain-constrained dual branch (2026)} &
+Hua et al. \cite{hua2026bradnet} &
+Continuous temporal EEG for the spatio-temporal branch and spectral-spatial time--frequency maps preserving electrode topology for the second branch &
+BRAD-Net with brain-region-constrained self-attention, CNN--Transformer temporal modeling, multi-scale residual spectral-spatial learning, and feature fusion &
+DEAP and DREAMER; subject-dependent 10-fold cross-validation &
+DEAP: V $97.44 \pm 1.19$, A $97.70 \pm 1.13$, D $97.97 \pm 1.14$; 
+DREAMER: V $99.66 \pm 0.22$, A $99.78 \pm 0.14$, D $99.80 \pm 0.16$ \\
+
+\textbf{Dense Transformer representation (2026)} &
+Liu et al. \cite{liu2026taformer} &
+Four-dimensional dense EEG representation preserving channel topology together with temporal and multidimensional feature structure &
+TaFormer using triplet attention to learn cross-dimensional, global spatial, and long-range temporal information, followed by dual-channel dynamic feature fusion &
+DEAP, SEED, DREAMER, and HBUED; subject-dependent &
+DEAP: 98.88; 
+SEED: 97.66; 
+DREAMER: 89.55; 
+HBUED: 99.85 \\
+
+\textbf{Sensor-density-aware DL (2026)} &
+Venkannagari et al. \cite{venkannagari2026robusteeg} &
+Preprocessed high-density multichannel EEG with physiologically constrained signal-level augmentation &
+Sensor-density-aware framework employing an Inception CNN for 62-channel SEED emotion classification &
+SEED; subject-dependent evaluation with augmentation &
+$98.52 \pm 0.79$ \\
+
+\bottomrule
+\end{tabularx}
+
+\vspace{1mm}
+\begin{minipage}{0.98\textheight}
+\scriptsize
+\textit{Note:} Numerical results are not directly comparable across rows because the studies differ in emotion labels, segmentation strategy, validation protocol, feature construction, and dataset composition. 
+In particular, window-level random splitting can yield more optimistic estimates than trial-wise grouping. 
+Accordingly, AWT-Net reports both its window-level result (99.61\%) and the stricter trial-wise grouped result (99.30\%).
+\end{minipage}
+
+\end{sidewaystable*}
+The results demonstrate that subject-dependent recognition has reached a high performance level on established benchmarks, particularly when spatial organization and frequency information are modeled jointly. On SEED, SFE-Net reports 99.19\%, exceeding the selected DGCNN and DCoT configurations under their respective reported protocols. The 2026 PconvCapsNet results are also consistently close to 98\% across the three DEAP dimensions and remain above 96\% across DREAMER, while simultaneously reducing convolutional computation through selective channel processing \cite{lin2026pconvcapsnet}. These values, however, represent calibrated or within-subject recognition and therefore should not be interpreted as evidence that equivalent performance will be preserved for previously unseen individuals.
+
+
+% ============================================================
+\subsubsection{Subject-Independent Evaluation}
+\label{subsubsec:subject_independent_evaluation}
+
+Subject-independent evaluation excludes the target participant from model training, commonly through leave-one-subject-out or related subject-wise partitioning. It therefore measures whether learned EEG representations capture emotion-relevant characteristics that persist across individuals rather than relying on participant-specific electrophysiological patterns. The substantial performance reduction observed for several architectures when moving from subject-dependent to subject-independent testing illustrates the importance of explicit generalization mechanisms.
+
+\begin{sidewaystable*}[p]
+\centering
+\caption{Representative subject-independent EEG emotion-recognition results. 
+The comparison integrates graph-based learning, transfer learning, domain adaptation,
+contrastive representation learning, Transformer-based modeling, and recent 2026
+cross-subject approaches. A = arousal, V = valence, and D = dominance.}
+\label{tab:subject_independent_results}
+
+\scriptsize
+\setlength{\tabcolsep}{3.0pt}
+\renewcommand{\arraystretch}{1.15}
+
+\begin{tabularx}{\textheight}{
+>{\raggedright\arraybackslash}p{2.55cm}
+>{\raggedright\arraybackslash}p{3.15cm}
+>{\raggedright\arraybackslash}X
+>{\raggedright\arraybackslash}X
+>{\raggedright\arraybackslash}p{3.45cm}
+>{\raggedright\arraybackslash}p{5.0cm}}
+\toprule
+
+\textbf{Category} &
+\textbf{Study} &
+\textbf{Input feature(s)} &
+\textbf{Method} &
+\textbf{Dataset / evaluation} &
+\textbf{Accuracy (\%)} \\
+
+\midrule
+
+Dynamic graph learning &
+Song et al. \cite{song2020dgcnn} &
+DE, PSD, DASM, RASM, and DCAU representations associated with EEG channels &
+DGCNN with adaptive graph adjacency learning for transferable inter-channel structure &
+SEED; subject-independent &
+79.95 \\
+
+Deep transferred CNN &
+Wang et al. \cite{wang2020efdmcnn} &
+Electrode--frequency distribution maps constructed from EEG using STFT &
+Residual CNN with electrode--frequency representation learning and deep-model transfer &
+SEED and DEAP; subject-independent &
+SEED: 90.59; DEAP-V: 82.84 \\
+
+Graph--Transformer &
+Li et al. \cite{li2023stgate} &
+Electrode-level spatial and time--frequency EEG representations &
+STGATE combining spatial--temporal graph attention with a Transformer encoder &
+SEED, SEED-IV, and DREAMER; subject-independent &
+SEED: $90.37 \pm 6.18$; SEED-IV: $76.43 \pm 5.01$; 
+DREAMER-V: $77.44 \pm 8.40$; DREAMER-A: $75.26 \pm 9.71$ \\
+
+Multi-source domain transfer &
+Quan et al. \cite{quan2023bspc_multisource_transfer} &
+Multiple EEG representations learned through an MR-VAE &
+Multi-source domain selection followed by subdomain adaptation and transferable representation learning &
+DEAP, SEED, and SEED-IV; cross-subject &
+DEAP-A: 79.59; DEAP-V: 81.19; SEED: 92.83; SEED-IV: 79.30 \\
+
+Multi-view domain adaptation &
+Li et al. \cite{li2024cadddccnn} &
+DE features obtained using STFT; individual EEG channels treated as multiple complementary views &
+CADD-DCCNN using multi-view cross-attention, dilated causal convolution, feature fusion, and a domain discriminator &
+DEAP and SEED; subject-independent / cross-subject &
+DEAP-V: $69.45 \pm 5.60$; DEAP-A: $70.50 \pm 9.39$; 
+SEED: $92.44 \pm 6.16$ \\
+
+Brain-area contrastive learning &
+Dai et al. \cite{dai2025clra} &
+Channel-wise EEG temporal signals reorganized according to functional brain-area relationships &
+CLRA with 1-D CNN and recurrent representation learning followed by brain-area contrastive fusion &
+DEAP and SEED; cross-subject &
+DEAP-V: 95.23; DEAP-A: 96.31; SEED: 95.16 \\
+
+Hyperbolic contrastive learning &
+Chang et al. \cite{chang2025mshcl} &
+Event-related EEG representations organized at emotion and stimulus scales &
+MSHCL using emotion-scale and stimulus-scale contrastive objectives in hierarchical hyperbolic space &
+SEED, MPED, and FACED; cross-subject &
+SEED (3-class): 89.30; MPED (7-class): 38.80; 
+FACED: 77.00 (binary), 45.70 (9-class) \\
+
+\textbf{Hybrid attention DL (2026)} &
+Ali et al. \cite{ali2026hybridcnnlstmcbam} &
+STFT spectrograms from the top three PCA components plus temporal sequences formed by the top ten PCA components &
+Parallel CNN--LSTM architecture with CBAM-based channel and spatial attention &
+SEED-IV; 15-subject LOSO, four emotion classes &
+68.67; macro-F1 = 68.22 \\
+
+\textbf{Domain generalization (2026)} &
+Li et al. \cite{li2026dspmcf} &
+Standard preprocessed DE features from 62-channel EEG; original and dynamically masked channel views &
+DSP-MCF with dual-stream spatiotemporal pre-training, dynamic channel masking, and multi-view consistency fine-tuning &
+SEED and SEED-IV; cross-subject &
+SEED: $89.76 \pm 5.60$; SEED-IV: $77.02 \pm 8.04$ \\
+
+\textbf{Prototype-graph UDA (2026)} &
+Dan et al. \cite{dan2026pgdlp} &
+Five-band DE features ($\delta$, $\theta$, $\alpha$, $\beta$, $\gamma$); 
+310-D vectors for SEED and 160-D vectors for DEAP &
+PGDLP combining prototypical semantic augmentation, prototype-graph deep label propagation, and prototypical alignment &
+SEED and SEED-IV; LOSO cross-subject evaluation &
+SEED: $91.65 \pm 5.16$; SEED-IV: $79.58 \pm 6.27$ \\
+
+\textbf{Contrastive VAE adaptation (2026)} &
+Wu et al. \cite{wu2026scvaenet} &
+$62\times5$ channel--frequency-band EEG matrices covering 
+$\delta$, $\theta$, $\alpha$, $\beta$, and $\gamma$ bands &
+SCVAE-Net with channel attention, variational latent representation, MMD alignment, and multi-view supervised contrastive learning &
+SEED and SEED-IV; cross-subject &
+SEED: $95.01 \pm 6.67$; SEED-IV: $74.94 \pm 9.88$ \\
+
+\bottomrule
+\end{tabularx}
+
+\vspace{1mm}
+\begin{minipage}{0.98\textheight}
+\scriptsize
+\textit{Note:} Results are reported under the evaluation protocol of the corresponding
+study and are therefore not directly interchangeable as a common benchmark.
+Differences in emotion classes, preprocessing, target-domain accessibility, session usage,
+and LOSO/cross-subject partitioning can materially influence the reported accuracy.
+\end{minipage}
+
+\end{sidewaystable*}
+
+Subject-independent results remain more variable because the classifier must operate under substantial person-to-person distribution shift. Multi-source transfer is particularly effective in the selected experiments, with Quan et al. reporting 92.83\% on SEED while simultaneously evaluating DEAP and SEED-IV \cite{quan2023bspc_multisource_transfer}. STGATE also demonstrates that jointly representing electrode topology and temporal dependencies can sustain useful performance across multiple datasets. Importantly, the 2026 CNN--LSTM--CBAM study reports a lower absolute value of 68.67\% on SEED-IV, but it employs a strict LOSO protocol across all 15 participants and four emotion classes, with PCA fitted exclusively on training subjects \cite{ali2026hybridcnnlstmcbam}. Thus, lower accuracy under a stricter unseen-subject protocol should not be interpreted as inferior representation learning without accounting for the evaluation design.
+
+
+% ============================================================
+\subsubsection{Transfer Learning Evaluation}
+\label{subsubsec:transfer_learning_evaluation}
+
+Transfer learning explicitly addresses distribution mismatch by transferring useful emotion-related knowledge from a source domain to a target domain. In EEG emotion recognition, the domain boundary may correspond to a recording session, an individual participant, or an entirely different dataset. These scenarios progressively introduce temporal, physiological, acquisition, and stimulus-related discrepancies. Consequently, transfer-learning methods have evolved from feature-level distribution alignment toward multi-source learning, calibration-efficient adaptation, hybrid fine-tuning, cross-dataset unsupervised adaptation, and class-conditional adversarial alignment.
+
+\begin{sidewaystable*}[p]
+\centering
+
+\caption{Representative transfer-learning evaluations for EEG-based emotion recognition.
+Results correspond to the original transfer setting of each method; cross-subject,
+cross-session, and cross-dataset results should therefore be interpreted separately.
+A = arousal and V = valence.}
+
+\label{tab:transfer_learning_results}
+
+\scriptsize
+\setlength{\tabcolsep}{3.0pt}
+\renewcommand{\arraystretch}{1.18}
+
+\begin{tabularx}{\textheight}{
+>{\raggedright\arraybackslash}p{2.65cm}
+>{\raggedright\arraybackslash}p{3.15cm}
+>{\raggedright\arraybackslash}X
+>{\raggedright\arraybackslash}X
+>{\raggedright\arraybackslash}p{3.8cm}
+>{\raggedright\arraybackslash}p{5.25cm}}
+
+\toprule
+
+\textbf{Category} &
+\textbf{Study} &
+\textbf{Input feature(s)} &
+\textbf{Method} &
+\textbf{Dataset / transfer setting} &
+\textbf{Accuracy (\%)} \\
+
+\midrule
+
+Adversarial feature transfer &
+Luo et al. \cite{luo2018iconip_wganda} &
+Differential-entropy EEG features &
+WGAN-based domain adaptation for learning transferable source--target representations &
+DEAP and SEED; cross-subject transfer &
+DEAP-V: 67.99; DEAP-A: 66.85; SEED: 87.07 \\
+
+Multi-source domain adaptation &
+Chen et al. \cite{chen2021frontiers_msmda} &
+Five-band differential-entropy features from 62 EEG channels &
+MS-MDA, treating individual source subjects as separate domains and aligning marginal distributions with the target &
+SEED and SEED-IV; cross-subject &
+SEED: $89.63 \pm 6.79$; SEED-IV: $59.34 \pm 5.48$ \\
+
+Calibration-efficient transfer &
+Zhao et al. \cite{zhao2021aaai_ppda} &
+310-D DE vectors obtained from 62 channels $\times$ five frequency bands &
+PPDA with shared/private encoders, source-specific classifiers, and rapid unlabeled target-subject calibration &
+SEED; cross-subject, 45-s target calibration &
+$86.70 \pm 7.10$ \\
+
+Hybrid DA and fine-tuning &
+Lu et al. \cite{lu2023frontiers_dffnet} &
+Differential-entropy features extracted from $\delta$, $\theta$, $\alpha$, $\beta$, and $\gamma$ bands &
+DFF-Net combining an Emo-DA module with few-shot target-domain fine-tuning &
+SEED and SEED-IV; cross-subject &
+SEED: $93.37 \pm 1.88$; SEED-IV: $82.32 \pm 5.38$ \\
+
+\textbf{Conditional adversarial transfer (2025)} &
+Huang et al. \cite{huang2025ttcdan} &
+DE and PSD features arranged as 14-s temporal sequences; each time step contains 310 features from 62 channels $\times$ five frequency bands &
+TT-CDAN using a temporal Transformer, MMD-based domain adapter, and conditional domain discriminator &
+SEED and SEED-IV; cross-subject &
+SEED: 93.62; SEED-IV: 82.16 \\
+
+\textbf{Pseudo-label propagation UDA (2025)} &
+Zhong et al. \cite{zhong2025daplp} &
+Preprocessed emotion-related EEG feature sequences from SEED, SEED-IV, and SEED-V, with temporal continuity exploited during propagation &
+DAPLP combining global distribution alignment, reliable pseudo-label selection, graph-based label propagation, correction, and smoothing &
+SEED, SEED-IV, and SEED-V; cross-subject and cross-session &
+Cross-subject: SEED 89.44, SEED-IV 74.57, SEED-V 69.15;
+cross-session: SEED 96.41, SEED-IV 82.20, SEED-V 84.70 \\
+
+\textbf{Adaptive source-label transfer (2025)} &
+Zhu et al. \cite{zhu2025mctlslac} &
+Preprocessed EEG feature vectors from SEED, SEED-IV, and FACED &
+MCTL-SLAC combining multi-class domain adaptation, target-domain prototype construction,
+adaptive source-label correction, and nuclear-norm maximization &
+SEED, SEED-IV, and FACED; cross-subject and cross-session &
+Cross-subject: SEED 87.30, SEED-IV 72.61, FACED 42.28;
+cross-session: SEED 93.57, SEED-IV 75.44 \\
+
+Cross-dataset UDA &
+Imtiaz and Khan \cite{imtiaz2025compbiomed_uda_gptds} &
+Five-band power spectral density features; DE was additionally evaluated in ablation experiments &
+Unsupervised domain adaptation with gradual proximity-guided target-data selection and confidence-aware test-time augmentation &
+SEED $\rightarrow$ DEAP and DEAP $\rightarrow$ SEED &
+SEED$\rightarrow$DEAP: 59.68; DEAP$\rightarrow$SEED: 67.44 \\
+
+\textbf{Loop adversarial transfer (2026)} &
+Yan et al. \cite{yan2026latn} &
+Electrode-wise EEG feature matrices in which each sample contains $n$ electrodes and $d$ features per electrode &
+LATN integrating structure-aware associative alignment, inner/outer-product combination,
+and semi-supervised pseudo-label selection to suppress negative transfer &
+SEED, DEAP, and ECPL; cross-subject &
+SEED: 94.34;
+DEAP-A: 89.21;
+DEAP-V: 76.12;
+ECPL: 96.33 \\
+
+\textbf{Riemannian geometric transfer (2026)} &
+Gao and Deng \cite{gao2026rgtgaa} &
+SPD covariance matrices computed from local DE feature vectors and represented on a Log-Euclidean manifold &
+RGT-GAA combining a Log-Euclidean Graph Transformer with Fr\'echet-mean geodesic alignment and adversarial domain adaptation &
+SEED and DEAP; LOSO cross-subject, cross-session, and one-to-one transfer &
+Cross-subject: SEED 89.23;
+DEAP-V: 66.40;
+DEAP-A: 68.10;
+cross-session: 92.38;
+one-to-one transfer: 74.56 \\
+
+\textbf{Multi-source dendrite adaptation (2026)} &
+Liu et al. \cite{liu2026ddmsda} &
+Five-band DE features from $\delta$, $\theta$, $\alpha$, $\beta$, and $\gamma$ rhythms;
+62-channel representations for SEED/SEED-IV and corresponding DEAP representations for cross-dataset transfer &
+DD-MSDA using a dendrite-net common feature extractor, domain-specific branches,
+source--target and target--target MMD alignment, and multiple domain-specific classifiers &
+SEED, SEED-IV, and DEAP; cross-subject, cross-session, and cross-dataset &
+Cross-subject: SEED 87.57, SEED-IV 74.79;
+cross-session: SEED 91.15, SEED-IV 75.57;
+cross-dataset average: 57.66 \\
+
+\textbf{Hierarchical adversarial transfer (2026)} &
+Hong et al. \cite{hong2026heat} &
+Emotion-evoked multichannel EEG representations from labeled source and unlabeled target subjects &
+HEAT with hierarchical global/class-conditional adversarial alignment and curriculum-based progressive pseudo-labeling &
+SEED and SEED-IV; cross-subject adaptation &
+SEED: $95.37 \pm 5.17$; SEED-IV: $82.50 \pm 9.28$ \\
+
+\bottomrule
+\end{tabularx}
+
+\vspace{1mm}
+\begin{minipage}{0.98\textheight}
+\scriptsize
+\textit{Note:} Results from different transfer scenarios are not directly comparable.
+Cross-subject adaptation addresses inter-individual variability within a dataset,
+cross-session adaptation addresses temporal non-stationarity, whereas cross-dataset
+transfer additionally introduces differences in participants, acquisition hardware,
+electrode configurations, stimuli, and preprocessing. Some methods also use unlabeled or
+limited labeled target-domain data, whereas domain-generalization methods may assume no
+target-domain access during model development.
+\end{minipage}
+
+\end{sidewaystable*}
+The transfer-learning results show a clear methodological shift from global feature alignment toward class-aware and target-aware adaptation. Early WGAN-based alignment already improved the feasibility of transferring DE representations across subjects, while multi-source adaptation explicitly exploited differences among source participants rather than merging them into a single population. Calibration-efficient PPDA reduced the amount of new-user data required, whereas DFF-Net combined domain alignment with few-shot fine-tuning and reached 93.37\% on SEED and 82.32\% on SEED-IV \cite{lu2023frontiers_dffnet}.
+
+The more difficult cross-dataset setting remains substantially less accurate: the GPTDS/PC-TTA framework reported 59.68\% for SEED$\rightarrow$DEAP and 67.44\% for DEAP$\rightarrow$SEED despite explicitly addressing target reliability \cite{imtiaz2025compbiomed_uda_gptds}. This gap demonstrates that cross-dataset transfer introduces additional mismatch from acquisition systems, subject populations, stimulus paradigms, and dataset construction. The 2026 HEAT framework reports 95.37\% on SEED and 82.50\% on SEED-IV by combining global and class-conditional alignment with progressively selected pseudo-labels \cite{hong2026heat}. Numerically, these reported within-dataset cross-subject results exceed the corresponding DFF-Net results on SEED and are slightly higher on SEED-IV, although they should not be equated with cross-dataset adaptation because the target-domain discrepancy is fundamentally different. Overall, the experimental evidence indicates that increasingly fine-grained alignment can substantially improve unseen-subject recognition, whereas robust transfer across entirely different datasets remains the more demanding generalization problem.
 
 \bibliographystyle{MSP}
 \bibliography{references}

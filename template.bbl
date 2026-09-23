@@ -857,4 +857,200 @@ J.~Wei, J.~Li, et~al.,
 J.~Xing, K., et~al.,
 \newblock \emph{Journal article cited in uploaded reviews} \textbf{2018}.
 
+\bibitem{kukhilava2025evaluation}
+N.~Kukhilava, et~al.,
+\newblock \emph{arXiv preprint arXiv:2505.18175} \textbf{2025}.
+
+\bibitem{russell1980circumplex}
+J.~A. Russell,
+\newblock \emph{Journal of Personality and Social Psychology} \textbf{1980},
+  \emph{39}, 6 1161.
+
+\bibitem{bradley1994sam}
+M.~M. Bradley, P.~J. Lang,
+\newblock \emph{Journal of Behavior Therapy and Experimental Psychiatry}
+  \textbf{1994}, \emph{25}, 1 49.
+
+\bibitem{zheng2015seed}
+W.-L. Zheng, B.-L. Lu,
+\newblock \emph{IEEE Transactions on Autonomous Mental Development}
+  \textbf{2015}, \emph{7}, 3 162.
+
+\bibitem{brookshire2024leakage}
+G.~Brookshire,
+\newblock \emph{Frontiers in Neuroscience} \textbf{2024}.
+
+\bibitem{seediv_page}
+{BCMI, Shanghai Jiao Tong University},
+\newblock Seed-iv dataset, \textbf{2026},
+\newblock Dataset project page, accessed 2026.
+
+\bibitem{duan2013de}
+R.-N. Duan, J.-Y. Zhu, B.-L. Lu,
+\newblock In \emph{Proceedings of the 6th International IEEE/EMBS Conference on
+  Neural Engineering (NER)}. \textbf{2013} 81--84.
+
+\bibitem{seed_page}
+{BCMI, Shanghai Jiao Tong University},
+\newblock Seed dataset, \textbf{2026},
+\newblock Dataset project page, accessed 2026.
+
+\bibitem{katsigiannis2018dreamer}
+S.~Katsigiannis, N.~Ramzan,
+\newblock \emph{IEEE Journal of Biomedical and Health Informatics}
+  \textbf{2018}.
+
+\bibitem{soleymani2012mahnob}
+M.~Soleymani, J.~Lichtenauer, T.~Pun, M.~Pantic,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2012},
+  \emph{3}, 1 42.
+
+\bibitem{amigos2018}
+J.~A. Miranda-Correa, M.~K. Abadi, N.~Sebe, I.~Patras,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2018}.
+
+\bibitem{subramanian2018ascertain}
+R.~Subramanian, et~al.,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2018}.
+
+\bibitem{song2019mped}
+T.~Song, W.-L. Zheng, C.~Lu, Y.~Zong, X.~Zhang, Z.~Cui,
+\newblock \emph{IEEE Access} \textbf{2019}, \emph{7} 12177.
+
+\bibitem{chen2023faced}
+J.~Chen, et~al.,
+\newblock \emph{Scientific Data} \textbf{2023}, \emph{10} 740.
+
+\bibitem{alakus2021gameemo}
+T.~B. Alakus, et~al.,
+\newblock \emph{Applied Sciences} \textbf{2021}.
+
+\bibitem{zheng2019emotionmeter}
+W.-L. Zheng, W.~Liu, Y.~Lu, B.-L. Lu, A.~Cichocki,
+\newblock \emph{IEEE Transactions on Cybernetics} \textbf{2019}, \emph{49}, 3
+  1110.
+
+\bibitem{PeerJCS2065}
+W.~Ma, Y.~Zheng, T.~Li, Z.~Li, Y.~Li, L.~Wang,
+\newblock \emph{PeerJ Computer Science} \textbf{2024}, \emph{10} e2065.
+
+\bibitem{Fawcett2006ROC}
+T.~Fawcett,
+\newblock \emph{Pattern Recognition Letters} \textbf{2006}, \emph{27}, 8 861.
+
+\bibitem{Demsar2006}
+J.~Dem{\v{s}}ar,
+\newblock \emph{Journal of Machine Learning Research} \textbf{2006}, \emph{7}
+  1.
+
+\bibitem{deng2021sfenet}
+X.~Deng, J.~Zhu, S.~Yang,
+\newblock In \emph{Proceedings of the 29th ACM International Conference on
+  Multimedia}. \textbf{2021} 2391--2400,
+\newblock Virtual Event.
+
+\bibitem{ding2025dgat}
+S.~Ding, K.~Wang, W.~Jiang, C.~Xu, H.~Bo, L.~Ma, H.~Li,
+\newblock \emph{Frontiers in Psychiatry} \textbf{2025}, \emph{16} 1633860.
+
+\bibitem{xiong2025cnnkanf2ca}
+F.~Xiong, M.~Fan, X.~Yang, C.~Wang, J.~Zhou,
+\newblock \emph{PLOS ONE} \textbf{2025}, \emph{20}, 5 e0322583.
+
+\bibitem{lin2026pconvcapsnet}
+B.~Lin, C.~Liu, X.~Wu, X.~Chen,
+\newblock \emph{Biomedical Signal Processing and Control} \textbf{2026},
+  \emph{120} 110077.
+
+\bibitem{soundariya2026awtnet}
+R.~S. Soundariya, P.~Thangaraj,
+\newblock \emph{Frontiers in Computational Neuroscience} \textbf{2026},
+  \emph{20} 1775449.
+
+\bibitem{hua2026bradnet}
+C.~Hua, H.~Cao, Z.~Li, Z.~Huang,
+\newblock \emph{Frontiers in Neuroscience} \textbf{2026}, \emph{20} 1810609.
+
+\bibitem{liu2026taformer}
+D.~Liu, C.~Wang, D.~Chen, Y.~Cao, X.~Hu, X.~Zhao, Z.~Liu,
+\newblock \emph{Biomedical Signal Processing and Control} \textbf{2026},
+  \emph{119} 109873.
+
+\bibitem{venkannagari2026robusteeg}
+V.~R. Venkannagari, S.~Sharma, P.~Olikkal, D.~Parikh, J.~Paun, F.~Safavi,
+  R.~Vinjamuri,
+\newblock \emph{Sensors} \textbf{2026}, \emph{26}, 14 4636.
+
+\bibitem{wang2020efdmcnn}
+F.~Wang, et~al.,
+\newblock \emph{Neuropsychologia} \textbf{2020}, \emph{146} 107506.
+
+\bibitem{li2023stgate}
+J.~Li, W.~Pan, H.~Huang, et~al.,
+\newblock \emph{Frontiers in Human Neuroscience} \textbf{2023}, \emph{17}
+  1169949.
+
+\bibitem{li2024cadddccnn}
+C.~Li, N.~Bian, Z.~Zhao, H.~Wang, B.~W. Schuller,
+\newblock \emph{Information Fusion} \textbf{2024}, \emph{104} 102156.
+
+\bibitem{dai2025clra}
+S.~Dai, M.~Li, X.~Wu, X.~Ju, X.~Li, J.~Yang, D.~Hu,
+\newblock \emph{IEEE Transactions on Instrumentation and Measurement}
+  \textbf{2025}, \emph{74} 1.
+
+\bibitem{chang2025mshcl}
+J.~Chang, Z.~Zhang, Y.~Qian, P.~Lin,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2025},
+  \emph{16}, 3 1716.
+
+\bibitem{ali2026hybridcnnlstmcbam}
+H.~Ali, Z.~Ermaganbet, M.~T. Akhtar,
+\newblock \emph{Discover Artificial Intelligence} \textbf{2026}, \emph{6} 598.
+
+\bibitem{li2026dspmcf}
+J.~Li, X.~Liu, X.~Wu, Y.~Wang, X.~Huang,
+\newblock \emph{Frontiers in Human Neuroscience} \textbf{2026}, \emph{20}
+  1723907.
+
+\bibitem{dan2026pgdlp}
+Y.~Dan, L.~Zhu, D.~Zhou,
+\newblock \emph{Frontiers in Neuroscience} \textbf{2026}, \emph{20} 1846592.
+
+\bibitem{wu2026scvaenet}
+L.~Wu, Y.~Yang, W.~Wang, Y.~Xie, N.~Zhou, K.~Shi,
+\newblock \emph{Sensors} \textbf{2026}, \emph{26}, 10 3217.
+
+\bibitem{huang2025ttcdan}
+H.~Huang, X.~Si, Y.~Han, D.~Ming,
+\newblock \emph{IEEE Transactions on Affective Computing} \textbf{2025},
+  \emph{16}, 4 2905.
+
+\bibitem{zhong2025daplp}
+X.-C. Zhong, Q.~Wang, R.~Li, Y.~Liu, S.~Duan, R.~Yang, D.~Liu, J.~Sun,
+\newblock \emph{IEEE Transactions on Instrumentation and Measurement}
+  \textbf{2025}, \emph{74} 1.
+
+\bibitem{zhu2025mctlslac}
+L.~Zhu, M.~Xu, A.~Huang, J.~Zhang, X.~Tan,
+\newblock \emph{Biomedical Signal Processing and Control} \textbf{2025},
+  \emph{104} 107536.
+
+\bibitem{yan2026latn}
+F.~Yan, B.~Zhang, Z.~Cai, M.~Du, X.~Liu, Z.~Yu, S.~Chen, S.~Liu, D.~Ming,
+\newblock \emph{Neural Networks} \textbf{2026}, \emph{196} 108324.
+
+\bibitem{gao2026rgtgaa}
+Y.~Gao, H.~Deng,
+\newblock \emph{Alexandria Engineering Journal} \textbf{2026}, \emph{142} 61.
+
+\bibitem{liu2026ddmsda}
+S.~Liu, H.~Guo, R.~Han, Y.~Pang, G.~Liu,
+\newblock \emph{Computers} \textbf{2026}, \emph{15}, 7 454.
+
+\bibitem{hong2026heat}
+Z.~Hong, R.~Chen, L.~Li, J.~Chen, W.~Gao, J.~Pan,
+\newblock \emph{Biomedical Signal Processing and Control} \textbf{2026},
+  \emph{121} 110299.
+
 \end{thebibliography}
