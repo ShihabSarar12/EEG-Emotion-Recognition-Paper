@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.1)  19 OCT 2026 10:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.1)  19 OCT 2026 19:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1598,7 +1598,7 @@ Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/*
 ) (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-LaTeX Font Info:    Trying to load font information for T1+stix2 on input line 35.
+LaTeX Font Info:    Trying to load font information for T1+stix2 on input line 33.
  (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\t1stix2.fd
 File: t1stix2.fd 2018/04/02 v2.0.0-latex stix2 T1 font definitions
 )
@@ -1609,42 +1609,42 @@ LaTeX Warning: Unused global option(s):
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for LS1/stix2/m/n on input line 35.
-LaTeX Font Info:    Trying to load font information for LS1+stix2 on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for LS1/stix2/m/n on input line 33.
+LaTeX Font Info:    Trying to load font information for LS1+stix2 on input line 33.
  (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls1stix2.fd
 File: ls1stix2.fd 2018/04/02 v2.0.0-latex stix2 LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for LS2/stix2/m/n on input line 35.
-LaTeX Font Info:    Trying to load font information for LS2+stix2 on input line 35.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for LS2/stix2/m/n on input line 33.
+LaTeX Font Info:    Trying to load font information for LS2+stix2 on input line 33.
  (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls2stix2.fd
 File: ls2stix2.fd 2018/04/02 v2.0.0-latex stix2 LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 35.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 35.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 33.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 33.
  (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    ... okay on input line 33.
  (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count481
@@ -1664,7 +1664,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 35.
+Package hyperref Info: Link coloring ON on input line 33.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: listings package is loaded.
@@ -1677,13 +1677,13 @@ Package caption Info: End \AtBeginDocument code.
 Package microtype Info: Patching varwidth to enable character protrusion.
 \MT@vwid@leftmargin=\dimen371
 \MT@vwid@rightmargin=\dimen372
-LaTeX Info: Redefining \microtypecontext on input line 35.
-Package microtype Info: Applying patch `item' on input line 35.
-Package microtype Info: Applying patch `toc' on input line 35.
-Package microtype Info: Applying patch `eqnum' on input line 35.
-Package microtype Info: Applying patch `footnote' on input line 35.
-Package microtype Info: Applying patch `verbatim' on input line 35.
-LaTeX Info: Redefining \microtypesetup on input line 35.
+LaTeX Info: Redefining \microtypecontext on input line 33.
+Package microtype Info: Applying patch `item' on input line 33.
+Package microtype Info: Applying patch `toc' on input line 33.
+Package microtype Info: Applying patch `eqnum' on input line 33.
+Package microtype Info: Applying patch `footnote' on input line 33.
+Package microtype Info: Applying patch `verbatim' on input line 33.
+LaTeX Info: Redefining \microtypesetup on input line 33.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1728,8 +1728,8 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Command `\dddot' is already robust on input line 35.
-LaTeX Info: Command `\ddddot' is already robust on input line 35.
+LaTeX Info: Command `\dddot' is already robust on input line 33.
+LaTeX Info: Command `\ddddot' is already robust on input line 33.
 \c@lstlisting=\count487
 Package epstopdf Info: Source file: <./images/Wiley_logo.eps>
 (epstopdf)                    date: 2026-10-10 05:09:30
@@ -1738,7 +1738,7 @@ Package epstopdf Info: Source file: <./images/Wiley_logo.eps>
 (epstopdf)                    date: 2026-10-10 05:09:30
 (epstopdf)                    size: 10191 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=./images/Wiley_logo-eps-converted-to.pdf ./images/Wiley_logo.eps>
-(epstopdf)             \includegraphics on input line 62.
+(epstopdf)             \includegraphics on input line 60.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1746,43 +1746,43 @@ pdfTeX warning: pdflatex (file ./images/Wiley_logo-eps-converted-to.pdf): PDF in
 <./images/Wiley_logo-eps-converted-to.pdf, id=6, 611.28375pt x 127.47626pt>
 File: ./images/Wiley_logo-eps-converted-to.pdf Graphic file (type pdf)
 <use ./images/Wiley_logo-eps-converted-to.pdf>
-Package pdftex.def Info: ./images/Wiley_logo-eps-converted-to.pdf  used on input line 62.
+Package pdftex.def Info: ./images/Wiley_logo-eps-converted-to.pdf  used on input line 60.
 (pdftex.def)             Requested size: 75.3998pt x 15.72246pt.
-LaTeX Font Info:    Trying to load font information for LS1+stix2scr on input line 62.
+LaTeX Font Info:    Trying to load font information for LS1+stix2scr on input line 60.
 (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls1stix2scr.fd
 File: ls1stix2scr.fd 2018/04/02 v2.0.0-latex stix2 script LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS2+stix2ex on input line 62.
+LaTeX Font Info:    Trying to load font information for LS2+stix2ex on input line 60.
  (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls2stix2ex.fd
 File: ls2stix2ex.fd 2018/04/02 v2.0.0-latex stix2 extentions LS2 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS1+stix2frak on input line 62.
+LaTeX Font Info:    Trying to load font information for LS1+stix2frak on input line 60.
  (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls1stix2frak.fd
 File: ls1stix2frak.fd 2018/04/02 v2.0.0-latex stix2 fraktur LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS1+stix2bb on input line 62.
+LaTeX Font Info:    Trying to load font information for LS1+stix2bb on input line 60.
  (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls1stix2bb.fd
 File: ls1stix2bb.fd 2018/04/02 v2.0.0-latex stix2 blackboard LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS2+stix2cal on input line 62.
+LaTeX Font Info:    Trying to load font information for LS2+stix2cal on input line 60.
  (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls2stix2cal.fd
 File: ls2stix2cal.fd 2018/04/02 v2.0.0-latex stix2 calligraphic LS2 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS1+stix2sf on input line 62.
+LaTeX Font Info:    Trying to load font information for LS1+stix2sf on input line 60.
  (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls1stix2sf.fd
 File: ls1stix2sf.fd 2018/04/02 v2.0.0-latex stix2 sans-serif LS1 font definitions
 )
-LaTeX Font Info:    Trying to load font information for LS2+stix2tt on input line 62.
+LaTeX Font Info:    Trying to load font information for LS2+stix2tt on input line 60.
  (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/fonts/stix2-type1\ls2stix2tt.fd
 File: ls2stix2tt.fd 2018/04/02 v2.0.0-latex stix2 typewriter LS2 font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
  (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
  (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
@@ -1795,7 +1795,7 @@ Package epstopdf Info: Source file: <images/ORCID_Logo.eps>
 (epstopdf)                    date: 2026-10-10 05:09:30
 (epstopdf)                    size: 11676 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=images/ORCID_Logo-eps-converted-to.pdf images/ORCID_Logo.eps>
-(epstopdf)             \includegraphics on input line 62.
+(epstopdf)             \includegraphics on input line 60.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -1803,7 +1803,7 @@ pdfTeX warning: pdflatex (file ./images/ORCID_Logo-eps-converted-to.pdf): PDF in
 <images/ORCID_Logo-eps-converted-to.pdf, id=8, 256.96pt x 256.96pt>
 File: images/ORCID_Logo-eps-converted-to.pdf Graphic file (type pdf)
 <use images/ORCID_Logo-eps-converted-to.pdf>
-Package pdftex.def Info: images/ORCID_Logo-eps-converted-to.pdf  used on input line 62.
+Package pdftex.def Info: images/ORCID_Logo-eps-converted-to.pdf  used on input line 60.
 (pdftex.def)             Requested size: 7.02623pt x 7.02625pt.
 Package epstopdf Info: Source file: <images/ORCID_Logo.eps>
 (epstopdf)                    date: 2026-10-10 05:09:30
@@ -1812,11 +1812,11 @@ Package epstopdf Info: Source file: <images/ORCID_Logo.eps>
 (epstopdf)                    date: 2026-10-10 05:09:30
 (epstopdf)                    size: 11676 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=images/ORCID_Logo-eps-converted-to.pdf images/ORCID_Logo.eps>
-(epstopdf)             \includegraphics on input line 62.
+(epstopdf)             \includegraphics on input line 60.
 Package epstopdf Info: Output file is already uptodate.
 File: images/ORCID_Logo-eps-converted-to.pdf Graphic file (type pdf)
 <use images/ORCID_Logo-eps-converted-to.pdf>
-Package pdftex.def Info: images/ORCID_Logo-eps-converted-to.pdf  used on input line 62.
+Package pdftex.def Info: images/ORCID_Logo-eps-converted-to.pdf  used on input line 60.
 (pdftex.def)             Requested size: 7.02623pt x 7.02625pt.
 Package epstopdf Info: Source file: <images/ORCID_Logo.eps>
 (epstopdf)                    date: 2026-10-10 05:09:30
@@ -1825,13 +1825,13 @@ Package epstopdf Info: Source file: <images/ORCID_Logo.eps>
 (epstopdf)                    date: 2026-10-10 05:09:30
 (epstopdf)                    size: 11676 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=images/ORCID_Logo-eps-converted-to.pdf images/ORCID_Logo.eps>
-(epstopdf)             \includegraphics on input line 62.
+(epstopdf)             \includegraphics on input line 60.
 Package epstopdf Info: Output file is already uptodate.
 File: images/ORCID_Logo-eps-converted-to.pdf Graphic file (type pdf)
 <use images/ORCID_Logo-eps-converted-to.pdf>
-Package pdftex.def Info: images/ORCID_Logo-eps-converted-to.pdf  used on input line 62.
+Package pdftex.def Info: images/ORCID_Logo-eps-converted-to.pdf  used on input line 60.
 (pdftex.def)             Requested size: 7.02623pt x 7.02625pt.
-LaTeX Font Info:    Calculating math sizes for size <7.5> on input line 62.
+LaTeX Font Info:    Calculating math sizes for size <7.5> on input line 60.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1885,32 +1885,32 @@ Overfull \vbox (49.76738pt too high) has occurred while \output is active []
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 72--73
+Underfull \hbox (badness 1303) in paragraph at lines 70--71
 \T1/stix2/m/n/9.03374 to iden-ti-fy-ing emo-tions us-ing EEG. The qual-ity of EEG sig-
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 72--73
+Underfull \hbox (badness 1221) in paragraph at lines 70--71
 \T1/stix2/m/n/9.03374 nals greatly de-pends on pa-ram-e-ters such as elec-trode place-
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 72--73
+Underfull \hbox (badness 1460) in paragraph at lines 70--71
 \T1/stix2/m/n/9.03374 pare method-ol-ogy based meth-ods in or-der to eval-u-ate their
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 74--75
+Underfull \hbox (badness 1292) in paragraph at lines 72--73
 []\T1/stix2/m/n/9.03374 The emer-gence of re-cent tech-niques in EEG based emo-tion
  []
 
 
-Underfull \hbox (badness 2012) in paragraph at lines 78--79
+Underfull \hbox (badness 2012) in paragraph at lines 76--77
 []\T1/stix2/m/n/9.03374 Past lit-er-a-ture re-views have im-proved the un-der-stand-ing of
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 78--79
+Underfull \hbox (badness 1377) in paragraph at lines 76--77
 \T1/stix2/m/n/9.03374 emo-tion recog-ni-tion via elec-troen-cephalo-gram (EEG) sig-nals
  []
 
@@ -1918,11 +1918,11 @@ Underfull \hbox (badness 1377) in paragraph at lines 78--79
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) detected at line 102
+Underfull \hbox (badness 10000) detected at line 100
 []
  []
 
-LaTeX Font Info:    Calculating math sizes for size <9.03374> on input line 185.
+LaTeX Font Info:    Calculating math sizes for size <9.03374> on input line 183.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1934,24 +1934,24 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
 [2
 
 ]
-Underfull \hbox (badness 1226) in paragraph at lines 198--199
+Underfull \hbox (badness 1226) in paragraph at lines 196--197
 \T1/stix2/m/n/9.03374 learn-ing tech-nol-ogy, it has been pos-si-ble to ex-tract com-plex
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Font Info:    Trying to load font information for LGR+stix2 on input line 203.
-LaTeX Font Info:    No file LGRstix2.fd. on input line 203.
+LaTeX Font Info:    Trying to load font information for LGR+stix2 on input line 201.
+LaTeX Font Info:    No file LGRstix2.fd. on input line 201.
 
 
 LaTeX Font Warning: Font shape `LGR/stix2/m/n' undefined
-(Font)              using `LGR/cmr/m/n' instead on input line 203.
+(Font)              using `LGR/cmr/m/n' instead on input line 201.
 
 (C:\Users\shihabsarar12\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-Underfull \hbox (badness 1221) in paragraph at lines 205--207
+Underfull \hbox (badness 1221) in paragraph at lines 203--205
 \T1/stix2/m/n/9.03374 sub-ject, cross ses-sion, or cross database set-tings emo-tion re-
  []
 
@@ -1961,27 +1961,27 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
  []
 
 [3{C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stix2-type1/stix2-mathtt.enc}]
-Underfull \hbox (badness 1308) in paragraph at lines 208--209
+Underfull \hbox (badness 1308) in paragraph at lines 206--207
 \T1/stix2/m/n/9.03374 tions by pair-ing af-fec-tive stim-uli like, videos or mu-sic with
  []
 
 <pictures/Valence.png, id=98, 533.995pt x 471.7625pt>
 File: pictures/Valence.png Graphic file (type png)
 <use pictures/Valence.png>
-Package pdftex.def Info: pictures/Valence.png  used on input line 217.
+Package pdftex.def Info: pictures/Valence.png  used on input line 215.
 (pdftex.def)             Requested size: 244.69371pt x 216.17834pt.
 <pictures/3D_emotion.png, id=101, 1226.33156pt x 727.21687pt>
 File: pictures/3D_emotion.png Graphic file (type png)
 <use pictures/3D_emotion.png>
-Package pdftex.def Info: pictures/3D_emotion.png  used on input line 234.
+Package pdftex.def Info: pictures/3D_emotion.png  used on input line 232.
 (pdftex.def)             Requested size: 244.69371pt x 145.0968pt.
 
-Underfull \hbox (badness 1715) in paragraph at lines 235--235
+Underfull \hbox (badness 1715) in paragraph at lines 233--233
 []\T1/stix2/b/n/8 FIGURE 2 \T1/stix2/m/n/8 |  Three di-men-sional rep-re-sen-ta-tion of se-lected emo-
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 235--235
+Underfull \hbox (badness 1292) in paragraph at lines 233--233
 \T1/stix2/m/n/8 their dis-tri-bu-tion across emo-tional pleas-ant-ness, ac-ti-va-tion, and per-
  []
 
@@ -1994,17 +1994,17 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
 <pictures/Human_Brain_EEG.png, id=122, 1316.92pt x 1203.49625pt>
 File: pictures/Human_Brain_EEG.png Graphic file (type png)
 <use pictures/Human_Brain_EEG.png>
-Package pdftex.def Info: pictures/Human_Brain_EEG.png  used on input line 260.
+Package pdftex.def Info: pictures/Human_Brain_EEG.png  used on input line 258.
 (pdftex.def)             Requested size: 244.69371pt x 223.61661pt.
 
-Underfull \hbox (badness 1888) in paragraph at lines 261--261
+Underfull \hbox (badness 1888) in paragraph at lines 259--259
 []\T1/stix2/b/n/8 FIGURE 3 \T1/stix2/m/n/8 |  Il-lus-tra-tive mul-ti-chan-nel EEG elec-trode place-ment
  []
 
 <pictures/Bands.png, id=144, 859.2903pt x 642.4803pt>
 File: pictures/Bands.png Graphic file (type png)
 <use pictures/Bands.png>
-Package pdftex.def Info: pictures/Bands.png  used on input line 314.
+Package pdftex.def Info: pictures/Bands.png  used on input line 312.
 (pdftex.def)             Requested size: 405.1688pt x 302.93633pt.
 
 Overfull \hbox (261.76537pt too wide) has occurred while \output is active
@@ -2015,10 +2015,10 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
 <pictures/Modalities.png, id=171, 1015.795pt x 506.89375pt>
 File: pictures/Modalities.png Graphic file (type png)
 <use pictures/Modalities.png>
-Package pdftex.def Info: pictures/Modalities.png  used on input line 329.
+Package pdftex.def Info: pictures/Modalities.png  used on input line 327.
 (pdftex.def)             Requested size: 379.8443pt x 189.54327pt.
 
-Underfull \hbox (badness 1231) in paragraph at lines 334--335
+Underfull \hbox (badness 1231) in paragraph at lines 332--333
 \T1/stix2/m/n/9.03374 ment [[]]. In-ter-me-di-ate fu-sion pro-vides joint rep-re-sen-ta-tion,
  []
 
@@ -2026,7 +2026,7 @@ Underfull \hbox (badness 1231) in paragraph at lines 334--335
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 343--344
+Underfull \hbox (badness 1009) in paragraph at lines 341--342
 \T1/stix2/m/n/9.03374 un-able to de-tect [[]]. Spectral-spatial and connectivity-based
  []
 
@@ -2039,7 +2039,7 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
  []
 
 [6 <./pictures/Bands.png>]
-Underfull \hbox (badness 4518) in paragraph at lines 354--355
+Underfull \hbox (badness 4518) in paragraph at lines 352--353
 []\T1/stix2/m/n/9.03374 The sig-nals re-ceived through an elec-troen-cephalo-gram are
  []
 
@@ -2052,22 +2052,22 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
  []
 
 [7 <./pictures/Modalities.png>]
-Underfull \hbox (badness 6808) in paragraph at lines 376--377
+Underfull \hbox (badness 6808) in paragraph at lines 374--375
  \T1/stix2/b/n/9 2.7.2.2 | []|  Prin-ci-pal Com-po-nent Anal-y-sis (PCA)..|  \T1/stix2/m/n/9.03374 PCA
  []
 
 
-Underfull \hbox (badness 1983) in paragraph at lines 376--377
+Underfull \hbox (badness 1983) in paragraph at lines 374--375
 \T1/stix2/m/n/9.03374 trans-forms cor-re-lated EEG chan-nels into or-thog-o-nal, un-cor-
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 376--377
+Underfull \hbox (badness 3668) in paragraph at lines 374--375
 \T1/stix2/m/n/9.03374 re-lated com-po-nents ranked by ex-plained vari-ance. Artifact-
  []
 
 
-Underfull \hbox (badness 10000) detected at line 404
+Underfull \hbox (badness 10000) detected at line 402
 []
  []
 
@@ -2080,7 +2080,7 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 464--465
+Underfull \hbox (badness 1472) in paragraph at lines 462--463
 \T1/stix2/m/n/9.03374 states. Fea-ture ex-trac-tion al-go-rithms can gen-er-ally be clas-si-
  []
 
@@ -2093,7 +2093,7 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
  []
 
 [9]
-Underfull \hbox (badness 1082) in paragraph at lines 466--467
+Underfull \hbox (badness 1082) in paragraph at lines 464--465
 \T1/stix2/m/n/9.03374 struc-tured multi-dimensional fea-ture rep-re-sen-ta-tions that en-
  []
 
@@ -2103,22 +2103,22 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
  []
 
 [10{C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stix2-type1/stix2-mathrm.enc}]
-Underfull \hbox (badness 1168) in paragraph at lines 494--495
+Underfull \hbox (badness 1168) in paragraph at lines 492--493
 []\T1/stix2/m/n/9.03374 However, fre-quency do-main mod-el-ing for emo-tion de-tec-tion
  []
 
 
-Underfull \hbox (badness 8151) in paragraph at lines 502--503
+Underfull \hbox (badness 8151) in paragraph at lines 500--501
  \T1/stix2/b/n/9 2.7.4.3 | []|  Tem-po-ral Fre-quency Do-main Features.|  \T1/stix2/m/n/9.03374 Fre-
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 504--505
+Underfull \hbox (badness 1342) in paragraph at lines 502--503
 \T1/stix2/m/n/9.03374 do-main is achieved through var-i-ous tech-niques such as the
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 508--509
+Underfull \hbox (badness 3209) in paragraph at lines 506--507
 []\T1/stix2/m/n/9.03374 Even though fre-quency do-main based mod-els have shown
  []
 
@@ -2131,12 +2131,12 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
  []
 
 [11]
-Underfull \hbox (badness 10000) detected at line 534
+Underfull \hbox (badness 10000) detected at line 532
 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 711
+Underfull \hbox (badness 10000) detected at line 709
 []
  []
 
@@ -2144,7 +2144,7 @@ Underfull \hbox (badness 10000) detected at line 711
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 765--766
+Underfull \hbox (badness 1888) in paragraph at lines 763--764
 \T1/stix2/m/n/9.03374 In emo-tion recog-ni-tion datasets us-ing elec-troen-cephalo-gram
  []
 
@@ -2164,15 +2164,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <pictures/Method Overview.png, id=401, 2942.995pt x 1085.05376pt>
 File: pictures/Method Overview.png Graphic file (type png)
 <use pictures/Method Overview.png>
-Package pdftex.def Info: pictures/Method Overview.png  used on input line 840.
+Package pdftex.def Info: pictures/Method Overview.png  used on input line 838.
 (pdftex.def)             Requested size: 506.45908pt x 186.72495pt.
 
-Underfull \hbox (badness 10000) detected at line 841
+Underfull \hbox (badness 10000) detected at line 839
 []
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 846--847
+Underfull \hbox (badness 1430) in paragraph at lines 844--845
 []\T1/stix2/m/n/9.03374 Fig.  [][]6[][] il-lus-trates the prin-ci-pal stages in-volved in ac-quir-ing
  []
 
@@ -2196,12 +2196,12 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
  []
 
 [15 <./pictures/Method Overview.png>]
-Underfull \hbox (badness 6396) in paragraph at lines 863--864
+Underfull \hbox (badness 6396) in paragraph at lines 861--862
  \T1/stix2/b/n/9 2.8.2.1 | []|  Aug-ment-ing Data Samples.|  \T1/stix2/m/n/9.03374 In aug-men-ta-tion,
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 866--867
+Underfull \hbox (badness 1859) in paragraph at lines 864--865
  \T1/stix2/b/n/9 2.8.2.2 | []|  Gen-er-at-ing Syn-thetic Data.|  \T1/stix2/m/n/9.03374 Gen-er-a-tive mod-els
  []
 
@@ -2211,22 +2211,22 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 883--884
+Underfull \hbox (badness 10000) in paragraph at lines 881--882
 \T1/stix2/m/n/9.03374 trans-former en-coder along with vi-su-al-iza-tion of channel-
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 883--884
+Underfull \hbox (badness 1424) in paragraph at lines 881--882
 \T1/stix2/m/n/9.03374 the lower per-for-mance un-der subject-independent val-i-da-tion
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 883--884
+Underfull \hbox (badness 2189) in paragraph at lines 881--882
 \T1/stix2/m/n/9.03374 does not nec-es-sar-ily mean good subject-independent per-for-
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 894--895
+Underfull \hbox (badness 1917) in paragraph at lines 892--893
 \T1/stix2/m/n/9.03374 tro-gram+CNN pipelines like, EEG Con-vNet and fine tuned
  []
 
@@ -2239,22 +2239,22 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
  []
 
 [17{C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stix2-type1/stix2-mathcal.enc}{C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stix2-type1/stix2-mathscr.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 923--925
+Underfull \hbox (badness 10000) in paragraph at lines 921--923
  \T1/stix2/b/n/9 3.2.1.1.1 | []|  Dis-crep-ancy Based Methods.|  \T1/stix2/m/n/9.03374 Dis-crep-ancy
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 923--925
+Underfull \hbox (badness 1052) in paragraph at lines 921--923
 \T1/stix2/m/n/9.03374 or-der to en-able knowl-edge trans-fer across do-mains. In EEG
  []
 
 
-Underfull \hbox (badness 6691) in paragraph at lines 923--925
+Underfull \hbox (badness 6691) in paragraph at lines 921--923
 \T1/stix2/m/n/9.03374 Dis-crep-ancy (MMD) and Cor-re-la-tion Align-ment (CORAL).
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 923--925
+Underfull \hbox (badness 5274) in paragraph at lines 921--923
 \T1/stix2/m/n/9.03374 fea-tures in-vari-ant against the do-mains. Dis-crep-ancy based
  []
 
@@ -2269,17 +2269,17 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
  []
 
 [19]
-Underfull \hbox (badness 2080) in paragraph at lines 1010--1011
+Underfull \hbox (badness 2080) in paragraph at lines 1008--1009
 []\T1/stix2/m/n/9.03374 Overall, source free DA pro-vides a prac-ti-cal so-lu-tion when
  []
 
 
-Underfull \hbox (badness 2846) in paragraph at lines 1019--1020
+Underfull \hbox (badness 2846) in paragraph at lines 1017--1018
  \T1/stix2/b/n/9 3.2.1.3 | []|  Fine Tun-ing Strategies.|  \T1/stix2/m/n/9.03374 Fine tun-ing strate-gies
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 1030--1031
+Underfull \hbox (badness 1460) in paragraph at lines 1028--1029
 []\T1/stix2/m/n/9.03374 Across sub-ject in-de-pen-dent EEG emo-tion recog-ni-tion, multi
  []
 
@@ -2294,7 +2294,7 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
  []
 
 [21{C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stix2-type1/stix2-mathrm-bold.enc}]
-Underfull \hbox (badness 1286) in paragraph at lines 1088--1089
+Underfull \hbox (badness 1286) in paragraph at lines 1086--1087
 \T1/stix2/m/n/9.03374 dis-tor-tions in phys-i-o-log-i-cal fea-tures. Pre-pro-cess-ing and au-to-
  []
 
@@ -2304,7 +2304,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <pictures/methodologies.png, id=614, 3434.8325pt x 1417.295pt>
 File: pictures/methodologies.png Graphic file (type png)
 <use pictures/methodologies.png>
-Package pdftex.def Info: pictures/methodologies.png  used on input line 1095.
+Package pdftex.def Info: pictures/methodologies.png  used on input line 1093.
 (pdftex.def)             Requested size: 506.45908pt x 208.97351pt.
 
 Overfull \hbox (261.76537pt too wide) has occurred while \output is active
@@ -2322,66 +2322,66 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
 [23 <./pictures/methodologies.png>]
 
 LaTeX Font Warning: Font shape `LS2/stix2ex/b/n' in size <9.03374> not available
-(Font)              Font shape `LS2/stix2ex/m/n' tried instead on input line 1135.
+(Font)              Font shape `LS2/stix2ex/m/n' tried instead on input line 1133.
 
 
 LaTeX Font Warning: Font shape `LS2/stix2ex/b/n' in size <6.32358> not available
-(Font)              Font shape `LS2/stix2ex/m/n' tried instead on input line 1135.
+(Font)              Font shape `LS2/stix2ex/m/n' tried instead on input line 1133.
 
 
 LaTeX Font Warning: Font shape `LS2/stix2ex/b/n' in size <4.51686> not available
-(Font)              Font shape `LS2/stix2ex/m/n' tried instead on input line 1135.
+(Font)              Font shape `LS2/stix2ex/m/n' tried instead on input line 1133.
 
 
 LaTeX Font Warning: Font shape `LS1/stix2bb/b/n' in size <9.03374> not available
-(Font)              Font shape `LS1/stix2bb/m/n' tried instead on input line 1135.
+(Font)              Font shape `LS1/stix2bb/m/n' tried instead on input line 1133.
 
 
 LaTeX Font Warning: Font shape `LS1/stix2bb/b/n' in size <6.32358> not available
-(Font)              Font shape `LS1/stix2bb/m/n' tried instead on input line 1135.
+(Font)              Font shape `LS1/stix2bb/m/n' tried instead on input line 1133.
 
 
 LaTeX Font Warning: Font shape `LS1/stix2bb/b/n' in size <4.51686> not available
-(Font)              Font shape `LS1/stix2bb/m/n' tried instead on input line 1135.
+(Font)              Font shape `LS1/stix2bb/m/n' tried instead on input line 1133.
 
 
 LaTeX Font Warning: Font shape `LS1/stix2bb/b/it' in size <9.03374> not available
-(Font)              Font shape `LS1/stix2bb/m/it' tried instead on input line 1135.
+(Font)              Font shape `LS1/stix2bb/m/it' tried instead on input line 1133.
 
 
 LaTeX Font Warning: Font shape `LS1/stix2bb/b/it' in size <6.32358> not available
-(Font)              Font shape `LS1/stix2bb/m/it' tried instead on input line 1135.
+(Font)              Font shape `LS1/stix2bb/m/it' tried instead on input line 1133.
 
 
 LaTeX Font Warning: Font shape `LS1/stix2bb/b/it' in size <4.51686> not available
-(Font)              Font shape `LS1/stix2bb/m/it' tried instead on input line 1135.
+(Font)              Font shape `LS1/stix2bb/m/it' tried instead on input line 1133.
 
 
 LaTeX Font Warning: Font shape `LS2/stix2cal/b/n' in size <9.03374> not available
-(Font)              Font shape `LS2/stix2cal/m/n' tried instead on input line 1135.
+(Font)              Font shape `LS2/stix2cal/m/n' tried instead on input line 1133.
 
 
 LaTeX Font Warning: Font shape `LS2/stix2cal/b/n' in size <6.32358> not available
-(Font)              Font shape `LS2/stix2cal/m/n' tried instead on input line 1135.
+(Font)              Font shape `LS2/stix2cal/m/n' tried instead on input line 1133.
 
 
 LaTeX Font Warning: Font shape `LS2/stix2cal/b/n' in size <4.51686> not available
-(Font)              Font shape `LS2/stix2cal/m/n' tried instead on input line 1135.
+(Font)              Font shape `LS2/stix2cal/m/n' tried instead on input line 1133.
 
 
 LaTeX Font Warning: Font shape `LS2/stix2tt/b/n' in size <9.03374> not available
-(Font)              Font shape `LS2/stix2tt/m/n' tried instead on input line 1135.
+(Font)              Font shape `LS2/stix2tt/m/n' tried instead on input line 1133.
 
 
 LaTeX Font Warning: Font shape `LS2/stix2tt/b/n' in size <6.32358> not available
-(Font)              Font shape `LS2/stix2tt/m/n' tried instead on input line 1135.
+(Font)              Font shape `LS2/stix2tt/m/n' tried instead on input line 1133.
 
 
 LaTeX Font Warning: Font shape `LS2/stix2tt/b/n' in size <4.51686> not available
-(Font)              Font shape `LS2/stix2tt/m/n' tried instead on input line 1135.
+(Font)              Font shape `LS2/stix2tt/m/n' tried instead on input line 1133.
 
 
-Underfull \hbox (badness 4181) in paragraph at lines 1135--1135
+Underfull \hbox (badness 4181) in paragraph at lines 1133--1133
 []\T1/stix2/m/n/9.03374 Attention en-hanced mod-els in-tro-duce adap-tive reweight-ing
  []
 
@@ -2391,17 +2391,17 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
  []
 
 [24{C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stix2-type1/stix2-mathit-bold.enc}]
-Underfull \hbox (badness 1062) in paragraph at lines 1162--1163
+Underfull \hbox (badness 1062) in paragraph at lines 1160--1161
 \T1/stix2/m/n/9.03374 tional stim-uli, elec-trode con-fig-u-ra-tions, an-no-ta-tion strate-gies,
  []
 
 
-Underfull \hbox (badness 10000) detected at line 1171
+Underfull \hbox (badness 10000) detected at line 1169
 []
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 1337--1338
+Underfull \hbox (badness 1028) in paragraph at lines 1335--1336
 \T1/stix2/m/n/9.03374 DREAMER, MAHNOB-HCI, AMI-GOS, and AS-CER-TAIN are
  []
 
@@ -2411,7 +2411,7 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
  []
 
 [25]
-Underfull \hbox (badness 1102) in paragraph at lines 1564--1565
+Underfull \hbox (badness 1102) in paragraph at lines 1562--1563
 \T1/stix2/m/n/9.03374 strate the sig-nif-i-cance of the dif-fer-ences be-tween the per-for-
  []
 
@@ -2429,25 +2429,25 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
  []
 
 [27]
-Underfull \hbox (badness 10000) detected at line 1748
+Underfull \hbox (badness 10000) detected at line 1746
 []
  []
 
 <pictures/subject_dependent.png, id=867, 1721.4714pt x 1068.1506pt>
 File: pictures/subject_dependent.png Graphic file (type png)
 <use pictures/subject_dependent.png>
-Package pdftex.def Info: pictures/subject_dependent.png  used on input line 1910.
+Package pdftex.def Info: pictures/subject_dependent.png  used on input line 1908.
 (pdftex.def)             Requested size: 506.45908pt x 314.25417pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 1920--1921
+Underfull \hbox (badness 1038) in paragraph at lines 1918--1919
 \T1/stix2/m/n/9.03374 that in-cor-po-rates brain re-gion con-strained at-ten-tion to-gether
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 1927--1928
+Underfull \hbox (badness 1112) in paragraph at lines 1925--1926
 \T1/stix2/m/n/9.03374 tion are mod-eled jointly. On SEED, SFE-Net re-ports 99.19%,
  []
 
@@ -2467,22 +2467,22 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
  []
 
 [30]
-Underfull \hbox (badness 10000) detected at line 1939
+Underfull \hbox (badness 10000) detected at line 1937
 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 2074
+Underfull \hbox (badness 10000) detected at line 2072
 []
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 2219--2220
+Underfull \hbox (badness 1077) in paragraph at lines 2217--2218
 []\T1/stix2/m/n/9.03374 Table [][]9[][] sum-ma-rizes rep-re-sen-ta-tive sub-ject in-de-pen-dent EEG
  []
 
 
-Underfull \hbox (badness 4819) in paragraph at lines 2221--2222
+Underfull \hbox (badness 4819) in paragraph at lines 2219--2220
 \T1/stix2/m/n/9.03374 el-ing spa-tial de-pen-den-cies among EEG chan-nels. DGCNN
  []
 
@@ -2490,14 +2490,14 @@ Underfull \hbox (badness 4819) in paragraph at lines 2221--2222
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 2223--2224
+Underfull \hbox (badness 1755) in paragraph at lines 2221--2222
 \T1/stix2/m/n/9.03374 for arousal, whereas the hi-er-ar-chi-cal spa-tial learn-ing Trans-
  []
 
 <pictures/subject_independent.png, id=992, 1721.4714pt x 964.3227pt>
 File: pictures/subject_independent.png Graphic file (type png)
 <use pictures/subject_independent.png>
-Package pdftex.def Info: pictures/subject_independent.png  used on input line 2230.
+Package pdftex.def Info: pictures/subject_independent.png  used on input line 2228.
 (pdftex.def)             Requested size: 506.45908pt x 283.70758pt.
 
 Overfull \hbox (261.76537pt too wide) has occurred while \output is active
@@ -2515,7 +2515,7 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
  []
 
 [33]
-Underfull \hbox (badness 2698) in paragraph at lines 2241--2242
+Underfull \hbox (badness 2698) in paragraph at lines 2239--2240
 \T1/stix2/m/n/9.03374 mark datasets, namely SEED, SEED-IV, DEAP, DREAMER,
  []
 
@@ -2531,12 +2531,12 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
  []
 
 [34 <./pictures/subject_independent.png>]
-Underfull \hbox (badness 10000) detected at line 2399
+Underfull \hbox (badness 10000) detected at line 2397
 []
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 2531--2532
+Underfull \hbox (badness 1337) in paragraph at lines 2529--2530
 \T1/stix2/m/n/9.03374 con-struc-tion. The 2026 HEAT frame-work re-ports 95.37% on
  []
 
@@ -2559,25 +2559,25 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
  []
 
 [37]
-Underfull \hbox (badness 1527) in paragraph at lines 2535--2536
+Underfull \hbox (badness 1527) in paragraph at lines 2533--2534
 \T1/stix2/m/n/9.03374 eval-u-a-tion and reg-u-la-tion, tem-po-ral re-gions sup-port sen-sory
  []
 
 <pictures/brain_regions.png, id=1138, 1156.32pt x 770.88pt>
 File: pictures/brain_regions.png Graphic file (type png)
 <use pictures/brain_regions.png>
-Package pdftex.def Info: pictures/brain_regions.png  used on input line 2540.
+Package pdftex.def Info: pictures/brain_regions.png  used on input line 2538.
 (pdftex.def)             Requested size: 244.69371pt x 163.12465pt.
 
-LaTeX Warning: Float too large for page by 1.942pt on input line 2624.
+LaTeX Warning: Float too large for page by 1.942pt on input line 2622.
 
 
-Underfull \hbox (badness 10000) detected at line 2636
+Underfull \hbox (badness 10000) detected at line 2634
 []
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 2704--2705
+Underfull \hbox (badness 1122) in paragraph at lines 2702--2703
 \T1/stix2/m/n/9.03374 The lit-er-a-ture re-viewed in this work shows that EEG based
  []
 
@@ -2595,7 +2595,7 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 2713--2714
+Underfull \hbox (badness 1270) in paragraph at lines 2711--2712
 \T1/stix2/m/n/9.03374 with de-clin-ing alert-ness, the E-Key frame-work, for example,
  []
 
@@ -2608,17 +2608,17 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
  []
 
 [40]
-Underfull \hbox (badness 1259) in paragraph at lines 2715--2716
+Underfull \hbox (badness 1259) in paragraph at lines 2713--2714
 \T1/stix2/m/n/9.03374 other im-por-tant di-rec-tion, al-though the clin-i-cal im-pli-ca-tions
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 2727--2728
+Underfull \hbox (badness 3029) in paragraph at lines 2725--2726
 \T1/stix2/m/n/9.03374 Dataset de-sign re-mains one of the most fun-da-men-tal con-
  []
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 2729--2730
+Underfull \hbox (badness 1087) in paragraph at lines 2727--2728
 []\T1/stix2/m/n/9.03374 A re-lated chal-lenge is het-ero-gene-ity across databases. Dif-fer-
  []
 
@@ -2631,12 +2631,12 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 2754--2755
+Underfull \hbox (badness 2189) in paragraph at lines 2752--2753
 \T1/stix2/m/n/9.03374 tact, en-vi-ron-men-tal elec-tri-cal noise, lim-ited chan-nel counts,
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 2754--2755
+Underfull \hbox (badness 1484) in paragraph at lines 2752--2753
 \T1/stix2/m/n/9.03374 or hard-ware lim-i-ta-tions. These fac-tors in-ter-act di-rectly with
  []
 
@@ -2646,7 +2646,7 @@ Overfull \hbox (261.76537pt too wide) has occurred while \output is active
  []
 
 [42]
-Underfull \hbox (badness 1142) in paragraph at lines 2760--2761
+Underfull \hbox (badness 1142) in paragraph at lines 2758--2759
 \T1/stix2/m/n/9.03374 sep-a-rated eval-u-a-tion pro-to-cols, ef-fi-cient per-son-al-ized mod-els,
  []
 
@@ -2960,15 +2960,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 39732 strings out of 467866
- 735924 string characters out of 5414454
+ 39733 strings out of 467866
+ 735931 string characters out of 5414454
  1139943 words of memory out of 5000000
- 67503 multiletter control sequences out of 15000+600000
+ 67504 multiletter control sequences out of 15000+600000
  938846 words of font info for 285 fonts, out of 8000000 for 9000
  1167 hyphenation exceptions out of 8191
  113i,14n,122p,2197b,1038s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix2-type1/STIX2Math.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix2-type1/STIX2Text-Bold.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix2-type1/STIX2Text-BoldItalic.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix2-type1/STIX2Text-Italic.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix2-type1/STIX2Text-Regular.pfb><C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/type1/public/cbgreek/grmn0900.pfb>
-Output written on main.pdf (50 pages, 9689638 bytes).
+Output written on main.pdf (50 pages, 9689641 bytes).
 PDF statistics:
  1547 PDF objects out of 1728 (max. 8388607)
  403 named destinations out of 1000 (max. 500000)

@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1792384043.30731 "main.aux" "main.bbl" "main" 1792384070.49351 0
+["bibtex main"] 1792415356.73643 "main.aux" "main.bbl" "main" 1792415388.72717 0
   "./references.bib" 1792380966 95333 96197738731fa3cf4f70a3a6c7debe8b ""
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/bibtex/bst/natbib/unsrtnat.bst" 1284455456 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
-  "main.aux" 1792384068 72163 ccd84cdf03145d14f9ba49660e6f1a27 "pdflatex"
+  "main.aux" 1792415385 72163 dc8609a8687aa3795dc2d3fcc31b11cb "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1792384043.96655 "c:/Users/shihabsarar12/Downloads/EEG_Review_USG_TwoColumn_Complete/EEG_USG_TwoColumn_Complete/main.tex" "main.pdf" "main" 1792384070.49595 0
+["pdflatex"] 1792415357.35185 "c:/Users/shihabsarar12/Downloads/EEG_Review_USG_TwoColumn_Complete/EEG_USG_TwoColumn_Complete/main.tex" "main.pdf" "main" 1792415388.72969 0
   "C:/Users/shihabsarar12/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1791616057 114918 bf631ba01d327e339d6dc0f2e700efce ""
   "C:/Users/shihabsarar12/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1769930067 13337733 c0cff31d2b97e7ed6ce57cec0a76f946 ""
   "C:/Users/shihabsarar12/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stix2-type1/stix2-mathbb.enc" 1522426161 2904 e0faa515d685129700e18ca6e0e2b48f ""
@@ -275,13 +275,13 @@
   "algorithm.sty" 1791587370 3250 ec924db429a99ca4ed9c3769acfa5f18 ""
   "algorithmicx.sty" 1791587370 26750 ce139c05a983e19ddca355b43e29c395 ""
   "amssymb.sty" 1791587370 13840 8d3b8c6243767e151b5342193a010577 ""
-  "c:/Users/shihabsarar12/Downloads/EEG_Review_USG_TwoColumn_Complete/EEG_USG_TwoColumn_Complete/main.tex" 1792384015 259466 9b1277ebfecf66bc6d8d73d78a940c01 ""
+  "c:/Users/shihabsarar12/Downloads/EEG_Review_USG_TwoColumn_Complete/EEG_USG_TwoColumn_Complete/main.tex" 1792415321 259293 7c118fcd2a97cdf9abbadb5fcb13bfc0 ""
   "images/ORCID_Logo.eps" 1791587370 397266 465303dcc0a5dc9b0f57b2a89e227789 ""
   "images/Wiley_logo.eps" 1791587370 413570 4c48774fba8c6b60f0194c3785c89a5f ""
   "lettersp.sty" 1791587370 12163 b6de1fa5e93e58dc68ba3c77a1af2e61 ""
-  "main.aux" 1792384068 72163 ccd84cdf03145d14f9ba49660e6f1a27 "pdflatex"
-  "main.bbl" 1792384043 88274 29cb2e02e51a1f833128d8912e23261f "bibtex main"
-  "main.tex" 1792384015 259466 9b1277ebfecf66bc6d8d73d78a940c01 ""
+  "main.aux" 1792415385 72163 dc8609a8687aa3795dc2d3fcc31b11cb "pdflatex"
+  "main.bbl" 1792415357 88274 29cb2e02e51a1f833128d8912e23261f "bibtex main"
+  "main.tex" 1792415321 259293 7c118fcd2a97cdf9abbadb5fcb13bfc0 ""
   "pictures/3D_emotion.png" 1792302126 1292046 6de055a769878a77882f4cef5e5d36ae ""
   "pictures/Bands.png" 1791587430 194700 f24f98d5d1501de5ada99eebc4c4ec4c ""
   "pictures/Human_Brain_EEG.png" 1791867805 1226936 7c51a58accce4ff3759b3ddd300efc0f ""
