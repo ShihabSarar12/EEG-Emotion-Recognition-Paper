@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99e
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: unsrtnat.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'field_info' (item size: 4) to 10628 items.
+Database file #1: references.bib
+Warning--can't use both volume and number fields in mittal2020m3er
+Warning--can't use both volume and number fields in choong2021correlation
+Warning--can't use both volume and number fields in wang2024dmmr
+Warning--can't use both volume and number fields in zhao2021plug
+Warning--empty year in seed_page
+Warning--empty year in seediv_page
+Warning--can't use both volume and number fields in song2020instance
+You've used 201 entries,
+            2481 wiz_defined-function locations,
+            1593 strings with 48237 characters,
+and the built_in function-call counts, 93090 in all, are:
+= -- 7264
+> -- 6238
+< -- 67
++ -- 2305
+- -- 1881
+* -- 8290
+:= -- 15117
+add.period$ -- 631
+call.type$ -- 201
+change.case$ -- 402
+chr.to.int$ -- 179
+cite$ -- 208
+duplicate$ -- 4194
+empty$ -- 7805
+format.name$ -- 2132
+if$ -- 19438
+int.to.chr$ -- 23
+int.to.str$ -- 202
+missing$ -- 199
+newline$ -- 1025
+num.names$ -- 605
+pop$ -- 1570
+preamble$ -- 1
+purify$ -- 201
+quote$ -- 0
+skip$ -- 2421
+stack$ -- 0
+substring$ -- 4868
+swap$ -- 781
+text.length$ -- 37
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1407
+warning$ -- 7
+while$ -- 734
+width$ -- 0
+write$ -- 2657
+(There were 7 warnings)

@@ -1,0 +1,15 @@
+study,year,model,source,dataset,task,acc,std
+Ji et al.,2026,NR-BA-BFE-Net,Original Table 1,SEED,3-class,95.56,4.18
+Chang et al.,2025,MSHCL,Original Section IV-B: Cross-Subject Performance,SEED,3-class,89.3,4.4
+Guo et al.,2024,FC-FAN,Original Table 2,SEED,3-class,92.12,3.32
+Li et al.,2023,STGATE,Original Tables 1 and 2 (LOSO),SEED,3-class,90.37,6.18
+Ji et al.,2026,NR-BA-BFE-Net,Original Table 1,SEED-IV,4-class,83.15,3.4
+Li et al.,2023,STGATE,Original Tables 1 and 2 (LOSO),SEED-IV,4-class,76.43,5.01
+Ali et al.,2026,CNN-LSTM-CBAM,Original Table 2 (LOSO),SEED-IV,4-class,68.67,
+Kumar et al.,2026,Bispectral EBM,Original abstract (nested LOSO),DEAP,A,70.39,
+Kumar et al.,2026,Bispectral EBM,Original abstract (nested LOSO),DEAP,V,69.98,
+Li et al.,2023,STGATE,Original Tables 1 and 2 (LOSO),DREAMER,V,77.44,8.4
+Li et al.,2023,STGATE,Original Tables 1 and 2 (LOSO),DREAMER,A,75.26,9.71
+Chang et al.,2025,MSHCL,Original Section IV-B: Cross-Subject Performance,MPED,7-class,38.8,7.1
+Chang et al.,2025,MSHCL,Original Section IV-B: Cross-Subject Performance,FACED,Binary,77.0,3.6
+Chang et al.,2025,MSHCL,Original Section IV-B: Cross-Subject Performance,FACED,9-class,45.7,3.4

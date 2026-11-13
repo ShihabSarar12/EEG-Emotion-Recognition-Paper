@@ -1,0 +1,1473 @@
+\begin{thebibliography}{201}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Moin et~al.(2023)Moin, Aadil, Ali, and Kang]{moin2023emotion}
+Anam Moin, Farhan Aadil, Zeeshan Ali, and Dongwann Kang.
+\newblock Emotion recognition framework using multiple modalities for an
+  effective human--computer interaction: A. moin et al.
+\newblock \emph{The Journal of Supercomputing}, 79\penalty0 (8):\penalty0
+  9320--9349, 2023.
+
+\bibitem[Gu et~al.(2021)Gu, Cao, Jolfaei, Xu, Wu, Jung, and Lin]{gu2021eeg}
+Xiaotong Gu, Zehong Cao, Alireza Jolfaei, Peng Xu, Dongrui Wu, Tzyy-Ping Jung,
+  and Chin-Teng Lin.
+\newblock Eeg-based brain-computer interfaces (bcis): A survey of recent
+  studies on signal sensing technologies and computational intelligence
+  approaches and their applications.
+\newblock \emph{IEEE/ACM transactions on computational biology and
+  bioinformatics}, 18\penalty0 (5):\penalty0 1645--1666, 2021.
+
+\bibitem[Miljevic et~al.(2023)Miljevic, Bailey, Murphy, Perera, and
+  Fitzgerald]{miljevic2023alterations}
+Aleksandra Miljevic, Neil~W Bailey, Oscar~W Murphy, M~Prabhavi~N Perera, and
+  Paul~B Fitzgerald.
+\newblock Alterations in eeg functional connectivity in individuals with
+  depression: A systematic review.
+\newblock \emph{Journal of affective disorders}, 328:\penalty0 287--302, 2023.
+
+\bibitem[Ma et~al.(2024)Ma, Zheng, Li, Li, Li, and Wang]{ma2024comprehensive}
+Weizhi Ma, Yujia Zheng, Tianhao Li, Zhengping Li, Ying Li, and Lijun Wang.
+\newblock A comprehensive review of deep learning in eeg-based emotion
+  recognition: classifications, trends, and practical implications.
+\newblock \emph{PeerJ Computer Science}, 10:\penalty0 e2065, 2024.
+
+\bibitem[Kukhilava et~al.(2025)Kukhilava, Tsmindashvili, Kalandadze, Gupta,
+  Katamadze, Br{\'e}mond, Ferrari, M{\"u}ller, and
+  Wirth]{kukhilava2025evaluation}
+Natia Kukhilava, Tatia Tsmindashvili, Rapael Kalandadze, Anchit Gupta, Sofio
+  Katamadze, Fran{\c{c}}ois Br{\'e}mond, Laura~M Ferrari, Philipp M{\"u}ller,
+  and Benedikt~Emanuel Wirth.
+\newblock Evaluation in eeg emotion recognition: State-of-the-art review and
+  unified framework.
+\newblock \emph{arXiv preprint arXiv:2505.18175}, 2025.
+
+\bibitem[Katsigiannis and Ramzan(2017)]{katsigiannis2017dreamer}
+Stamos Katsigiannis and Naeem Ramzan.
+\newblock Dreamer: A database for emotion recognition through eeg and ecg
+  signals from wireless low-cost off-the-shelf devices.
+\newblock \emph{IEEE journal of biomedical and health informatics}, 22\penalty0
+  (1):\penalty0 98--107, 2017.
+
+\bibitem[Li et~al.(2022{\natexlab{a}})Li, Lin, Liu, Song, Cheng, and
+  Chen]{li2022eeg}
+Chang Li, Xuejuan Lin, Yu~Liu, Rencheng Song, Juan Cheng, and Xun Chen.
+\newblock Eeg-based emotion recognition via efficient convolutional neural
+  network and contrastive learning.
+\newblock \emph{IEEE Sensors Journal}, 22\penalty0 (20):\penalty0 19608--19619,
+  2022{\natexlab{a}}.
+
+\bibitem[Yang et~al.(2018)Yang, Wu, Qiu, Wang, and Chen]{yang2018emotion}
+Yilong Yang, Qingfeng Wu, Ming Qiu, Yingdong Wang, and Xiaowei Chen.
+\newblock Emotion recognition from multi-channel eeg through parallel
+  convolutional recurrent neural network.
+\newblock In \emph{2018 international joint conference on neural networks
+  (IJCNN)}, pages 1--7. IEEE, 2018.
+
+\bibitem[Zhong et~al.(2020)Zhong, Wang, and Miao]{zhong2020eeg}
+Peixiang Zhong, Di~Wang, and Chunyan Miao.
+\newblock Eeg-based emotion recognition using regularized graph neural
+  networks.
+\newblock \emph{IEEE Transactions on Affective Computing}, 13\penalty0
+  (3):\penalty0 1290--1301, 2020.
+
+\bibitem[Geng et~al.(2025)Geng, Shi, and Hao]{geng2025deep}
+Yuxiao Geng, Shuo Shi, and Xiaoke Hao.
+\newblock Deep learning-based eeg emotion recognition: a comprehensive review.
+\newblock \emph{Neural Computing and Applications}, 37\penalty0 (4):\penalty0
+  1919--1950, 2025.
+
+\bibitem[Jafari et~al.(2023)Jafari, Shoeibi, Khodatars, Bagherzadeh, Shalbaf,
+  García, Gorriz, and Acharya]{JAFARI2023107450}
+Mahboobeh Jafari, Afshin Shoeibi, Marjane Khodatars, Sara Bagherzadeh, Ahmad
+  Shalbaf, David~López García, Juan~M. Gorriz, and U.~Rajendra Acharya.
+\newblock Emotion recognition in eeg signals using deep learning methods: A
+  review.
+\newblock \emph{Computers in Biology and Medicine}, 165:\penalty0 107450, 2023.
+\newblock ISSN 0010-4825.
+\newblock \doi{https://doi.org/10.1016/j.compbiomed.2023.107450}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0010482523009150}.
+
+\bibitem[Vempati and Sharma(2023)]{vempati2023systematic}
+Raveendrababu Vempati and Lakhan~Dev Sharma.
+\newblock A systematic review on automated human emotion recognition using
+  electroencephalogram signals and artificial intelligence.
+\newblock \emph{Results in Engineering}, 18:\penalty0 101027, 2023.
+
+\bibitem[Erat et~al.(2024)Erat, {\c{S}}ahin, Do{\u{g}}an, Merdano{\u{g}}lu,
+  Akcakaya, and Durdu]{erat2024emotion}
+K{\"u}bra Erat, Elif~Bilge {\c{S}}ahin, Furkan Do{\u{g}}an, Nur
+  Merdano{\u{g}}lu, Ahmet Akcakaya, and P{\i}nar~Onay Durdu.
+\newblock Emotion recognition with eeg-based brain-computer interfaces: a
+  systematic literature review.
+\newblock \emph{Multimedia tools and applications}, 83\penalty0 (33):\penalty0
+  79647--79694, 2024.
+
+\bibitem[Wang et~al.(2024{\natexlab{a}})Wang, Zhang, and Di]{wang2024research}
+Yiming Wang, Bin Zhang, and Lamei Di.
+\newblock Research progress of eeg-based emotion recognition: a survey.
+\newblock \emph{ACM Computing Surveys}, 56\penalty0 (11):\penalty0 1--49,
+  2024{\natexlab{a}}.
+
+\bibitem[Chen et~al.(2025{\natexlab{a}})Chen, Cui, Wei, Polat, and
+  Alenezi]{chen2025advances}
+Jichi Chen, Yuguo Cui, Chunfeng Wei, Kemal Polat, and Fayadh Alenezi.
+\newblock Advances in eeg-based emotion recognition: Challenges, methodologies,
+  and future directions.
+\newblock \emph{Applied Soft Computing}, 180:\penalty0 113478,
+  2025{\natexlab{a}}.
+
+\bibitem[Li et~al.(2021{\natexlab{a}})Li, Huan, Hou, Tian, Zhang, and
+  Song]{li2021can}
+Wei Li, Wei Huan, Bowen Hou, Ye~Tian, Zhen Zhang, and Aiguo Song.
+\newblock Can emotion be transferred?—a review on transfer learning for
+  eeg-based emotion recognition.
+\newblock \emph{IEEE Transactions on Cognitive and Developmental Systems},
+  14\penalty0 (3):\penalty0 833--846, 2021{\natexlab{a}}.
+
+\bibitem[Hamzah and Abdalla(2024)]{hamzah2024eeg}
+Hussein~Ali Hamzah and Kasim~K Abdalla.
+\newblock Eeg-based emotion recognition systems; comprehensive study.
+\newblock \emph{Heliyon}, 10\penalty0 (10), 2024.
+
+\bibitem[Shen et~al.(2020)Shen, Dai, Lin, Zhang, Kong, and Zeng]{shen2020eeg}
+Fangyao Shen, Guojun Dai, Guang Lin, Jianhai Zhang, Wanzeng Kong, and Hong
+  Zeng.
+\newblock Eeg-based emotion recognition using 4d convolutional recurrent neural
+  network.
+\newblock \emph{Cognitive Neurodynamics}, 14\penalty0 (6):\penalty0 815--828,
+  2020.
+
+\bibitem[Zheng et~al.(2017)Zheng, Zhu, and Lu]{zheng2017identifying}
+Wei-Long Zheng, Jia-Yi Zhu, and Bao-Liang Lu.
+\newblock Identifying stable patterns over time for emotion recognition from
+  eeg.
+\newblock \emph{IEEE transactions on affective computing}, 10\penalty0
+  (3):\penalty0 417--429, 2017.
+
+\bibitem[Jiang et~al.(2019)Jiang, Bian, and Tian]{jiang2019removal}
+Xiao Jiang, Gui-Bin Bian, and Zean Tian.
+\newblock Removal of artifacts from eeg signals: a review.
+\newblock \emph{Sensors}, 19\penalty0 (5):\penalty0 987, 2019.
+
+\bibitem[Deng et~al.(2021)Deng, Zhu, and Yang]{deng2021sfe}
+Xiangwen Deng, Junlin Zhu, and Shangming Yang.
+\newblock Sfe-net: Eeg-based emotion recognition with symmetrical spatial
+  feature extraction.
+\newblock In \emph{Proceedings of the 29th ACM international conference on
+  multimedia}, pages 2391--2400, 2021.
+
+\bibitem[Alarcao and Fonseca(2017)]{alarcao2017emotions}
+Soraia~M Alarcao and Manuel~J Fonseca.
+\newblock Emotions recognition using eeg signals: A survey.
+\newblock \emph{IEEE transactions on affective computing}, 10\penalty0
+  (3):\penalty0 374--393, 2017.
+
+\bibitem[Roy et~al.(2019)Roy, Banville, Albuquerque, Gramfort, Falk, and
+  Faubert]{roy2019deep}
+Yannick Roy, Hubert Banville, Isabela Albuquerque, Alexandre Gramfort, Tiago~H
+  Falk, and Jocelyn Faubert.
+\newblock Deep learning-based electroencephalography analysis: a systematic
+  review.
+\newblock \emph{Journal of neural engineering}, 16\penalty0 (5):\penalty0
+  051001, 2019.
+
+\bibitem[Rayatdoost et~al.(2020{\natexlab{a}})Rayatdoost, Rudrauf, and
+  Soleymani]{rayatdoost2020expression}
+Soheil Rayatdoost, David Rudrauf, and Mohammad Soleymani.
+\newblock Expression-guided eeg representation learning for emotion
+  recognition.
+\newblock In \emph{ICASSP 2020-2020 IEEE International Conference on Acoustics,
+  Speech and Signal Processing (ICASSP)}, pages 3222--3226. IEEE,
+  2020{\natexlab{a}}.
+
+\bibitem[Rayatdoost and Soleymani(2018)]{rayatdoost2018cross}
+Soheil Rayatdoost and Mohammad Soleymani.
+\newblock Cross-corpus eeg-based emotion recognition.
+\newblock In \emph{2018 IEEE 28th international workshop on machine learning
+  for signal processing (MLSP)}, pages 1--6. IEEE, 2018.
+
+\bibitem[Shen et~al.(2022)Shen, Liu, Hu, Zhang, and Song]{shen2022contrastive}
+Xinke Shen, Xianggen Liu, Xin Hu, Dan Zhang, and Sen Song.
+\newblock Contrastive learning of subject-invariant eeg representations for
+  cross-subject emotion recognition.
+\newblock \emph{IEEE Transactions on Affective Computing}, 14\penalty0
+  (3):\penalty0 2496--2511, 2022.
+
+\bibitem[Zhang et~al.(2024)Zhang, Hao, Wen, Zhang, Deng, Zhao, and
+  Cao]{zhang2024subject}
+Jinhao Zhang, Yanrong Hao, Xin Wen, Chenchen Zhang, Haojie Deng, Juanjuan Zhao,
+  and Rui Cao.
+\newblock Subject-independent emotion recognition based on eeg frequency band
+  features and self-adaptive graph construction.
+\newblock \emph{Brain Sciences}, 14\penalty0 (3):\penalty0 271, 2024.
+
+\bibitem[McFarland et~al.(2017)McFarland, Parvaz, Sarnacki, Goldstein, and
+  Wolpaw]{mcfarland2017prediction}
+Dennis~J McFarland, Muhammad~A Parvaz, William~A Sarnacki, Rita~Z Goldstein,
+  and Jonathan~R Wolpaw.
+\newblock Prediction of subjective ratings of emotional pictures by eeg
+  features.
+\newblock \emph{Journal of neural engineering}, 14\penalty0 (1):\penalty0
+  016009, 2017.
+
+\bibitem[Zheng and Lu(2015)]{zheng2015investigating}
+Wei-Long Zheng and Bao-Liang Lu.
+\newblock Investigating critical frequency bands and channels for eeg-based
+  emotion recognition with deep neural networks.
+\newblock \emph{IEEE Transactions on autonomous mental development}, 7\penalty0
+  (3):\penalty0 162--175, 2015.
+
+\bibitem[Romeo et~al.(2022)Romeo, Fusina, Semenzato, Bonato, Angrilli, and
+  Spironelli]{romeo2022comparison}
+Zaira Romeo, Francesca Fusina, Luca Semenzato, Mario Bonato, Alessandro
+  Angrilli, and Chiara Spironelli.
+\newblock Comparison of slides and video clips as different methods for
+  inducing emotions: An electroencephalographic alpha modulation study.
+\newblock \emph{Frontiers in Human Neuroscience}, 16:\penalty0 901422, 2022.
+
+\bibitem[Codispoti et~al.(2023)Codispoti, De~Cesarei, and
+  Ferrari]{codispoti2023alpha}
+Maurizio Codispoti, Andrea De~Cesarei, and Vera Ferrari.
+\newblock Alpha-band oscillations and emotion: A review of studies on picture
+  perception.
+\newblock \emph{Psychophysiology}, 60\penalty0 (12):\penalty0 e14438, 2023.
+
+\bibitem[Moore et~al.(2012)Moore, Gorodnitsky, and Pineda]{moore2012eeg}
+Adrienne Moore, Irina Gorodnitsky, and Jaime Pineda.
+\newblock Eeg mu component responses to viewing emotional faces.
+\newblock \emph{Behavioural brain research}, 226\penalty0 (1):\penalty0
+  309--316, 2012.
+
+\bibitem[Costa et~al.(2022)Costa, Lozano-Soldevilla, Gil-Nagel, Toledano,
+  Oehrn, Kunz, Yebra, Mendez-Bertolo, Stieglitz, Sarnthein,
+  et~al.]{costa2022aversive}
+Manuela Costa, Diego Lozano-Soldevilla, Antonio Gil-Nagel, Rafael Toledano,
+  Carina~R Oehrn, Lukas Kunz, Mar Yebra, Costantino Mendez-Bertolo, Lennart
+  Stieglitz, Johannes Sarnthein, et~al.
+\newblock Aversive memory formation in humans involves an amygdala-hippocampus
+  phase code.
+\newblock \emph{Nature Communications}, 13\penalty0 (1):\penalty0 6403, 2022.
+
+\bibitem[Dadebayev et~al.(2022)Dadebayev, Goh, and Tan]{dadebayev2022eeg}
+Didar Dadebayev, Wei~Wei Goh, and Ee~Xion Tan.
+\newblock Eeg-based emotion recognition: Review of commercial eeg devices and
+  machine learning techniques.
+\newblock \emph{Journal of King Saud University Computer and Information
+  Sciences}, 34\penalty0 (7):\penalty0 4385--4401, 2022.
+
+\bibitem[Suhaimi et~al.(2020)Suhaimi, Mountstephens, and Teo]{suhaimi2020eeg}
+Nazmi~Sofian Suhaimi, James Mountstephens, and Jason Teo.
+\newblock Eeg-based emotion recognition: a state-of-the-art review of current
+  trends and opportunities.
+\newblock \emph{Computational intelligence and neuroscience}, 2020\penalty0
+  (1):\penalty0 8875426, 2020.
+
+\bibitem[Soleymani et~al.(2017)Soleymani, Garcia, Jou, Schuller, Chang, and
+  Pantic]{soleymani2017survey}
+Mohammad Soleymani, David Garcia, Brendan Jou, Bj{\"o}rn Schuller, Shih-Fu
+  Chang, and Maja Pantic.
+\newblock A survey of multimodal sentiment analysis.
+\newblock \emph{Image and vision computing}, 65:\penalty0 3--14, 2017.
+
+\bibitem[Baltru{\v{s}}aitis et~al.(2018)Baltru{\v{s}}aitis, Ahuja, and
+  Morency]{baltruvsaitis2018multimodal}
+Tadas Baltru{\v{s}}aitis, Chaitanya Ahuja, and Louis-Philippe Morency.
+\newblock Multimodal machine learning: A survey and taxonomy.
+\newblock \emph{IEEE transactions on pattern analysis and machine
+  intelligence}, 41\penalty0 (2):\penalty0 423--443, 2018.
+
+\bibitem[Liu et~al.(2024{\natexlab{a}})Liu, Lou, Zhang, Wu, Xiao, Jensen, and
+  Zhang]{liu2024eeg}
+Huan Liu, Tianyu Lou, Yuzhe Zhang, Yixiao Wu, Yang Xiao, Christian~S Jensen,
+  and Dalin Zhang.
+\newblock Eeg-based multimodal emotion recognition: A machine learning
+  perspective.
+\newblock \emph{IEEE Transactions on Instrumentation and Measurement},
+  73:\penalty0 1--29, 2024{\natexlab{a}}.
+
+\bibitem[Mittal et~al.(2020)Mittal, Bhattacharya, Chandra, Bera, and
+  Manocha]{mittal2020m3er}
+Trisha Mittal, Uttaran Bhattacharya, Rohan Chandra, Aniket Bera, and Dinesh
+  Manocha.
+\newblock M3er: Multiplicative multimodal emotion recognition using facial,
+  textual, and speech cues.
+\newblock In \emph{Proceedings of the AAAI conference on artificial
+  intelligence}, volume~34, pages 1359--1367, 2020.
+
+\bibitem[Rayatdoost et~al.(2020{\natexlab{b}})Rayatdoost, Rudrauf, and
+  Soleymani]{rayatdoost2020multimodal}
+Soheil Rayatdoost, David Rudrauf, and Mohammad Soleymani.
+\newblock Multimodal gated information fusion for emotion recognition from eeg
+  signals and facial behaviors.
+\newblock In \emph{Proceedings of the 2020 International Conference on
+  Multimodal Interaction}, pages 655--659, 2020{\natexlab{b}}.
+
+\bibitem[Miranda-Correa et~al.(2018)Miranda-Correa, Abadi, Sebe, and
+  Patras]{miranda2018amigos}
+Juan~Abdon Miranda-Correa, Mojtaba~Khomami Abadi, Nicu Sebe, and Ioannis
+  Patras.
+\newblock Amigos: A dataset for affect, personality and mood research on
+  individuals and groups.
+\newblock \emph{IEEE transactions on affective computing}, 12\penalty0
+  (2):\penalty0 479--493, 2018.
+
+\bibitem[Chen et~al.(2025{\natexlab{b}})Chen, Mao, Song, and Wang]{chen2025eeg}
+Qiuyu Chen, Xiaoqian Mao, Yuebin Song, and Kefa Wang.
+\newblock An eeg-based emotion recognition method by fusing
+  multi-frequency-spatial features under multi-frequency bands.
+\newblock \emph{Journal of Neuroscience Methods}, 415:\penalty0 110360,
+  2025{\natexlab{b}}.
+
+\bibitem[Zhang et~al.(2023)Zhang, Yan, Chang, Huang, and Yuan]{zhang2023eeg}
+Yuchan Zhang, Guanghui Yan, Wenwen Chang, Wenqie Huang, and Yueting Yuan.
+\newblock Eeg-based multi-frequency band functional connectivity analysis and
+  the application of spatio-temporal features in emotion recognition.
+\newblock \emph{Biomedical Signal Processing and Control}, 79:\penalty0 104157,
+  2023.
+
+\bibitem[Choong et~al.(2021)Choong, Khairunizam, Mustafa, Murugappan, Hamid,
+  Bong, Yuvaraj, Omar, Junoh, Ali, et~al.]{choong2021correlation}
+WY~Choong, W~Khairunizam, WA~Mustafa, M~Murugappan, A~Hamid, SZ~Bong,
+  R~Yuvaraj, MI~Omar, AK~Junoh, Hasimah Ali, et~al.
+\newblock Correlation analysis of emotional eeg in alpha, beta and gamma
+  frequency bands.
+\newblock In \emph{Journal of Physics: Conference Series}, volume 1997, page
+  012029. IOP Publishing, 2021.
+
+\bibitem[Liu et~al.(2017)Liu, Yu, Zhao, Song, Ge, and Shi]{liu2017real}
+Yong-Jin Liu, Minjing Yu, Guozhen Zhao, Jinjing Song, Yan Ge, and Yuanchun Shi.
+\newblock Real-time movie-induced discrete emotion recognition from eeg
+  signals.
+\newblock \emph{IEEE Transactions on Affective Computing}, 9\penalty0
+  (4):\penalty0 550--562, 2017.
+
+\bibitem[Qing et~al.(2019)Qing, Qiao, Xu, and Cheng]{qing2019interpretable}
+Chunmei Qing, Rui Qiao, Xiangmin Xu, and Yongqiang Cheng.
+\newblock Interpretable emotion recognition using eeg signals.
+\newblock \emph{Ieee Access}, 7:\penalty0 94160--94170, 2019.
+
+\bibitem[Fdez et~al.(2021)Fdez, Guttenberg, Witkowski, and
+  Pasquali]{fdez2021cross}
+Javier Fdez, Nicholas Guttenberg, Olaf Witkowski, and Antoine Pasquali.
+\newblock Cross-subject eeg-based emotion recognition through neural networks
+  with stratified normalization.
+\newblock \emph{Frontiers in neuroscience}, 15:\penalty0 626277, 2021.
+
+\bibitem[Wang et~al.(2024{\natexlab{b}})Wang, Zhang, and Tang]{wang2024dmmr}
+Yiming Wang, Bin Zhang, and Yujiao Tang.
+\newblock Dmmr: Cross-subject domain generalization for eeg-based emotion
+  recognition via denoising mixed mutual reconstruction.
+\newblock In \emph{Proceedings of the AAAI conference on artificial
+  intelligence}, volume~38, pages 628--636, 2024{\natexlab{b}}.
+
+\bibitem[Somers et~al.(2018)Somers, Francart, and Bertrand]{somers2018generic}
+Ben Somers, Tom Francart, and Alexander Bertrand.
+\newblock A generic eeg artifact removal algorithm based on the multi-channel
+  wiener filter.
+\newblock \emph{Journal of neural engineering}, 15\penalty0 (3):\penalty0
+  036007, 2018.
+
+\bibitem[Val-Calvo et~al.(2019)Val-Calvo, {\'A}lvarez-S{\'a}nchez,
+  Ferr{\'a}ndez-Vicente, and Fern{\'a}ndez]{val2019optimization}
+Mikel Val-Calvo, Jos{\'e}~R {\'A}lvarez-S{\'a}nchez, Jose~M
+  Ferr{\'a}ndez-Vicente, and Eduardo Fern{\'a}ndez.
+\newblock Optimization of real-time eeg artifact removal and emotion estimation
+  for human-robot interaction applications.
+\newblock \emph{Frontiers in Computational Neuroscience}, 13:\penalty0 80,
+  2019.
+
+\bibitem[Issa and Juhasz(2019)]{issa2019improved}
+Mohamed~F Issa and Zoltan Juhasz.
+\newblock Improved eog artifact removal using wavelet enhanced independent
+  component analysis.
+\newblock \emph{Brain sciences}, 9\penalty0 (12):\penalty0 355, 2019.
+
+\bibitem[Phadikar et~al.(2020)Phadikar, Sinha, and
+  Ghosh]{phadikar2020automatic}
+Souvik Phadikar, Nidul Sinha, and Rajdeep Ghosh.
+\newblock Automatic eyeblink artifact removal from eeg signal using wavelet
+  transform with heuristically optimized threshold.
+\newblock \emph{IEEE Journal of Biomedical and Health Informatics}, 25\penalty0
+  (2):\penalty0 475--484, 2020.
+
+\bibitem[Bigirimana et~al.(2016)Bigirimana, Siddique, and
+  Coyle]{Bigirimana2017}
+A.~D. Bigirimana, N.~Siddique, and D.~Coyle.
+\newblock A hybrid ica-wavelet transform for automated artefact removal in
+  eeg-based emotion recognition.
+\newblock In \emph{Proc. IEEE Int. Conf. Systems, Man, and Cybernetics (SMC)},
+  pages 4429--4434, 2016.
+\newblock \doi{10.1109/SMC.2016.7844928}.
+
+\bibitem[Wang et~al.(2019)Wang, Hu, and Song]{wang2019channel}
+Zhong-Min Wang, Shu-Yuan Hu, and Hui Song.
+\newblock Channel selection method for eeg emotion recognition using normalized
+  mutual information.
+\newblock \emph{IEEE access}, 7:\penalty0 143303--143311, 2019.
+
+\bibitem[Valderrama and Sheoran(2025)]{valderrama2025identifying}
+Camilo~E Valderrama and Anshul Sheoran.
+\newblock Identifying relevant eeg channels for subject-independent emotion
+  recognition using attention network layers.
+\newblock \emph{Frontiers in psychiatry}, 16:\penalty0 1494369, 2025.
+
+\bibitem[Wang et~al.(2022)Wang, Wang, Hu, Yin, and Song]{wang2022transformers}
+Zhe Wang, Yongxiong Wang, Chuanfei Hu, Zhong Yin, and Yu~Song.
+\newblock Transformers for eeg-based emotion recognition: A hierarchical
+  spatial information learning model.
+\newblock \emph{IEEE Sensors Journal}, 22\penalty0 (5):\penalty0 4359--4368,
+  2022.
+
+\bibitem[Kayser and Tenke(2015)]{kayser2015issues}
+J{\"u}rgen Kayser and Craig~E Tenke.
+\newblock Issues and considerations for using the scalp surface laplacian in
+  eeg/erp research: A tutorial review.
+\newblock \emph{International Journal of Psychophysiology}, 97\penalty0
+  (3):\penalty0 189--209, 2015.
+
+\bibitem[Ahmed et~al.(2023)Ahmed, Sinha, Ghaderpour, Phadikar, and
+  Ghosh]{ahmed2023novel}
+Md~Zaved~Iqubal Ahmed, Nidul Sinha, Ebrahim Ghaderpour, Souvik Phadikar, and
+  Rajdeep Ghosh.
+\newblock A novel baseline removal paradigm for subject-independent features in
+  emotion classification using eeg.
+\newblock \emph{Bioengineering}, 10\penalty0 (1):\penalty0 54, 2023.
+
+\bibitem[Sai et~al.(2017)Sai, Mokhtar, Arof, Cumming, and
+  Iwahashi]{sai2017automated}
+Chong~Yeh Sai, Norrima Mokhtar, Hamzah Arof, Paul Cumming, and Masahiro
+  Iwahashi.
+\newblock Automated classification and removal of eeg artifacts with svm and
+  wavelet-ica.
+\newblock \emph{IEEE journal of biomedical and health informatics}, 22\penalty0
+  (3):\penalty0 664--670, 2017.
+
+\bibitem[Li et~al.(2021{\natexlab{b}})Li, Chai, Wang, Yang, and Du]{li2021eeg}
+Dongdong Li, Bing Chai, Zhe Wang, Hai Yang, and Wenli Du.
+\newblock Eeg emotion recognition based on 3-d feature representation and
+  dilated fully convolutional networks.
+\newblock \emph{IEEE Transactions on Cognitive and Developmental Systems},
+  13\penalty0 (4):\penalty0 885--897, 2021{\natexlab{b}}.
+
+\bibitem[Lew et~al.(2020)Lew, Wang, Shylouskaya, Zhang, Lim, Ang, and
+  Tan]{lew2020eeg}
+Wai-Cheong~Lincoln Lew, Di~Wang, Katsiaryna Shylouskaya, Zhuo Zhang, Joo-Hwee
+  Lim, Kai~Keng Ang, and Ah-Hwee Tan.
+\newblock Eeg-based emotion recognition using spatial-temporal representation
+  via bi-gru.
+\newblock In \emph{2020 42nd annual international conference of the IEEE
+  engineering in medicine \& biology society (EMBC)}, pages 116--119. IEEE,
+  2020.
+
+\bibitem[Sun et~al.(2022)Sun, Wang, Zhao, Hao, and Wang]{sun2022multi}
+Jie Sun, Xuan Wang, Kun Zhao, Siyuan Hao, and Tianyu Wang.
+\newblock Multi-channel eeg emotion recognition based on parallel transformer
+  and 3d-convolutional neural network.
+\newblock \emph{Mathematics}, 10\penalty0 (17):\penalty0 3131, 2022.
+
+\bibitem[Ma et~al.(2025)Ma, Li, Li, Yang, Li, Wang, and Xuan]{ma2025sfswts}
+Weizhi Ma, Ying Li, Tianhao Li, Haowei Yang, Zhengping Li, Lijun Wang, and
+  Junyu Xuan.
+\newblock Sfswts: A spatial-frequency shifted windows and time self-attention
+  network for eeg emotion recognition.
+\newblock \emph{Neurocomputing}, 640:\penalty0 130309, 2025.
+
+\bibitem[Ouyang et~al.(2022)Ouyang, Yuan, Li, and Guo]{ouyang2022effect}
+Delin Ouyang, Yufei Yuan, Guofa Li, and Zizheng Guo.
+\newblock The effect of time window length on eeg-based emotion recognition.
+\newblock \emph{Sensors}, 22\penalty0 (13):\penalty0 4939, 2022.
+
+\bibitem[Arnau-Gonz{\'a}lez et~al.(2017)Arnau-Gonz{\'a}lez,
+  Arevalillo-Herr{\'a}ez, and Ramzan]{arnau2017fusing}
+Pablo Arnau-Gonz{\'a}lez, Miguel Arevalillo-Herr{\'a}ez, and Naeem Ramzan.
+\newblock Fusing highly dimensional energy and connectivity features to
+  identify affective states from eeg signals.
+\newblock \emph{Neurocomputing}, 244:\penalty0 81--89, 2017.
+
+\bibitem[Li et~al.(2021{\natexlab{c}})Li, Wang, and Lu]{li2021multi}
+Rui Li, Yiting Wang, and Bao-Liang Lu.
+\newblock A multi-domain adaptive graph convolutional network for eeg-based
+  emotion recognition.
+\newblock In \emph{Proceedings of the 29th ACM International Conference on
+  Multimedia}, pages 5565--5573, 2021{\natexlab{c}}.
+
+\bibitem[Li et~al.(2022{\natexlab{b}})Li, Wang, Zheng, and Lu]{li2022multi}
+Rui Li, Yiting Wang, Wei-Long Zheng, and Bao-Liang Lu.
+\newblock A multi-view spectral-spatial-temporal masked autoencoder for
+  decoding emotions with self-supervised learning.
+\newblock In \emph{Proceedings of the 30th ACM International Conference on
+  Multimedia}, pages 6--14, 2022{\natexlab{b}}.
+
+\bibitem[Song et~al.(2022)Song, Zheng, Liu, and Gao]{song2022eeg}
+Yonghao Song, Qingqing Zheng, Bingchuan Liu, and Xiaorong Gao.
+\newblock Eeg conformer: Convolutional transformer for eeg decoding and
+  visualization.
+\newblock \emph{IEEE Transactions on Neural Systems and Rehabilitation
+  Engineering}, 31:\penalty0 710--719, 2022.
+
+\bibitem[Jia et~al.(2020)Jia, Lin, Cai, Chen, Gou, and Wang]{jia2020sst}
+Ziyu Jia, Youfang Lin, Xiyang Cai, Haobin Chen, Haijun Gou, and Jing Wang.
+\newblock Sst-emotionnet: Spatial-spectral-temporal based attention 3d dense
+  network for eeg emotion recognition.
+\newblock In \emph{Proceedings of the 28th ACM international conference on
+  multimedia}, pages 2909--2917, 2020.
+
+\bibitem[Yudhana et~al.(2020)Yudhana, Muslim, Wati, Puspitasari, Azhari, and
+  Mardhia]{Yudhana2020}
+Anton Yudhana, Akbar Muslim, Dewi~Eko Wati, Intan Puspitasari, Ahmad Azhari,
+  and Murein~Miksa Mardhia.
+\newblock Human emotion recognition based on eeg signal using fast fourier
+  transform and k-nearest neighbor.
+\newblock \emph{Advances in Science, Technology and Engineering Systems
+  Journal}, 5\penalty0 (6):\penalty0 1082–1088, 2020.
+\newblock \doi{10.25046/aj0506131}.
+\newblock URL \url{https://www.astesj.com/v05/i06/p131/}.
+
+\bibitem[Chen et~al.(2019)Chen, Miao, Yang, Liang, Chen, Huang, Deng, and
+  Han]{chen2019feature}
+Dong-Wei Chen, Rui Miao, Wei-Qi Yang, Yong Liang, Hao-Heng Chen, Lan Huang,
+  Chun-Jian Deng, and Na~Han.
+\newblock A feature extraction method based on differential entropy and linear
+  discriminant analysis for emotion recognition.
+\newblock \emph{Sensors}, 19\penalty0 (7):\penalty0 1631, 2019.
+
+\bibitem[Lin et~al.(2010)Lin, Wang, Jung, Wu, Jeng, Duann, and
+  Chen]{lin2010eeg}
+Yuan-Pin Lin, Chi-Hong Wang, Tzyy-Ping Jung, Tien-Lin Wu, Shyh-Kang Jeng,
+  Jeng-Ren Duann, and Jyh-Horng Chen.
+\newblock Eeg-based emotion recognition in music listening.
+\newblock \emph{IEEE Transactions on Biomedical Engineering}, 57\penalty0
+  (7):\penalty0 1798--1806, 2010.
+
+\bibitem[Jenke et~al.(2014)Jenke, Peer, and Buss]{jenke2014feature}
+Robert Jenke, Angelika Peer, and Martin Buss.
+\newblock Feature extraction and selection for emotion recognition from eeg.
+\newblock \emph{IEEE Transactions on Affective computing}, 5\penalty0
+  (3):\penalty0 327--339, 2014.
+
+\bibitem[Murugappan et~al.(2008)Murugappan, Rizon, Nagarajan, Yaacob, Hazry,
+  and Zunaidi]{murugappan2008time}
+Muthusamy Murugappan, M~Rizon, R~Nagarajan, S~Yaacob, D~Hazry, and I~Zunaidi.
+\newblock Time-frequency analysis of eeg signals for human emotion detection.
+\newblock In \emph{4th Kuala Lumpur International Conference on Biomedical
+  Engineering 2008: BIOMED 2008 25--28 June 2008 Kuala Lumpur, Malaysia}, pages
+  262--265. Springer, 2008.
+
+\bibitem[Gupta et~al.(2018)Gupta, Chopda, and Pachori]{gupta2018cross}
+Vipin Gupta, Mayur~Dahyabhai Chopda, and Ram~Bilas Pachori.
+\newblock Cross-subject emotion recognition using flexible analytic wavelet
+  transform from eeg signals.
+\newblock \emph{IEEE Sensors Journal}, 19\penalty0 (6):\penalty0 2266--2274,
+  2018.
+
+\bibitem[Petrantonakis and Hadjileontiadis(2009)]{petrantonakis2009emotion}
+Panagiotis~C Petrantonakis and Leontios~J Hadjileontiadis.
+\newblock Emotion recognition from eeg using higher order crossings.
+\newblock \emph{IEEE Transactions on information Technology in Biomedicine},
+  14\penalty0 (2):\penalty0 186--197, 2009.
+
+\bibitem[Wang et~al.(2020)Wang, Wu, Zhang, Xu, Zhang, Wu, and
+  Coleman]{wang2020emotion}
+Fei Wang, Shichao Wu, Weiwei Zhang, Zongfeng Xu, Yahui Zhang, Chengdong Wu, and
+  Sonya Coleman.
+\newblock Emotion recognition with convolutional neural network and eeg-based
+  efdms.
+\newblock \emph{Neuropsychologia}, 146:\penalty0 107506, 2020.
+
+\bibitem[Yin et~al.(2021)Yin, Zheng, Hu, Zhang, and Cui]{yin2021eeg}
+Yongqiang Yin, Xiangwei Zheng, Bin Hu, Yuang Zhang, and Xinchun Cui.
+\newblock Eeg emotion recognition using fusion model of graph convolutional
+  neural networks and lstm.
+\newblock \emph{Applied Soft Computing}, 100:\penalty0 106954, 2021.
+
+\bibitem[Yin et~al.(2020)Yin, Liu, Chen, Zhao, and Wang]{yin2020locally}
+Zhong Yin, Lei Liu, Jianing Chen, Boxi Zhao, and Yongxiong Wang.
+\newblock Locally robust eeg feature selection for individual-independent
+  emotion recognition.
+\newblock \emph{Expert Systems with Applications}, 162:\penalty0 113768, 2020.
+
+\bibitem[Chakladar and Chakraborty(2018)]{chakladar2018eeg}
+Debashis~Das Chakladar and Sanjay Chakraborty.
+\newblock Eeg based emotion classification using “correlation based subset
+  selection”.
+\newblock \emph{Biologically inspired cognitive architectures}, 24:\penalty0
+  98--106, 2018.
+
+\bibitem[Hatamikia et~al.(2014)Hatamikia, Maghooli, and
+  Nasrabadi]{hatamikia2014emotion}
+Sepideh Hatamikia, Keivan Maghooli, and Ali~Motie Nasrabadi.
+\newblock The emotion recognition system based on autoregressive model and
+  sequential forward feature selection of electroencephalogram signals.
+\newblock \emph{Journal of Medical Signals \& Sensors}, 4\penalty0
+  (3):\penalty0 194--201, 2014.
+
+\bibitem[Xu et~al.(2020)Xu, Wei, Zhu, Liu, and Wu]{xu2020eeg}
+Xueyuan Xu, Fulin Wei, Zhiyuan Zhu, Jianhong Liu, and Xia Wu.
+\newblock Eeg feature selection using orthogonal regression: Application to
+  emotion recognition.
+\newblock In \emph{ICASSP 2020-2020 IEEE International Conference on Acoustics,
+  Speech and Signal Processing (ICASSP)}, pages 1239--1243. IEEE, 2020.
+
+\bibitem[Kannadasan et~al.(2023)Kannadasan, Veerasingam, Shameedha~Begum, and
+  Ramasubramanian]{kannadasan2023eeg}
+Kalidasan Kannadasan, Sridevi Veerasingam, B~Shameedha~Begum, and Natarajan
+  Ramasubramanian.
+\newblock An eeg-based subject-independent emotion recognition model using a
+  differential-evolution-based feature selection algorithm: K. kannadasan et
+  al.
+\newblock \emph{Knowledge and Information Systems}, 65\penalty0 (1):\penalty0
+  341--377, 2023.
+
+\bibitem[Liu et~al.(2018)Liu, Xie, Wu, Cao, Li, and
+  Li]{liu2018electroencephalogram}
+Zhen-Tao Liu, Qiao Xie, Min Wu, Wei-Hua Cao, Dan-Yun Li, and Si-Han Li.
+\newblock Electroencephalogram emotion recognition based on empirical mode
+  decomposition and optimal feature selection.
+\newblock \emph{IEEE Transactions on Cognitive and Developmental Systems},
+  11\penalty0 (4):\penalty0 517--526, 2018.
+
+\bibitem[Kheirabadi and Omranpour(2024)]{kheirabadi2024learning}
+Raoufeh Kheirabadi and Hesam Omranpour.
+\newblock Learning classifiers in clustered data: Bci pattern recognition model
+  for eeg-based human emotion recognition.
+\newblock \emph{Computer Methods in Biomechanics and Biomedical Engineering},
+  27\penalty0 (12):\penalty0 1649--1663, 2024.
+
+\bibitem[Luo and Lu(2018)]{luo2018_cwgan}
+Yun Luo and Bao-Liang Lu.
+\newblock Eeg data augmentation for emotion recognition using a conditional
+  wasserstein gan.
+\newblock In \emph{2018 40th Annual International Conference of the IEEE
+  Engineering in Medicine and Biology Society (EMBC)}, pages 2535--2538, 2018.
+\newblock \doi{10.1109/EMBC.2018.8512865}.
+
+\bibitem[Zhang et~al.(2022)Zhang, Liu, and Zhong]{zhang2022ganser}
+Zhi Zhang, Yan Liu, and Sheng-hua Zhong.
+\newblock Ganser: A self-supervised data augmentation framework for eeg-based
+  emotion recognition.
+\newblock \emph{IEEE Transactions on Affective Computing}, 14\penalty0
+  (3):\penalty0 2048--2063, 2022.
+
+\bibitem[Ding et~al.(2022)Ding, Robinson, Zhang, Zeng, and
+  Guan]{ding2022tsception}
+Yi~Ding, Neethu Robinson, Su~Zhang, Qiuhao Zeng, and Cuntai Guan.
+\newblock Tsception: Capturing temporal dynamics and spatial asymmetry from eeg
+  for emotion recognition.
+\newblock \emph{IEEE Transactions on affective computing}, 14\penalty0
+  (3):\penalty0 2238--2250, 2022.
+
+\bibitem[Zhu et~al.(2024)Zhu, Liu, Zhao, and Wang]{zhu2024eeg}
+Xiaoliang Zhu, Chen Liu, Liang Zhao, and Shengming Wang.
+\newblock Eeg emotion recognition network based on attention and spatiotemporal
+  convolution.
+\newblock \emph{Sensors}, 24\penalty0 (11):\penalty0 3464, 2024.
+
+\bibitem[Ma et~al.(2019)Ma, Tang, Zheng, and Lu]{ma2019emotion}
+Jiaxin Ma, Hao Tang, Wei-Long Zheng, and Bao-Liang Lu.
+\newblock Emotion recognition using multimodal residual lstm network.
+\newblock In \emph{Proceedings of the 27th ACM international conference on
+  multimedia}, pages 176--183, 2019.
+
+\bibitem[Liu et~al.(2024{\natexlab{b}})Liu, Chao, Ma, Sha, Sun, Li, and
+  Chang]{liu2024ertnet}
+Ruixiang Liu, Yihu Chao, Xuerui Ma, Xianzheng Sha, Limin Sun, Shuo Li, and
+  Shijie Chang.
+\newblock {ERTNet}: An interpretable transformer-based framework for {EEG}
+  emotion recognition.
+\newblock \emph{Frontiers in Neuroscience}, 18, 2024{\natexlab{b}}.
+\newblock \doi{10.3389/fnins.2024.1320645}.
+\newblock Published: 17 January 2024.
+
+\bibitem[Song et~al.(2018)Song, Zheng, Song, and Cui]{song2018eeg}
+Tengfei Song, Wenming Zheng, Peng Song, and Zhen Cui.
+\newblock Eeg emotion recognition using dynamical graph convolutional neural
+  networks.
+\newblock \emph{IEEE Transactions on Affective Computing}, 11\penalty0
+  (3):\penalty0 532--541, 2018.
+
+\bibitem[Li et~al.(2018)Li, Jin, Zheng, and Lu]{li2018cross}
+He~Li, Yi-Ming Jin, Wei-Long Zheng, and Bao-Liang Lu.
+\newblock Cross-subject emotion recognition using deep adaptation networks.
+\newblock In \emph{International conference on neural information processing},
+  pages 403--413. Springer, 2018.
+
+\bibitem[Wu et~al.(2020)Wu, Xu, and Lu]{wu2020transfer}
+Dongrui Wu, Yifan Xu, and Bao-Liang Lu.
+\newblock Transfer learning for eeg-based brain--computer interfaces: A review
+  of progress made since 2016.
+\newblock \emph{IEEE Transactions on Cognitive and Developmental Systems},
+  14\penalty0 (1):\penalty0 4--19, 2020.
+
+\bibitem[Zhao et~al.(2021)Zhao, Yan, and Lu]{zhao2021plug}
+Li-Ming Zhao, Xu~Yan, and Bao-Liang Lu.
+\newblock Plug-and-play domain adaptation for cross-subject eeg-based emotion
+  recognition.
+\newblock In \emph{Proceedings of the AAAI conference on artificial
+  intelligence}, volume~35, pages 863--870, 2021.
+
+\bibitem[Zhou et~al.(2022)Zhou, Liu, Qiao, Xiang, and Loy]{zhou2022domain}
+Kaiyang Zhou, Ziwei Liu, Yu~Qiao, Tao Xiang, and Chen~Change Loy.
+\newblock Domain generalization: A survey.
+\newblock \emph{IEEE transactions on pattern analysis and machine
+  intelligence}, 45\penalty0 (4):\penalty0 4396--4415, 2022.
+
+\bibitem[Li et~al.(2019{\natexlab{a}})Li, Qiu, Du, Wang, and He]{li2019domain}
+Jinpeng Li, Shuang Qiu, Changde Du, Yixin Wang, and Huiguang He.
+\newblock Domain adaptation for eeg emotion recognition based on latent
+  representation similarity.
+\newblock \emph{IEEE Transactions on Cognitive and Developmental Systems},
+  12\penalty0 (2):\penalty0 344--353, 2019{\natexlab{a}}.
+
+\bibitem[Li et~al.(2019{\natexlab{b}})Li, Qiu, Shen, Liu, and
+  He]{li2019multisource}
+Jinpeng Li, Shuang Qiu, Yuan-Yuan Shen, Cheng-Lin Liu, and Huiguang He.
+\newblock Multisource transfer learning for cross-subject eeg emotion
+  recognition.
+\newblock \emph{IEEE transactions on cybernetics}, 50\penalty0 (7):\penalty0
+  3281--3293, 2019{\natexlab{b}}.
+
+\bibitem[Yang et~al.(2024{\natexlab{a}})Yang, Wang, Tao, Liu, Jia, Wang, and
+  Wan]{yang2024spectral}
+Yi~Yang, Ze~Wang, Wei Tao, Xucheng Liu, Ziyu Jia, Boyu Wang, and Feng Wan.
+\newblock Spectral-spatial attention alignment for multi-source domain
+  adaptation in eeg-based emotion recognition.
+\newblock \emph{IEEE Transactions on Affective Computing}, 15\penalty0
+  (4):\penalty0 2012--2024, 2024{\natexlab{a}}.
+
+\bibitem[Xu et~al.(2023{\natexlab{a}})Xu, Dang, Wang, and Zhou]{xu2023dagam}
+Tao Xu, Wang Dang, Jiabao Wang, and Yun Zhou.
+\newblock Dagam: a domain adversarial graph attention model for
+  subject-independent eeg-based emotion recognition.
+\newblock \emph{Journal of Neural Engineering}, 20\penalty0 (1):\penalty0
+  016022, 2023{\natexlab{a}}.
+
+\bibitem[Zhou et~al.(2023)Zhou, Zhang, Fu, Zhang, Li, Huang, Li, Yang, Dong,
+  Zhang, et~al.]{zhou2023pr}
+Rushuang Zhou, Zhiguo Zhang, Hong Fu, Li~Zhang, Linling Li, Gan Huang, Fali Li,
+  Xin Yang, Yining Dong, Yuan-Ting Zhang, et~al.
+\newblock Pr-pl: A novel prototypical representation based pairwise learning
+  framework for emotion recognition using eeg signals.
+\newblock \emph{IEEE Transactions on Affective Computing}, 15\penalty0
+  (2):\penalty0 657--670, 2023.
+
+\bibitem[Peng et~al.(2022)Peng, Wang, Kong, Nie, Lu, and
+  Cichocki]{peng2022joint}
+Yong Peng, Wenjuan Wang, Wanzeng Kong, Feiping Nie, Bao-Liang Lu, and Andrzej
+  Cichocki.
+\newblock Joint feature adaptation and graph adaptive label propagation for
+  cross-subject emotion recognition from eeg signals.
+\newblock \emph{IEEE Transactions on Affective Computing}, 13\penalty0
+  (4):\penalty0 1941--1958, 2022.
+
+\bibitem[Cimtay and Ekmekcioglu(2020)]{cimtay2020investigating}
+Yucel Cimtay and Erhan Ekmekcioglu.
+\newblock Investigating the use of pretrained convolutional neural network on
+  cross-subject and cross-dataset eeg emotion recognition.
+\newblock \emph{Sensors}, 20\penalty0 (7):\penalty0 2034, 2020.
+
+\bibitem[Imtiaz and Khan(2025)]{imtiaz2025enhanced}
+Md~Niaz Imtiaz and Naimul Khan.
+\newblock Enhanced cross-dataset electroencephalogram-based emotion recognition
+  using unsupervised domain adaptation.
+\newblock \emph{Computers in Biology and Medicine}, 184:\penalty0 109394, 2025.
+
+\bibitem[Wan et~al.(2021)Wan, Yang, Huang, Zeng, and Liu]{wan2021review}
+Zitong Wan, Rui Yang, Mengjie Huang, Nianyin Zeng, and Xiaohui Liu.
+\newblock A review on transfer learning in eeg signal analysis.
+\newblock \emph{Neurocomputing}, 421:\penalty0 1--14, 2021.
+
+\bibitem[Sun and Saenko(2016)]{sun2016deep}
+Baochen Sun and Kate Saenko.
+\newblock Deep coral: Correlation alignment for deep domain adaptation.
+\newblock In \emph{European conference on computer vision}, pages 443--450.
+  Springer, 2016.
+
+\bibitem[Bao et~al.(2021)Bao, Zhuang, Tong, Yan, Shu, Wang, Zeng, and
+  Shen]{bao2021two}
+Guangcheng Bao, Ning Zhuang, Li~Tong, Bin Yan, Jun Shu, Linyuan Wang, Ying
+  Zeng, and Zhichong Shen.
+\newblock Two-level domain adaptation neural network for eeg-based emotion
+  recognition.
+\newblock \emph{Frontiers in Human Neuroscience}, 14:\penalty0 605246, 2021.
+
+\bibitem[Ganin et~al.(2016)Ganin, Ustinova, Ajakan, Germain, Larochelle,
+  Laviolette, March, and Lempitsky]{ganin2016domain}
+Yaroslav Ganin, Evgeniya Ustinova, Hana Ajakan, Pascal Germain, Hugo
+  Larochelle, Fran{\c{c}}ois Laviolette, Mario March, and Victor Lempitsky.
+\newblock Domain-adversarial training of neural networks.
+\newblock \emph{Journal of machine learning research}, 17\penalty0
+  (59):\penalty0 1--35, 2016.
+
+\bibitem[Jin et~al.(2017)Jin, Luo, Zheng, and Lu]{jin2017eeg}
+Yi-Ming Jin, Yu-Dong Luo, Wei-Long Zheng, and Bao-Liang Lu.
+\newblock Eeg-based emotion recognition using domain adaptation network.
+\newblock In \emph{2017 international conference on orange technologies
+  (ICOT)}, pages 222--225. IEEE, 2017.
+
+\bibitem[Luo et~al.(2018)Luo, Zhang, Zheng, and Lu]{luo2018iconip_wganda}
+Yun Luo, Si-Yang Zhang, Wei-Long Zheng, and Bao-Liang Lu.
+\newblock Wgan domain adaptation for eeg-based emotion recognition.
+\newblock In Long Cheng, Andrew Chi~Sing Leung, and Seiichi Ozawa, editors,
+  \emph{Neural Information Processing}, pages 275--286, Cham, 2018. Springer
+  International Publishing.
+\newblock ISBN 978-3-030-04221-9.
+
+\bibitem[Imtiaz and Khan(2026)]{imtiaz2026towards}
+Md~Niaz Imtiaz and Naimul Khan.
+\newblock Towards practical emotion recognition: An unsupervised source-free
+  approach for eeg domain adaptation.
+\newblock \emph{IEEE Transactions on Affective Computing}, 2026.
+
+\bibitem[Lu et~al.(2023{\natexlab{a}})Lu, Liu, Ma, Tan, and Xia]{lu2023hybrid}
+Wei Lu, Haiyan Liu, Hua Ma, Tien-Ping Tan, and Lingnan Xia.
+\newblock Hybrid transfer learning strategy for cross-subject eeg emotion
+  recognition.
+\newblock \emph{Frontiers in Human Neuroscience}, 17:\penalty0 1280241,
+  2023{\natexlab{a}}.
+
+\bibitem[Li et~al.(2021{\natexlab{d}})Li, Zhang, and Song]{li2021physiological}
+Wei Li, Zhen Zhang, and Aiguo Song.
+\newblock Physiological-signal-based emotion recognition: An odyssey from
+  methodology to philosophy.
+\newblock \emph{Measurement}, 172:\penalty0 108747, 2021{\natexlab{d}}.
+
+\bibitem[Li et~al.(2019{\natexlab{c}})Li, Liu, Si, Li, Li, Zhu, Huang, Zeng,
+  Yao, Zhang, et~al.]{li2019eeg}
+Peiyang Li, Huan Liu, Yajing Si, Cunbo Li, Fali Li, Xuyang Zhu, Xiaoye Huang,
+  Ying Zeng, Dezhong Yao, Yangsong Zhang, et~al.
+\newblock Eeg based emotion recognition by combining functional connectivity
+  network and local activations.
+\newblock \emph{IEEE Transactions on Biomedical Engineering}, 66\penalty0
+  (10):\penalty0 2869--2881, 2019{\natexlab{c}}.
+
+\bibitem[Wankhade and Doye(2019)]{wankhade2019ikkn}
+Sujata~Bhimrao Wankhade and Dharmapal~Dronacharya Doye.
+\newblock Ikkn predictor: An eeg signal based emotion recognition for hci: Sb
+  wankhade, dd doye.
+\newblock \emph{Wireless Personal Communications}, 107\penalty0 (2):\penalty0
+  1135--1153, 2019.
+
+\bibitem[Lai et~al.(2018)Lai, Ibrahim, Abdullah, Abdullah, Suandi, and
+  Azman]{lai2018artifacts}
+Chi~Qin Lai, Haidi Ibrahim, Mohd~Zaid Abdullah, Jafri~Malin Abdullah,
+  Shahrel~Azmin Suandi, and Azlinda Azman.
+\newblock Artifacts and noise removal for electroencephalogram (eeg): A
+  literature review.
+\newblock In \emph{2018 IEEE Symposium on Computer Applications \& Industrial
+  Electronics (ISCAIE)}, pages 326--332. IEEE, 2018.
+
+\bibitem[Witteveen et~al.(2019)Witteveen, Pradhapan, and
+  Mihajlovi{\'c}]{witteveen2019comparison}
+Jolanda Witteveen, Paruthi Pradhapan, and Vojkan Mihajlovi{\'c}.
+\newblock Comparison of a pragmatic and regression approach for wearable eeg
+  signal quality assessment.
+\newblock \emph{IEEE journal of biomedical and health informatics}, 24\penalty0
+  (3):\penalty0 735--746, 2019.
+
+\bibitem[Egger et~al.(2019)Egger, Ley, and Hanke]{egger2019emotion}
+Maria Egger, Matthias Ley, and Sten Hanke.
+\newblock Emotion recognition from physiological signal analysis: A review.
+\newblock \emph{Electronic Notes in Theoretical Computer Science},
+  343:\penalty0 35--55, 2019.
+
+\bibitem[Li et~al.(2024)Li, Bian, Zhao, Wang, and Schuller]{li2024multi}
+Chao Li, Ning Bian, Ziping Zhao, Haishuai Wang, and Bj{\"o}rn~W Schuller.
+\newblock Multi-view domain-adaptive representation learning for eeg-based
+  emotion recognition.
+\newblock \emph{Information Fusion}, 104:\penalty0 102156, 2024.
+
+\bibitem[Ayd{\i}n(2019)]{aydin2019deep}
+Serap Ayd{\i}n.
+\newblock Deep learning classification of neuro-emotional phase domain
+  complexity levels induced by affective video film clips.
+\newblock \emph{IEEE Journal of Biomedical and Health Informatics}, 24\penalty0
+  (6):\penalty0 1695--1702, 2019.
+
+\bibitem[Tao et~al.(2020)Tao, Li, Song, Cheng, Liu, Wan, and Chen]{tao2020eeg}
+Wei Tao, Chang Li, Rencheng Song, Juan Cheng, Yu~Liu, Feng Wan, and Xun Chen.
+\newblock Eeg-based emotion recognition via channel-wise attention and self
+  attention.
+\newblock \emph{IEEE Transactions on Affective Computing}, 14\penalty0
+  (1):\penalty0 382--393, 2020.
+
+\bibitem[Koelstra et~al.(2011)Koelstra, Muhl, Soleymani, Lee, Yazdani,
+  Ebrahimi, Pun, Nijholt, and Patras]{koelstra2011deap}
+Sander Koelstra, Christian Muhl, Mohammad Soleymani, Jong-Seok Lee, Ashkan
+  Yazdani, Touradj Ebrahimi, Thierry Pun, Anton Nijholt, and Ioannis Patras.
+\newblock Deap: A database for emotion analysis; using physiological signals.
+\newblock \emph{IEEE transactions on affective computing}, 3\penalty0
+  (1):\penalty0 18--31, 2011.
+
+\bibitem[{BCMI Laboratory, Shanghai Jiao Tong
+  University}({\natexlab{a}})]{seed_page}
+{BCMI Laboratory, Shanghai Jiao Tong University}.
+\newblock {SJTU Emotion EEG Dataset (SEED)}.
+\newblock \url{https://bcmi.sjtu.edu.cn/home/seed/}, {\natexlab{a}}.
+\newblock Official dataset website. Accessed: October 23, 2026.
+
+\bibitem[{BCMI Laboratory, Shanghai Jiao Tong
+  University}({\natexlab{b}})]{seediv_page}
+{BCMI Laboratory, Shanghai Jiao Tong University}.
+\newblock {SJTU Emotion EEG Dataset for Four Emotions (SEED-IV)}.
+\newblock \url{https://bcmi.sjtu.edu.cn/home/seed/seed-iv.html},
+  {\natexlab{b}}.
+\newblock Official dataset website. Accessed: October 23, 2026.
+
+\bibitem[Zheng et~al.(2018)Zheng, Liu, Lu, Lu, and
+  Cichocki]{zheng2018emotionmeter}
+Wei-Long Zheng, Wei Liu, Yifei Lu, Bao-Liang Lu, and Andrzej Cichocki.
+\newblock Emotionmeter: A multimodal framework for recognizing human emotions.
+\newblock \emph{IEEE transactions on cybernetics}, 49\penalty0 (3):\penalty0
+  1110--1122, 2018.
+
+\bibitem[Soleymani et~al.(2011)Soleymani, Lichtenauer, Pun, and
+  Pantic]{soleymani2011multimodal}
+Mohammad Soleymani, Jeroen Lichtenauer, Thierry Pun, and Maja Pantic.
+\newblock A multimodal database for affect recognition and implicit tagging.
+\newblock \emph{IEEE transactions on affective computing}, 3\penalty0
+  (1):\penalty0 42--55, 2011.
+
+\bibitem[Subramanian et~al.(2016)Subramanian, Wache, Abadi, Vieriu, Winkler,
+  and Sebe]{subramanian2016ascertain}
+Ramanathan Subramanian, Julia Wache, Mojtaba~Khomami Abadi, Radu~L Vieriu,
+  Stefan Winkler, and Nicu Sebe.
+\newblock Ascertain: Emotion and personality recognition using commercial
+  sensors.
+\newblock \emph{IEEE Transactions on Affective Computing}, 9\penalty0
+  (2):\penalty0 147--160, 2016.
+
+\bibitem[Song et~al.(2019)Song, Zheng, Lu, Zong, Zhang, and Cui]{song2019mped}
+Tengfei Song, Wenming Zheng, Cheng Lu, Yuan Zong, Xilei Zhang, and Zhen Cui.
+\newblock Mped: A multi-modal physiological emotion database for discrete
+  emotion recognition.
+\newblock \emph{IEEE Access}, 7:\penalty0 12177--12191, 2019.
+
+\bibitem[Chen et~al.(2023)Chen, Wang, Huang, Hu, Shen, and
+  Zhang]{chen2023large}
+Jingjing Chen, Xiaobin Wang, Chen Huang, Xin Hu, Xinke Shen, and Dan Zhang.
+\newblock A large finer-grained affective computing eeg dataset.
+\newblock \emph{Scientific Data}, 10\penalty0 (1):\penalty0 740, 2023.
+
+\bibitem[Toraman and Dursun(2021)]{toraman2021gameemo}
+Suat Toraman and {\"O}mer~Osman Dursun.
+\newblock Gameemo-capsnet: Emotion recognition from single-channel eeg signals
+  using the 1d capsule networks.
+\newblock \emph{Traitement du Signal}, 38\penalty0 (6):\penalty0 1689, 2021.
+
+\bibitem[Apicella et~al.(2024)Apicella, Arpaia, D’Errico, Marocco, Mastrati,
+  Moccaldi, and Prevete]{apicella2024toward}
+Andrea Apicella, Pasquale Arpaia, Giovanni D’Errico, Davide Marocco, Giovanna
+  Mastrati, Nicola Moccaldi, and Roberto Prevete.
+\newblock Toward cross-subject and cross-session generalization in eeg-based
+  emotion recognition: Systematic review, taxonomy, and methods.
+\newblock \emph{Neurocomputing}, 604:\penalty0 128354, 2024.
+
+\bibitem[Brookshire et~al.(2024)Brookshire, Kasper, Blauch, Wu, Glatt, Merrill,
+  Gerrol, Yoder, Quirk, and Lucero]{brookshire2024data}
+Geoffrey Brookshire, Jake Kasper, Nicholas~M Blauch, Yunan~Charles Wu, Ryan
+  Glatt, David~A Merrill, Spencer Gerrol, Keith~J Yoder, Colin Quirk, and
+  Ch{\'e} Lucero.
+\newblock Data leakage in deep learning studies of translational eeg.
+\newblock \emph{Frontiers in neuroscience}, 18:\penalty0 1373515, 2024.
+
+\bibitem[Nath et~al.(2020)Nath, Anubhav, Singh, Sethia, Kalra, and
+  Indu]{nath2020comparative}
+Debarshi Nath, Anubhav, Mrigank Singh, Divyashikha Sethia, Diksha Kalra, and
+  S~Indu.
+\newblock A comparative study of subject-dependent and subject-independent
+  strategies for eeg-based emotion recognition using lstm network.
+\newblock In \emph{Proceedings of the 2020 4th International Conference on
+  Compute and Data Analysis}, pages 142--147, 2020.
+
+\bibitem[Li et~al.(2022{\natexlab{c}})Li, Hua, Xu, Shu, Xu, Kuang, and
+  Wu]{li2022cross}
+Jinyu Li, Haoqiang Hua, Zhihui Xu, Lin Shu, Xiangmin Xu, Feng Kuang, and Shibin
+  Wu.
+\newblock Cross-subject eeg emotion recognition combined with connectivity
+  features and meta-transfer learning.
+\newblock \emph{Computers in biology and medicine}, 145:\penalty0 105519,
+  2022{\natexlab{c}}.
+
+\bibitem[Chen et~al.(2021{\natexlab{a}})Chen, Li, Jin, and Li]{chen2021meernet}
+Hao Chen, Zhunan Li, Ming Jin, and Jinpeng Li.
+\newblock Meernet: Multi-source eeg-based emotion recognition network for
+  generalization across subjects and sessions.
+\newblock In \emph{2021 43rd Annual International Conference of the IEEE
+  Engineering in Medicine \& Biology Society (EMBC)}, pages 6094--6097. IEEE,
+  2021{\natexlab{a}}.
+
+\bibitem[Guo et~al.(2022)Guo, Cai, An, Chen, Ma, Wan, and
+  Gao]{guo2022transformer}
+Jia-Yi Guo, Qing Cai, Jian-Peng An, Pei-Yin Chen, Chao Ma, Jun-He Wan, and
+  Zhong-Ke Gao.
+\newblock A transformer based neural network for emotion recognition and
+  visualizations of crucial eeg channels.
+\newblock \emph{Physica A: Statistical Mechanics and its Applications},
+  603:\penalty0 127700, 2022.
+
+\bibitem[Ding et~al.(2025)Ding, Wang, Jiang, Xu, Bo, Ma, and Li]{ding2025dgat}
+Shihang Ding, Kaixuan Wang, Wenhao Jiang, Cong Xu, Hongjian Bo, Lin Ma, and
+  Haifeng Li.
+\newblock Dgat: a dynamic graph attention neural network framework for eeg
+  emotion recognition.
+\newblock \emph{Frontiers in Psychiatry}, 16:\penalty0 1633860, 2025.
+
+\bibitem[Xiong et~al.(2025)Xiong, Fan, Yang, Wang, and Zhou]{xiong2025research}
+Fan Xiong, Mengzhao Fan, Xu~Yang, Chenxiao Wang, and Jinli Zhou.
+\newblock Research on emotion recognition using sparse eeg channels and
+  cross-subject modeling based on cnn-kan-f 2 ca model.
+\newblock \emph{Plos one}, 20\penalty0 (5):\penalty0 e0322583, 2025.
+
+\bibitem[Lin et~al.(2026)Lin, Liu, Wu, and Chen]{lin2026selective}
+Bihai Lin, Chuanzhi Liu, Xinyi Wu, and Xiaowei Chen.
+\newblock Selective channel bypassing meets capsules: Efficient and robust eeg
+  emotion recognition.
+\newblock \emph{Biomedical Signal Processing and Control}, 120:\penalty0
+  110077, 2026.
+
+\bibitem[Soundariya and Thangaraj(2026)]{soundariya2026modeling}
+RS~Soundariya and P~Thangaraj.
+\newblock Modeling multiscale neural dynamics for eeg-based emotion recognition
+  using an attentive wavelet--transformer framework.
+\newblock \emph{Frontiers in Computational Neuroscience}, 20:\penalty0 1775449,
+  2026.
+
+\bibitem[Hua et~al.(2026)Hua, Cao, Li, and Huang]{hua2026dual}
+Chengyu Hua, Hui Cao, Zhaolong Li, and Zhiqiang Huang.
+\newblock A dual-branch network with brain region-constrained attention for eeg
+  emotion recognition.
+\newblock \emph{Frontiers in Neuroscience}, 20:\penalty0 1810609, 2026.
+
+\bibitem[Liu et~al.(2026{\natexlab{a}})Liu, Wang, Chen, Cao, Hu, Zhao, and
+  Liu]{liu2026taformer}
+Decheng Liu, Congcong Wang, Danyang Chen, Yankun Cao, Xifeng Hu, Xian Zhao, and
+  Zhi Liu.
+\newblock Taformer: Eeg-based emotion recognition using triplet attention
+  transformer and 4d feature dense representation.
+\newblock \emph{Biomedical Signal Processing and Control}, 119:\penalty0
+  109873, 2026{\natexlab{a}}.
+
+\bibitem[Liu et~al.(2020{\natexlab{a}})Liu, Ding, Li, Cheng, Song, Wan, and
+  Chen]{liu2020multi}
+Yu~Liu, Yufeng Ding, Chang Li, Juan Cheng, Rencheng Song, Feng Wan, and Xun
+  Chen.
+\newblock Multi-channel eeg-based emotion recognition via a multi-level
+  features guided capsule network.
+\newblock \emph{Computers in Biology and Medicine}, 123:\penalty0 103927,
+  2020{\natexlab{a}}.
+
+\bibitem[Bao et~al.(2022)Bao, Yang, Tong, Shu, Zhang, Wang, Yan, and
+  Zeng]{bao2022linking}
+Guangcheng Bao, Kai Yang, Li~Tong, Jun Shu, Rongkai Zhang, Linyuan Wang, Bin
+  Yan, and Ying Zeng.
+\newblock Linking multi-layer dynamical gcn with style-based recalibration cnn
+  for eeg-based emotion recognition.
+\newblock \emph{Frontiers in Neurorobotics}, 16:\penalty0 834952, 2022.
+
+\bibitem[Shawky and Shalaby(2018)]{shawky2018eeg}
+Elham Shawky and Mohamed Ahmed~Wahby Shalaby.
+\newblock Eeg-based emotion recognition using 3d convolutional neural networks.
+\newblock \emph{EEG-Based Emotion Recognition using 3D Convolutional Neural
+  Networks}, 2018.
+
+\bibitem[Xiao et~al.(2022)Xiao, Shi, Ye, Xu, Chen, and Ren]{xiao20224d}
+Guowen Xiao, Meng Shi, Mengwen Ye, Bowen Xu, Zhendi Chen, and Quansheng Ren.
+\newblock 4d attention-based neural network for eeg emotion recognition.
+\newblock \emph{Cognitive Neurodynamics}, 16\penalty0 (4):\penalty0 805--818,
+  2022.
+
+\bibitem[Gong et~al.(2023)Gong, Li, Zhang, and Chen]{gong2023eeg}
+Linlin Gong, Mingyang Li, Tao Zhang, and Wanzhong Chen.
+\newblock Eeg emotion recognition using attention-based convolutional
+  transformer neural network.
+\newblock \emph{Biomedical Signal Processing and Control}, 84:\penalty0 104835,
+  2023.
+
+\bibitem[Chen et~al.(2024)Chen, Liao, Dai, Dong, and Huang]{chen2024eeg}
+Wei Chen, Yuan Liao, Rui Dai, Yuanlin Dong, and Liya Huang.
+\newblock Eeg-based emotion recognition using graph convolutional neural
+  network with dual attention mechanism.
+\newblock \emph{Frontiers in Computational Neuroscience}, 18:\penalty0 1416494,
+  2024.
+
+\bibitem[Liu et~al.(2025)Liu, He, Chen, and Jiang]{liu2025directional}
+Jiyao Liu, Lang He, Haifeng Chen, and Dongmei Jiang.
+\newblock Directional spatial and spectral attention network (dssa net) for
+  eeg-based emotion recognition.
+\newblock \emph{Frontiers in Neurorobotics}, 18:\penalty0 1481746, 2025.
+
+\bibitem[Huang and Deng(2025)]{huang2025simam}
+Yutao Huang and Jijie Deng.
+\newblock A simam-enhanced multi-resolution cnn with bigru for eeg emotion
+  recognition: 4d-mrsimnet.
+\newblock \emph{Electronics}, 15\penalty0 (1):\penalty0 39, 2025.
+
+\bibitem[Wei et~al.(2023)Wei, Liu, Li, Cheng, Song, and Chen]{wei2023tc}
+Yi~Wei, Yu~Liu, Chang Li, Juan Cheng, Rencheng Song, and Xun Chen.
+\newblock Tc-net: A transformer capsule network for eeg-based emotion
+  recognition.
+\newblock \emph{Computers in biology and medicine}, 152:\penalty0 106463, 2023.
+
+\bibitem[Lu et~al.(2023{\natexlab{b}})Lu, Tan, and Ma]{lu2023bi}
+Wei Lu, Tien-Ping Tan, and Hua Ma.
+\newblock Bi-branch vision transformer network for eeg emotion recognition.
+\newblock \emph{IEEE Access}, 11:\penalty0 36233--36243, 2023{\natexlab{b}}.
+
+\bibitem[Qian et~al.(2023)Qian, Qian, Liang, Luo, and Xu]{qian2023agcn}
+Bincheng Qian, Zhiqin Qian, Huishan Liang, Qi~Luo, and Lei Xu.
+\newblock Agcn-sat: adaptive graph convolutional network with spatial attention
+  and transformer for eeg emotion recognition.
+\newblock In \emph{2023 IEEE 3rd International conference on electronic
+  technology, communication and information (ICETCI)}, pages 418--423. IEEE,
+  2023.
+
+\bibitem[Huang et~al.(2026)Huang, Cao, Li, and Hua]{huang2026ast}
+Zhiqiang Huang, Hui Cao, Zhaolong Li, and Chengyu Hua.
+\newblock Ast-clnet: Eeg emotion recognition based on dual-branch adaptive
+  graph convolution and contrastive learning.
+\newblock \emph{Biomedical Signal Processing and Control}, 121:\penalty0
+  110302, 2026.
+
+\bibitem[Li et~al.(2023)Li, Pan, Huang, Pan, and Wang]{li2023stgate}
+Jingcong Li, Weijian Pan, Haiyun Huang, Jiahui Pan, and Fei Wang.
+\newblock Stgate: Spatial-temporal graph attention network with a transformer
+  encoder for eeg-based emotion recognition.
+\newblock \emph{Frontiers in Human Neuroscience}, 17:\penalty0 1169949, 2023.
+
+\bibitem[Chang et~al.(2025)Chang, Zhang, Qian, and Lin]{chang2025multi}
+Jiang Chang, Zhixin Zhang, Yuhua Qian, and Pan Lin.
+\newblock Multi-scale hyperbolic contrastive learning for cross-subject eeg
+  emotion recognition.
+\newblock \emph{IEEE Transactions on Affective Computing}, 16\penalty0
+  (3):\penalty0 1716--1731, 2025.
+
+\bibitem[Song et~al.(2020)Song, Liu, Zheng, Zong, and Cui]{song2020instance}
+Tengfei Song, Suyuan Liu, Wenming Zheng, Yuan Zong, and Zhen Cui.
+\newblock Instance-adaptive graph for eeg emotion recognition.
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume~34, pages 2701--2708, 2020.
+
+\bibitem[Liu et~al.(2020{\natexlab{b}})Liu, Wang, Zhao, Zhao, Xin, and
+  Wang]{liu2020subject}
+Shuaiqi Liu, Xu~Wang, Ling Zhao, Jie Zhao, Qi~Xin, and Shui-Hua Wang.
+\newblock Subject-independent emotion recognition of eeg signals based on
+  dynamic empirical convolutional neural network.
+\newblock \emph{IEEE/ACM transactions on computational biology and
+  bioinformatics}, 18\penalty0 (5):\penalty0 1710--1721, 2020{\natexlab{b}}.
+
+\bibitem[Li et~al.(2021{\natexlab{e}})Li, Li, Pan, and Wang]{li2021cross}
+Jingcong Li, Shuqi Li, Jiahui Pan, and Fei Wang.
+\newblock Cross-subject eeg emotion recognition with self-organized graph
+  neural network.
+\newblock \emph{Frontiers in Neuroscience}, 15:\penalty0 611653,
+  2021{\natexlab{e}}.
+
+\bibitem[Priyasad et~al.(2022)Priyasad, Fernando, Denman, Sridharan, and
+  Fookes]{priyasad2022affect}
+Darshana Priyasad, Tharindu Fernando, Simon Denman, Sridha Sridharan, and
+  Clinton Fookes.
+\newblock Affect recognition from scalp-eeg using channel-wise encoder networks
+  coupled with geometric deep learning and multi-channel feature fusion.
+\newblock \emph{Knowledge-Based Systems}, 250:\penalty0 109038, 2022.
+
+\bibitem[Huang et~al.(2021)Huang, Chen, Liu, Zheng, Tian, and
+  Jiang]{huang2021differences}
+Dongmin Huang, Sentao Chen, Cheng Liu, Lin Zheng, Zhihang Tian, and Dazhi
+  Jiang.
+\newblock Differences first in asymmetric brain: A bi-hemisphere discrepancy
+  convolutional neural network for eeg emotion recognition.
+\newblock \emph{Neurocomputing}, 448:\penalty0 140--151, 2021.
+
+\bibitem[Kumar et~al.(2026)Kumar, Ganapathy, D~Puthankattil, and
+  Swaminathan]{kumar2026subject}
+Himanshu Kumar, Nagarajan Ganapathy, Subha D~Puthankattil, and Ramakrishnan
+  Swaminathan.
+\newblock Subject-independent emotion recognition with eeg bispectral quadratic
+  phase coupling features and explainable machine learning.
+\newblock \emph{Biomedical Physics \& Engineering Express}, 12\penalty0
+  (3):\penalty0 035049, 2026.
+
+\bibitem[Li et~al.(2022{\natexlab{d}})Li, Chen, Li, Fu, Wu, Ji, Zhou, Niu, Shi,
+  and Zheng]{li2022gmss}
+Yang Li, Ji~Chen, Fu~Li, Boxun Fu, Hao Wu, Youshuo Ji, Yijin Zhou, Yi~Niu,
+  Guangming Shi, and Wenming Zheng.
+\newblock Gmss: Graph-based multi-task self-supervised learning for eeg emotion
+  recognition.
+\newblock \emph{IEEE Transactions on Affective Computing}, 14\penalty0
+  (3):\penalty0 2512--2525, 2022{\natexlab{d}}.
+
+\bibitem[Zhang et~al.(2021)Zhang, Yu, Liu, Zhao, Zhang, and
+  Zheng]{zhang2021sparsedgcnn}
+Guanhua Zhang, Minjing Yu, Yong-Jin Liu, Guozhen Zhao, Dan Zhang, and Wenming
+  Zheng.
+\newblock Sparsedgcnn: Recognizing emotion from multichannel eeg signals.
+\newblock \emph{IEEE Transactions on Affective Computing}, 14\penalty0
+  (1):\penalty0 537--548, 2021.
+
+\bibitem[Ji et~al.(2026)Ji, Kim, and Hong]{ji2026enhanced}
+Yujin Ji, Do-Hyung Kim, and Jungpyo Hong.
+\newblock Enhanced eeg emotion recognition using mimo-based denoising and
+  band-wise attention graph neural network.
+\newblock \emph{Sensors}, 26\penalty0 (4):\penalty0 1133, 2026.
+
+\bibitem[Pandey and Seeja(2022)]{pandey2022subject}
+Pallavi Pandey and KR~Seeja.
+\newblock Subject independent emotion recognition from eeg using vmd and deep
+  learning.
+\newblock \emph{Journal of King Saud University-Computer and Information
+  Sciences}, 34\penalty0 (5):\penalty0 1730--1738, 2022.
+
+\bibitem[Jana et~al.(2022)Jana, Sabath, and Agrawal]{jana2022capsule}
+Gopal~Chandra Jana, Anshuman Sabath, and Anupam Agrawal.
+\newblock Capsule neural networks on spatio-temporal eeg frames for
+  cross-subject emotion recognition.
+\newblock \emph{Biomedical Signal Processing and Control}, 72:\penalty0 103361,
+  2022.
+
+\bibitem[Xu et~al.(2023{\natexlab{b}})Xu, Guo, and Wang]{xu2023subject}
+Guixun Xu, Wenhui Guo, and Yanjiang Wang.
+\newblock Subject-independent eeg emotion recognition with hybrid
+  spatio-temporal gru-conv architecture.
+\newblock \emph{Medical \& Biological Engineering \& Computing}, 61\penalty0
+  (1):\penalty0 61--73, 2023{\natexlab{b}}.
+
+\bibitem[Yang et~al.(2019)Yang, Zhao, Jiang, Gao, and Liu]{yang2019multi}
+Fu~Yang, Xingcong Zhao, Wenge Jiang, Pengfei Gao, and Guangyuan Liu.
+\newblock Multi-method fusion of cross-subject emotion recognition based on
+  high-dimensional eeg features.
+\newblock \emph{Frontiers in computational neuroscience}, 13:\penalty0 53,
+  2019.
+
+\bibitem[Li et~al.(2022{\natexlab{e}})Li, Ren, Zhang, and Hu]{li2022novel}
+Rui Li, Chao Ren, Xiaowei Zhang, and Bin Hu.
+\newblock A novel ensemble learning method using multiple objective particle
+  swarm optimization for subject-independent eeg-based emotion recognition.
+\newblock \emph{Computers in biology and medicine}, 140:\penalty0 105080,
+  2022{\natexlab{e}}.
+
+\bibitem[Bai et~al.(2023)Bai, Hou, Sun, Wu, Zhu, Mao, Song, and
+  Gao]{bai2023sect}
+Zhongli Bai, Fazheng Hou, Kaixuan Sun, Qingzhou Wu, Mu~Zhu, Zemin Mao, Yu~Song,
+  and Qiang Gao.
+\newblock Sect: A method of shifted eeg channel transformer for emotion
+  recognition.
+\newblock \emph{IEEE Journal of Biomedical and Health Informatics}, 27\penalty0
+  (10):\penalty0 4758--4767, 2023.
+
+\bibitem[Su et~al.(2023)Su, Zhu, Song, and Chang]{su2023subject}
+Jipu Su, Jie Zhu, Tiecheng Song, and Hongli Chang.
+\newblock Subject-independent eeg emotion recognition based on genetically
+  optimized projection dictionary pair learning.
+\newblock \emph{Brain Sciences}, 13\penalty0 (7):\penalty0 977, 2023.
+
+\bibitem[Guo et~al.(2024)Guo, Li, Liu, Ma, and Wang]{guo2024functional}
+Wenhui Guo, Yaxuan Li, Mengxue Liu, Rui Ma, and Yanjiang Wang.
+\newblock Functional connectivity-enhanced feature-grouped attention network
+  for cross-subject eeg emotion recognition.
+\newblock \emph{Knowledge-Based Systems}, 283:\penalty0 111199, 2024.
+
+\bibitem[Chen et~al.(2021{\natexlab{b}})Chen, Jin, Li, Fan, Li, and
+  He]{chen2021ms}
+Hao Chen, Ming Jin, Zhunan Li, Cunhang Fan, Jinpeng Li, and Huiguang He.
+\newblock Ms-mda: Multisource marginal distribution adaptation for
+  cross-subject and cross-session eeg emotion recognition.
+\newblock \emph{Frontiers in Neuroscience}, 15:\penalty0 778488,
+  2021{\natexlab{b}}.
+
+\bibitem[Huang et~al.(2025)Huang, Si, Han, and Ming]{huang2025novel}
+He~Huang, Xiaopeng Si, Yumeng Han, and Dong Ming.
+\newblock A novel conditional adversarial domain adaptation network for eeg
+  cross-subject emotion recognition.
+\newblock \emph{IEEE Transactions on Affective Computing}, 2025.
+
+\bibitem[Zhong et~al.(2025)Zhong, Wang, Li, Liu, Duan, Yang, Liu, and
+  Sun]{zhong2025unsupervised}
+Xiao-Cong Zhong, Qisong Wang, Rui Li, Yurui Liu, Sanhe Duan, Runze Yang, Dan
+  Liu, and Jinwei Sun.
+\newblock Unsupervised domain adaptation with pseudo-label propagation for
+  cross-domain eeg emotion recognition.
+\newblock \emph{IEEE Transactions on Instrumentation and Measurement}, 2025.
+
+\bibitem[Yan et~al.(2025)Yan, Zhang, Cai, Du, Liu, Yu, Chen, Liu, and
+  Ming]{yan2025cross}
+Feifan Yan, Bo~Zhang, Ziliang Cai, Minghao Du, Xiaoya Liu, Zhinan Yu, Sitong
+  Chen, Shuang Liu, and Dong Ming.
+\newblock Cross-subject emotion recognition with loop adaptive adversarial
+  transfer network.
+\newblock \emph{Neural Networks}, page 108324, 2025.
+
+\bibitem[Gao and Deng(2026)]{gao2026cross}
+Yun Gao and Hai Deng.
+\newblock Cross-subject eeg emotion recognition using riemannian graph
+  transformers with geodesic adversarial adaptation.
+\newblock \emph{Alexandria Engineering Journal}, 142:\penalty0 61--73, 2026.
+
+\bibitem[Liu et~al.(2026{\natexlab{b}})Liu, Guo, Han, Pang, and
+  Liu]{liu2026multi}
+Shuang Liu, Huifeng Guo, Rongyu Han, Yajing Pang, and Gang Liu.
+\newblock Multi-source domain adaptive eeg emotion recognition based on
+  dendrite net.
+\newblock \emph{Computers}, 15\penalty0 (7):\penalty0 454, 2026{\natexlab{b}}.
+
+\bibitem[Hong et~al.(2026)Hong, Chen, Li, Chen, Gao, and Pan]{hong2026heat}
+Zhepei Hong, Rongtao Chen, Liting Li, Jiajun Chen, Wei Gao, and Jiahui Pan.
+\newblock Heat: Hierarchical emotion adaptation with progressive thresholding
+  for eeg emotion and consciousness detection.
+\newblock \emph{Biomedical Signal Processing and Control}, 121:\penalty0
+  110299, 2026.
+
+\bibitem[Luo and Lu(2021)]{luo2021wasserstein}
+Yun Luo and Bao-Liang Lu.
+\newblock Wasserstein-distance-based multi-source adversarial domain adaptation
+  for emotion recognition and vigilance estimation.
+\newblock In \emph{2021 ieee international conference on bioinformatics and
+  biomedicine (bibm)}, pages 1424--1428. IEEE, 2021.
+
+\bibitem[Ning et~al.(2021)Ning, Chen, and Zhang]{ning2021cross}
+Run Ning, CL~Philip Chen, and Tong Zhang.
+\newblock Cross-subject eeg emotion recognition using domain adaptive few-shot
+  learning networks.
+\newblock In \emph{2021 IEEE international conference on bioinformatics and
+  biomedicine (BIBM)}, pages 1468--1472. IEEE, 2021.
+
+\bibitem[Wang et~al.(2021)Wang, Liu, Ruan, Wang, and Wang]{wang2021cross}
+Yingdong Wang, Jiatong Liu, Qunsheng Ruan, Shuocheng Wang, and Chen Wang.
+\newblock Cross-subject eeg emotion classification based on few-label
+  adversarial domain adaption.
+\newblock \emph{Expert Systems with Applications}, 185:\penalty0 115581, 2021.
+
+\bibitem[Wang et~al.(2025)Wang, Tian, and Zhou]{wang2025cross}
+Fang Wang, Yu-Chu Tian, and Xiaobo Zhou.
+\newblock Cross-dataset eeg emotion recognition based on pre-trained vision
+  transformer considering emotional sensitivity diversity.
+\newblock \emph{Expert Systems with Applications}, 279:\penalty0 127348, 2025.
+
+\bibitem[Liu et~al.(2026{\natexlab{c}})Liu, Yu, Li, Zhang, and
+  Zhang]{liu2026decoding}
+Xuguang Liu, Changyi Yu, Ye~Li, Xin Zhang, and Xiu Zhang.
+\newblock Decoding non-invasive electroencephalography signal via a
+  two-discriminator adversarial network.
+\newblock \emph{Sensors}, 26\penalty0 (3):\penalty0 1074, 2026{\natexlab{c}}.
+
+\bibitem[Luo et~al.(2026)Luo, She, Jin, Li, and Xi]{luo2026adaptive}
+Zihao Luo, Qingshan She, Tianpei Jin, Yipeng Li, and Xugang Xi.
+\newblock Adaptive graph convolution domain adaptation network for
+  cross-subject eeg emotion recognition.
+\newblock \emph{Medical \& Biological Engineering \& Computing}, pages 1--23,
+  2026.
+
+\bibitem[Ran et~al.(2026)Ran, Zhong, Hu, Ye, and Zhang]{ran2026fsa}
+Shuang Ran, Wei Zhong, Shuzhan Hu, Long Ye, and Qin Zhang.
+\newblock Fsa-net: Coarse-to-fine domain adaptation with flexible source
+  aggregation for cross-subject eeg emotion recognition.
+\newblock \emph{Tsinghua Science and Technology}, 2026.
+
+\bibitem[Pessoa(2017)]{pessoa2017network}
+Luiz Pessoa.
+\newblock A network model of the emotional brain.
+\newblock \emph{Trends in cognitive sciences}, 21\penalty0 (5):\penalty0
+  357--371, 2017.
+
+\bibitem[Cohen(2017)]{cohen2017does}
+Michael~X Cohen.
+\newblock Where does eeg come from and what does it mean?
+\newblock \emph{Trends in neurosciences}, 40\penalty0 (4):\penalty0 208--218,
+  2017.
+
+\bibitem[Yang et~al.(2024{\natexlab{b}})Yang, Yao, Zhang, Xu, Zhu, Cheng, and
+  Zhang]{yang2024automatically}
+Kun Yang, Zhenning Yao, Keze Zhang, Jing Xu, Li~Zhu, Shichao Cheng, and Jianhai
+  Zhang.
+\newblock Automatically extracting and utilizing eeg channel importance based
+  on graph convolutional network for emotion recognition.
+\newblock \emph{IEEE Journal of Biomedical and Health Informatics}, 28\penalty0
+  (8):\penalty0 4588--4598, 2024{\natexlab{b}}.
+
+\bibitem[Nakisa et~al.(2018)Nakisa, Rastgoo, Tjondronegoro, and
+  Chandran]{nakisa2018evolutionary}
+Bahareh Nakisa, Mohammad~Naim Rastgoo, Dian Tjondronegoro, and Vinod Chandran.
+\newblock Evolutionary computation algorithms for feature selection of
+  eeg-based emotion recognition using mobile sensors.
+\newblock \emph{Expert Systems with Applications}, 93:\penalty0 143--155, 2018.
+
+\bibitem[Xu et~al.(2026)Xu, Chen, He, Wu, and Zhou]{xu2026eeg}
+Xu~Xu, Junxin Chen, Qiang He, Yongfei Wu, and Yicong Zhou.
+\newblock Eeg emotion recognition with uncertainty-aware contrastive learning
+  and frequency-aware self-attention.
+\newblock \emph{IEEE Transactions on Cybernetics}, 2026.
+
+\bibitem[Lin et~al.(2025)Lin, Xu, Liang, Wang, Wan, and Li]{lin2025brain}
+Yichuan Lin, Geng-Xin Xu, Haotian Liang, Yishan Wang, Feng Wan, and Ye~Li.
+\newblock Brain region knowledge-based dual-stream transformer for eeg emotion
+  recognition.
+\newblock \emph{IEEE Transactions on Consumer Electronics}, 71\penalty0
+  (2):\penalty0 2762--2773, 2025.
+
+\bibitem[Prabowo et~al.(2023)Prabowo, Nugroho, Setiawan, and
+  Debayle]{prabowo2023systematic}
+Dwi~Wahyu Prabowo, Hanung~Adi Nugroho, Noor~Akhmad Setiawan, and Johan Debayle.
+\newblock A systematic literature review of emotion recognition using eeg
+  signals.
+\newblock \emph{Cognitive Systems Research}, 82:\penalty0 101152, 2023.
+
+\bibitem[V{\"a}rbu et~al.(2022)V{\"a}rbu, Muhammad, and
+  Muhammad]{varbu2022past}
+Kaido V{\"a}rbu, Naveed Muhammad, and Yar Muhammad.
+\newblock Past, present, and future of eeg-based bci applications.
+\newblock \emph{Sensors}, 22\penalty0 (9):\penalty0 3331, 2022.
+
+\bibitem[Xu et~al.(2021)Xu, Wang, Lu, Wan, Deng, Qi, Bezerianos, Guan, and
+  Sun]{xu2021key}
+Tao Xu, Hongtao Wang, Guanyong Lu, Feng Wan, Mengqi Deng, Peng Qi, Anastasios
+  Bezerianos, Cuntai Guan, and Yu~Sun.
+\newblock E-key: an eeg-based biometric authentication and driving fatigue
+  detection system.
+\newblock \emph{IEEE Transactions on Affective Computing}, 14\penalty0
+  (2):\penalty0 864--877, 2021.
+
+\bibitem[Sethi et~al.(2018)Sethi, Dabas, Dua, Dalawat, and
+  Sethia]{sethi2018eeg}
+Chaitanya Sethi, Harsh Dabas, Chirag Dua, Mohit Dalawat, and Divyashikha
+  Sethia.
+\newblock Eeg-based attention feedback to improve focus in e-learning.
+\newblock In \emph{Proceedings of the 2018 2nd international conference on
+  computer science and artificial intelligence}, pages 321--326, 2018.
+
+\bibitem[Pira et~al.(2023)Pira, Aquilini, Davoli, Grandi, and
+  Ruini]{pira2023use}
+Giorgio~Li Pira, Beatrice Aquilini, Alessandro Davoli, Silvana Grandi, and
+  Chiara Ruini.
+\newblock The use of virtual reality interventions to promote positive mental
+  health: systematic literature review.
+\newblock \emph{JMIR mental health}, 10\penalty0 (1):\penalty0 e44998, 2023.
+
+\bibitem[Panda et~al.(2024)Panda, Chakladar, Rana, and Parayitam]{panda2024eeg}
+Debadrita Panda, Debashis~Das Chakladar, Sudhir Rana, and Satyanarayana
+  Parayitam.
+\newblock An eeg-based neuro-recommendation system for improving consumer
+  purchase experience.
+\newblock \emph{Journal of consumer behaviour}, 23\penalty0 (1):\penalty0
+  61--75, 2024.
+
+\bibitem[Choi et~al.(2023)Choi, Kwon, Choi, Kaongoen, Hwang, Kim, Kim, and
+  Jo]{choi2023neural}
+Jin~Woo Choi, Haram Kwon, Jaehoon Choi, Netiwit Kaongoen, Chaeeun Hwang, Minuk
+  Kim, Byung~Hyung Kim, and Sungho Jo.
+\newblock Neural applications using immersive virtual reality: a review on eeg
+  studies.
+\newblock \emph{IEEE Transactions on Neural Systems and Rehabilitation
+  Engineering}, 31:\penalty0 1645--1658, 2023.
+
+\bibitem[Khare et~al.(2024)Khare, Blanes-Vidal, Nadimi, and
+  Acharya]{khare2024emotion}
+Smith~K Khare, Victoria Blanes-Vidal, Esmaeil~S Nadimi, and U~Rajendra Acharya.
+\newblock Emotion recognition and artificial intelligence: A systematic review
+  (2014--2023) and research recommendations.
+\newblock \emph{Information fusion}, 102:\penalty0 102019, 2024.
+
+\end{thebibliography}
